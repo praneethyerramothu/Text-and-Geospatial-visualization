@@ -3,16 +3,16 @@
 
 wordcount={}
 countlist=[]
-stoplist=['huffingtonpost','of','new','the','for','and','']
+stoplist=['huffingtonpost','of','new','the','for','and','','n.y.','d.c.']
 maxfreq=50
 
 
 
 # read datafile
-with open('wikinews.tsv', 'r',encoding='utf-8') as myfile:
+with open('huffington.tsv', 'r',encoding='utf-8') as myfile:
     data=myfile.read().replace('\t', ',').replace('|', ',')
 # open outputFile
-outputFile=open('wikinewsfreq.csv', 'a')
+outputFile=open('huffingtonfreq.csv', 'a')
  
 
 counter=0
@@ -34,12 +34,12 @@ for key, value in wordcount.items():
 
 
 countlist.sort(reverse=True)
-print('word'+','+'frequency'+'\n',file=outputFile)
+print('name'+','+'count'+'\n',file=outputFile)
 
 counter=0
 for element in countlist:
     if counter<50:
-        print(str(element[1])+','+str(element[0])+'\n',file=outputFile)
+        print(str(element[1])+','+str(element[0]),file=outputFile)
         counter+=1
 
 outputFile.close()
