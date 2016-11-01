@@ -1,0 +1,140 @@
+<!doctype html>
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>visualization</title>
+  <!--slider library-->
+  <link href="slider/nouislider.min.css" rel="stylesheet">
+
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- end CSS-->
+<!-- load the d3.js library -->     
+<script src="//d3js.org/d3.v4.min.js"></script>
+</head>
+
+
+<body>
+  <div id="container1" class="container">
+    <header>
+    <h1>Text Visualization Project</h1>
+    </header>
+  </div><!--! end of #container1 -->
+  <div id="container3" class="container">
+      <h2>Select Text Source:</h2>
+      <select id="text-select">
+        <option value="wikinews">Wikinews</option>
+        <option value="huffington">Huffington</option>
+    </select>
+  </div>
+
+  <section id="wrapper" class="container">
+
+    <!--! Begin of #TimeSeriesContainer -->
+  <div id="TimeSeriesContainer" class="container">
+      <svg id="LineChart" width="800" height="400"></svg>
+      <script src="TimeSeries.js"></script>
+  </div>
+  <!--! End of #TimeSeriesContainer -->
+  
+
+  <div id="container2" class="container">
+    <div id="main" role="main">
+      <div id="vis"></div>
+      <div id="status"></div>
+      <div id="controls"></div>
+    </div>
+  </div>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+  <script defer src="js/plugins.js"></script>
+  <script src="js/libs/coffee-script.js"></script>
+  <script src="js/libs/d3.min.js"></script>
+  <script type="text/coffeescript" src="vis_coffee.js"></script>
+  <script type="text/javascript"></script>
+  </div> <!--! end of #container2 -->
+
+  <!--! start Slider Container -->
+  <div id="SliderContainer" class="container">
+  <div id="barText">
+        Set Time Range<br><br><br>
+  </div>  
+      <!--Slider--> 
+  <div id="barRange">
+        <div id="range" height="400"></div>
+  </div>
+    <!-- Slider -->
+    <script src="slider/nouislider.min.js"></script>
+    <script src="slider/mySlider.js"></script>
+    <script>
+    //slider
+    var minDate="2007";
+    var maxDate="2015";
+    
+    range.noUiSlider.on('update', function( values, handle ) {    
+    
+    d3.selectAll("path.line").remove();
+
+
+    if ( handle ) {
+        maxDate = values[handle];
+       } else {
+        minDate = values[handle];
+       }
+
+    console.log(maxDate);
+    console.log(minDate);
+
+    //update x axis
+    x.domain(d3.extent([parseYear(+minDate),parseYear(+maxDate)]));
+    console.log(x);
+    var xAxis = d3.svg.axis().scale(x).orient("bottom");
+    d3.select("g.axis").call(xAxis);
+
+  //Update Selected Items
+  word.append("path")
+    .attr("class", "line")
+      .attr("d", function(p) {
+
+
+        for(var i=0;i<selected.length;i++)
+          {
+              
+              updated=p.values.filter(function(value)
+              {
+
+                if(value.date>=parseYear(+minDate) && value.date<=parseYear(+maxDate)) 
+                      return 1;
+                else 
+                      return 0;
+              
+
+              });
+
+              if(p.id==selected[i])
+                  {
+
+                    return line(updated); 
+                  }
+          }
+
+
+     })
+    .style("stroke", function(d) { 
+
+          return z(d.id); 
+
+    })
+
+    });
+    </script>
+
+
+  </div>  
+</section>
+
+</body>
+</html>
