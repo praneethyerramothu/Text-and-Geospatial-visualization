@@ -4,14 +4,14 @@ root = exports ? this
 Bubbles = () ->
   # standard variables accessible to
   # the rest of the functions inside Bubbles
-  width = 400
+  width = 450
   height = 400
   data = []
   node = null
   label = null
   margin = {top: 0, right: 0, bottom: 0, left: 0}
   # largest size for our bubbles
-  maxRadius = 25
+  maxRadius = 29
 
   # this scale will be used to size our bubbles
   rScale = d3.scale.sqrt().range([0,maxRadius])
@@ -214,7 +214,7 @@ Bubbles = () ->
 
     labelEnter.append("div")
       .attr("class", "bubble-label-value")
-      .text('')
+      .text((d) -> rValue(d))
 
     # label font size is determined based on the size of the bubble
     # this sizing allows for a bit of overhang outside of the bubble
@@ -400,7 +400,7 @@ Bubbles = () ->
       .attr("class", "line")
       .attr("d", linevalues)
       .style("stroke", (d) -> return z(d.id));
-      d3.select("#status").html("<h3>The word <span class=\"active\">#{id}</span> is now active</h3>")
+      d3.select("#status").html("<h3><span class=\"active\"></span> </h3>")
     else
       d3.selectAll("path.line").remove();
       d3.selectAll("text.linetext").remove();
@@ -418,7 +418,10 @@ Bubbles = () ->
   # hover event
   # ---
   mouseover = (d) ->
+    console.log(d);
     node.classed("bubble-hover", (p) -> p == d)
+    console.log(d);
+    d3.select("#status").html("<h3>The frequency of <span class=\"active\">#{d.name}</span> is <span class=\"active\">#{d.count}</span></h3>")
 
 
   # ---
@@ -426,6 +429,7 @@ Bubbles = () ->
   # ---
   mouseout = (d) ->
     node.classed("bubble-hover", false)
+    d3.select("#status").html("<h3></h3>")
 
   # ---
   # public getter/setter for jitter variable
