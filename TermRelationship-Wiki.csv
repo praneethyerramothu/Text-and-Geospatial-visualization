@@ -1,0 +1,2451 @@
+Term1,Term2,Frequency
+afghanistan,africa,185
+afghanistan,america,280
+afghanistan,associated press,193
+afghanistan,australia,369
+afghanistan,baghdad,156
+afghanistan,barack obama,222
+afghanistan,bbc,257
+afghanistan,brazil,136
+afghanistan,britain,256
+afghanistan,california,294
+afghanistan,canada,329
+afghanistan,china,359
+afghanistan,congress,177
+afghanistan,earth,153
+afghanistan,england,277
+afghanistan,eu,174
+afghanistan,europe,342
+afghanistan,european union,269
+afghanistan,france,362
+afghanistan,george w. bush,242
+afghanistan,germany,329
+afghanistan,india,281
+afghanistan,indonesia,147
+afghanistan,iran,288
+afghanistan,iraq,363
+afghanistan,israel,302
+afghanistan,italy,212
+afghanistan,japan,280
+afghanistan,london,317
+afghanistan,mexico,164
+afghanistan,middle east,183
+afghanistan,new york,318
+afghanistan,new york city,156
+afghanistan,new zealand,216
+afghanistan,pakistan,276
+afghanistan,reuters,222
+afghanistan,russia,323
+afghanistan,south africa,181
+afghanistan,south korea,145
+afghanistan,spain,203
+afghanistan,sydney,130
+afghanistan,taiwan,117
+afghanistan,thailand,146
+afghanistan,turkey,169
+afghanistan,uk,373
+afghanistan,united kingdom,399
+afghanistan,united nations,337
+afghanistan,washington,317
+afghanistan,white house,289
+africa,afghanistan,185
+africa,america,172
+africa,associated press,118
+africa,australia,203
+africa,baghdad,107
+africa,barack obama,129
+africa,bbc,146
+africa,brazil,104
+africa,britain,156
+africa,california,169
+africa,canada,188
+africa,china,204
+africa,congress,139
+africa,earth,98
+africa,england,184
+africa,eu,130
+africa,europe,196
+africa,european union,185
+africa,france,213
+africa,george w. bush,156
+africa,germany,192
+africa,india,168
+africa,indonesia,104
+africa,iran,170
+africa,iraq,198
+africa,israel,177
+africa,italy,132
+africa,japan,162
+africa,london,185
+africa,mexico,103
+africa,middle east,125
+africa,new york,179
+africa,new york city,111
+africa,new zealand,138
+africa,pakistan,146
+africa,reuters,147
+africa,russia,185
+africa,south africa,137
+africa,south korea,110
+africa,spain,140
+africa,sydney,85
+africa,taiwan,80
+africa,thailand,96
+africa,turkey,108
+africa,uk,209
+africa,united kingdom,207
+africa,united nations,192
+africa,washington,191
+africa,white house,181
+america,afghanistan,280
+america,africa,172
+america,associated press,192
+america,australia,375
+america,baghdad,163
+america,barack obama,200
+america,bbc,236
+america,brazil,147
+america,britain,244
+america,california,287
+america,canada,315
+america,china,365
+america,congress,177
+america,earth,141
+america,england,245
+america,eu,163
+america,europe,330
+america,european union,241
+america,france,322
+america,george w. bush,268
+america,germany,314
+america,india,254
+america,indonesia,167
+america,iran,280
+america,iraq,340
+america,israel,276
+america,italy,210
+america,japan,290
+america,london,298
+america,mexico,159
+america,middle east,175
+america,new york,319
+america,new york city,145
+america,new zealand,202
+america,pakistan,223
+america,reuters,210
+america,russia,308
+america,south africa,174
+america,south korea,156
+america,spain,193
+america,sydney,140
+america,taiwan,127
+america,thailand,142
+america,turkey,151
+america,uk,311
+america,united kingdom,352
+america,united nations,288
+america,washington,317
+america,white house,285
+associated press,afghanistan,193
+associated press,africa,118
+associated press,america,192
+associated press,australia,236
+associated press,baghdad,127
+associated press,barack obama,134
+associated press,bbc,200
+associated press,brazil,111
+associated press,britain,188
+associated press,california,211
+associated press,canada,223
+associated press,china,231
+associated press,congress,126
+associated press,earth,105
+associated press,england,189
+associated press,eu,118
+associated press,europe,227
+associated press,european union,180
+associated press,france,242
+associated press,george w. bush,178
+associated press,germany,218
+associated press,india,195
+associated press,indonesia,119
+associated press,iran,179
+associated press,iraq,222
+associated press,israel,189
+associated press,italy,164
+associated press,japan,207
+associated press,london,227
+associated press,mexico,133
+associated press,middle east,121
+associated press,new york,214
+associated press,new york city,106
+associated press,new zealand,142
+associated press,pakistan,161
+associated press,reuters,171
+associated press,russia,229
+associated press,south africa,119
+associated press,south korea,124
+associated press,spain,155
+associated press,sydney,105
+associated press,taiwan,84
+associated press,thailand,123
+associated press,turkey,111
+associated press,uk,235
+associated press,united kingdom,245
+associated press,united nations,208
+associated press,washington,204
+associated press,white house,188
+australia,afghanistan,369
+australia,africa,203
+australia,america,375
+australia,associated press,236
+australia,baghdad,197
+australia,barack obama,283
+australia,bbc,301
+australia,brazil,190
+australia,britain,338
+australia,california,370
+australia,canada,516
+australia,china,554
+australia,congress,198
+australia,earth,166
+australia,england,397
+australia,eu,199
+australia,europe,439
+australia,european union,320
+australia,france,508
+australia,george w. bush,338
+australia,germany,475
+australia,india,354
+australia,indonesia,197
+australia,iran,385
+australia,iraq,570
+australia,israel,384
+australia,italy,282
+australia,japan,411
+australia,london,489
+australia,mexico,210
+australia,middle east,221
+australia,new york,415
+australia,new york city,175
+australia,new zealand,314
+australia,pakistan,293
+australia,reuters,283
+australia,russia,444
+australia,south africa,208
+australia,south korea,185
+australia,spain,277
+australia,sydney,225
+australia,taiwan,163
+australia,thailand,171
+australia,turkey,202
+australia,uk,489
+australia,united kingdom,551
+australia,united nations,390
+australia,washington,409
+australia,white house,349
+baghdad,afghanistan,156
+baghdad,africa,107
+baghdad,america,163
+baghdad,associated press,127
+baghdad,australia,197
+baghdad,barack obama,64
+baghdad,bbc,155
+baghdad,brazil,103
+baghdad,britain,161
+baghdad,california,160
+baghdad,canada,178
+baghdad,china,189
+baghdad,congress,118
+baghdad,earth,105
+baghdad,england,151
+baghdad,eu,121
+baghdad,europe,182
+baghdad,european union,151
+baghdad,france,188
+baghdad,george w. bush,159
+baghdad,germany,168
+baghdad,india,163
+baghdad,indonesia,106
+baghdad,iran,164
+baghdad,iraq,199
+baghdad,israel,175
+baghdad,italy,144
+baghdad,japan,168
+baghdad,london,174
+baghdad,mexico,105
+baghdad,middle east,123
+baghdad,new york,176
+baghdad,new york city,85
+baghdad,new zealand,138
+baghdad,pakistan,125
+baghdad,reuters,150
+baghdad,russia,181
+baghdad,south africa,111
+baghdad,south korea,102
+baghdad,spain,127
+baghdad,sydney,97
+baghdad,taiwan,78
+baghdad,thailand,94
+baghdad,turkey,106
+baghdad,uk,186
+baghdad,united kingdom,185
+baghdad,united nations,162
+baghdad,washington,169
+baghdad,white house,180
+barack obama,afghanistan,222
+barack obama,africa,129
+barack obama,america,200
+barack obama,associated press,134
+barack obama,australia,283
+barack obama,baghdad,64
+barack obama,bbc,188
+barack obama,brazil,95
+barack obama,britain,153
+barack obama,california,221
+barack obama,canada,199
+barack obama,china,271
+barack obama,congress,120
+barack obama,earth,88
+barack obama,england,197
+barack obama,eu,94
+barack obama,europe,245
+barack obama,european union,168
+barack obama,france,258
+barack obama,george w. bush,132
+barack obama,germany,218
+barack obama,india,176
+barack obama,indonesia,94
+barack obama,iran,159
+barack obama,iraq,183
+barack obama,israel,192
+barack obama,italy,121
+barack obama,japan,203
+barack obama,london,230
+barack obama,mexico,126
+barack obama,middle east,100
+barack obama,new york,230
+barack obama,new york city,122
+barack obama,new zealand,107
+barack obama,pakistan,174
+barack obama,reuters,138
+barack obama,russia,232
+barack obama,south africa,116
+barack obama,south korea,97
+barack obama,spain,162
+barack obama,sydney,81
+barack obama,taiwan,82
+barack obama,thailand,79
+barack obama,turkey,95
+barack obama,uk,269
+barack obama,united kingdom,322
+barack obama,united nations,237
+barack obama,washington,221
+barack obama,white house,182
+bbc,afghanistan,257
+bbc,africa,146
+bbc,america,236
+bbc,associated press,200
+bbc,australia,301
+bbc,baghdad,155
+bbc,barack obama,188
+bbc,brazil,141
+bbc,britain,249
+bbc,california,249
+bbc,canada,250
+bbc,china,296
+bbc,congress,151
+bbc,earth,135
+bbc,england,249
+bbc,eu,143
+bbc,europe,281
+bbc,european union,217
+bbc,france,304
+bbc,george w. bush,201
+bbc,germany,252
+bbc,india,235
+bbc,indonesia,136
+bbc,iran,209
+bbc,iraq,260
+bbc,israel,230
+bbc,italy,199
+bbc,japan,250
+bbc,london,291
+bbc,mexico,154
+bbc,middle east,139
+bbc,new york,275
+bbc,new york city,141
+bbc,new zealand,171
+bbc,pakistan,206
+bbc,reuters,210
+bbc,russia,274
+bbc,south africa,140
+bbc,south korea,138
+bbc,spain,192
+bbc,sydney,121
+bbc,taiwan,92
+bbc,thailand,119
+bbc,turkey,142
+bbc,uk,309
+bbc,united kingdom,318
+bbc,united nations,260
+bbc,washington,245
+bbc,white house,227
+brazil,afghanistan,136
+brazil,africa,104
+brazil,america,147
+brazil,associated press,111
+brazil,australia,190
+brazil,baghdad,103
+brazil,barack obama,95
+brazil,bbc,141
+brazil,britain,142
+brazil,california,136
+brazil,canada,164
+brazil,china,202
+brazil,congress,104
+brazil,earth,95
+brazil,england,158
+brazil,eu,111
+brazil,europe,167
+brazil,european union,138
+brazil,france,200
+brazil,george w. bush,131
+brazil,germany,176
+brazil,india,139
+brazil,indonesia,102
+brazil,iran,151
+brazil,iraq,175
+brazil,israel,155
+brazil,italy,141
+brazil,japan,171
+brazil,london,176
+brazil,mexico,120
+brazil,middle east,97
+brazil,new york,164
+brazil,new york city,85
+brazil,new zealand,120
+brazil,pakistan,115
+brazil,reuters,127
+brazil,russia,173
+brazil,south africa,107
+brazil,south korea,106
+brazil,spain,139
+brazil,sydney,86
+brazil,taiwan,61
+brazil,thailand,72
+brazil,turkey,96
+brazil,uk,173
+brazil,united kingdom,189
+brazil,united nations,146
+brazil,washington,146
+brazil,white house,137
+britain,afghanistan,256
+britain,africa,156
+britain,america,244
+britain,associated press,188
+britain,australia,338
+britain,baghdad,161
+britain,barack obama,153
+britain,bbc,249
+britain,brazil,142
+britain,california,262
+britain,canada,288
+britain,china,308
+britain,congress,149
+britain,earth,125
+britain,england,270
+britain,eu,161
+britain,europe,295
+britain,european union,232
+britain,france,323
+britain,george w. bush,228
+britain,germany,287
+britain,india,253
+britain,indonesia,148
+britain,iran,245
+britain,iraq,303
+britain,israel,256
+britain,italy,209
+britain,japan,276
+britain,london,306
+britain,mexico,157
+britain,middle east,168
+britain,new york,273
+britain,new york city,134
+britain,new zealand,206
+britain,pakistan,211
+britain,reuters,210
+britain,russia,280
+britain,south africa,172
+britain,south korea,141
+britain,spain,197
+britain,sydney,143
+britain,taiwan,112
+britain,thailand,132
+britain,turkey,146
+britain,uk,309
+britain,united kingdom,318
+britain,united nations,262
+britain,washington,254
+britain,white house,249
+california,afghanistan,294
+california,africa,169
+california,america,287
+california,associated press,211
+california,australia,370
+california,baghdad,160
+california,barack obama,221
+california,bbc,249
+california,brazil,136
+california,britain,262
+california,canada,314
+california,china,357
+california,congress,176
+california,earth,151
+california,england,272
+california,eu,154
+california,europe,324
+california,european union,262
+california,france,339
+california,george w. bush,250
+california,germany,318
+california,india,264
+california,indonesia,158
+california,iran,253
+california,iraq,314
+california,israel,272
+california,italy,208
+california,japan,304
+california,london,315
+california,mexico,169
+california,middle east,162
+california,new york,311
+california,new york city,157
+california,new zealand,208
+california,pakistan,229
+california,reuters,222
+california,russia,321
+california,south africa,183
+california,south korea,155
+california,spain,218
+california,sydney,146
+california,taiwan,114
+california,thailand,149
+california,turkey,157
+california,uk,352
+california,united kingdom,384
+california,united nations,305
+california,washington,317
+california,white house,273
+canada,afghanistan,329
+canada,africa,188
+canada,america,315
+canada,associated press,223
+canada,australia,516
+canada,baghdad,178
+canada,barack obama,199
+canada,bbc,250
+canada,brazil,164
+canada,britain,288
+canada,california,314
+canada,china,436
+canada,congress,180
+canada,earth,141
+canada,england,307
+canada,eu,177
+canada,europe,379
+canada,european union,272
+canada,france,425
+canada,george w. bush,299
+canada,germany,374
+canada,india,316
+canada,indonesia,179
+canada,iran,339
+canada,iraq,465
+canada,israel,327
+canada,italy,252
+canada,japan,342
+canada,london,378
+canada,mexico,171
+canada,middle east,194
+canada,new york,348
+canada,new york city,156
+canada,new zealand,306
+canada,pakistan,251
+canada,reuters,251
+canada,russia,389
+canada,south africa,191
+canada,south korea,173
+canada,spain,226
+canada,sydney,166
+canada,taiwan,154
+canada,thailand,161
+canada,turkey,187
+canada,uk,384
+canada,united kingdom,429
+canada,united nations,314
+canada,washington,330
+canada,white house,297
+china,afghanistan,359
+china,africa,204
+china,america,365
+china,associated press,231
+china,australia,554
+china,baghdad,189
+china,barack obama,271
+china,bbc,296
+china,brazil,202
+china,britain,308
+china,california,357
+china,canada,436
+china,congress,194
+china,earth,164
+china,england,344
+china,eu,199
+china,europe,416
+china,european union,315
+china,france,457
+china,george w. bush,333
+china,germany,434
+china,india,350
+china,indonesia,197
+china,iran,352
+china,iraq,492
+china,israel,373
+china,italy,264
+china,japan,387
+china,london,416
+china,mexico,198
+china,middle east,213
+china,new york,390
+china,new york city,167
+china,new zealand,266
+china,pakistan,277
+china,reuters,271
+china,russia,428
+china,south africa,206
+china,south korea,185
+china,spain,252
+china,sydney,189
+china,taiwan,169
+china,thailand,170
+china,turkey,187
+china,uk,442
+china,united kingdom,486
+china,united nations,399
+china,washington,392
+china,white house,342
+congress,afghanistan,177
+congress,africa,139
+congress,america,177
+congress,associated press,126
+congress,australia,198
+congress,baghdad,118
+congress,barack obama,120
+congress,bbc,151
+congress,brazil,104
+congress,britain,149
+congress,california,176
+congress,canada,180
+congress,china,194
+congress,earth,107
+congress,england,174
+congress,eu,114
+congress,europe,199
+congress,european union,171
+congress,france,201
+congress,george w. bush,162
+congress,germany,190
+congress,india,166
+congress,indonesia,110
+congress,iran,163
+congress,iraq,185
+congress,israel,180
+congress,italy,140
+congress,japan,176
+congress,london,180
+congress,mexico,127
+congress,middle east,125
+congress,new york,187
+congress,new york city,114
+congress,new zealand,138
+congress,pakistan,152
+congress,reuters,131
+congress,russia,183
+congress,south africa,122
+congress,south korea,111
+congress,spain,143
+congress,sydney,101
+congress,taiwan,83
+congress,thailand,101
+congress,turkey,120
+congress,uk,201
+congress,united kingdom,196
+congress,united nations,176
+congress,washington,184
+congress,white house,178
+earth,afghanistan,153
+earth,africa,98
+earth,america,141
+earth,associated press,105
+earth,australia,166
+earth,baghdad,105
+earth,barack obama,88
+earth,bbc,135
+earth,brazil,95
+earth,britain,125
+earth,california,151
+earth,canada,141
+earth,china,164
+earth,congress,107
+earth,england,133
+earth,eu,97
+earth,europe,151
+earth,european union,138
+earth,france,163
+earth,george w. bush,130
+earth,germany,158
+earth,india,130
+earth,indonesia,95
+earth,iran,134
+earth,iraq,155
+earth,israel,145
+earth,italy,114
+earth,japan,146
+earth,london,152
+earth,mexico,92
+earth,middle east,106
+earth,new york,159
+earth,new york city,94
+earth,new zealand,121
+earth,pakistan,121
+earth,reuters,115
+earth,russia,161
+earth,south africa,93
+earth,south korea,88
+earth,spain,121
+earth,sydney,84
+earth,taiwan,67
+earth,thailand,80
+earth,turkey,101
+earth,uk,166
+earth,united kingdom,171
+earth,united nations,153
+earth,washington,151
+earth,white house,143
+england,afghanistan,277
+england,africa,184
+england,america,245
+england,associated press,189
+england,australia,397
+england,baghdad,151
+england,barack obama,197
+england,bbc,249
+england,brazil,158
+england,britain,270
+england,california,272
+england,canada,307
+england,china,344
+england,congress,174
+england,earth,133
+england,eu,161
+england,europe,306
+england,european union,249
+england,france,358
+england,george w. bush,227
+england,germany,324
+england,india,256
+england,indonesia,162
+england,iran,260
+england,iraq,310
+england,israel,269
+england,italy,232
+england,japan,292
+england,london,392
+england,mexico,180
+england,middle east,172
+england,new york,292
+england,new york city,148
+england,new zealand,203
+england,pakistan,220
+england,reuters,203
+england,russia,309
+england,south africa,174
+england,south korea,151
+england,spain,223
+england,sydney,150
+england,taiwan,113
+england,thailand,125
+england,turkey,157
+england,uk,361
+england,united kingdom,376
+england,united nations,279
+england,washington,279
+england,white house,250
+eu,afghanistan,174
+eu,africa,130
+eu,america,163
+eu,associated press,118
+eu,australia,199
+eu,baghdad,121
+eu,barack obama,94
+eu,bbc,143
+eu,brazil,111
+eu,britain,161
+eu,california,154
+eu,canada,177
+eu,china,199
+eu,congress,114
+eu,earth,97
+eu,england,161
+eu,europe,190
+eu,european union,176
+eu,france,199
+eu,george w. bush,163
+eu,germany,184
+eu,india,159
+eu,indonesia,113
+eu,iran,147
+eu,iraq,193
+eu,israel,168
+eu,italy,138
+eu,japan,168
+eu,london,179
+eu,mexico,105
+eu,middle east,116
+eu,new york,175
+eu,new york city,105
+eu,new zealand,118
+eu,pakistan,146
+eu,reuters,137
+eu,russia,178
+eu,south africa,118
+eu,south korea,100
+eu,spain,126
+eu,sydney,85
+eu,taiwan,82
+eu,thailand,86
+eu,turkey,100
+eu,uk,198
+eu,united kingdom,197
+eu,united nations,175
+eu,washington,178
+eu,white house,177
+europe,afghanistan,342
+europe,africa,196
+europe,america,330
+europe,associated press,227
+europe,australia,439
+europe,baghdad,182
+europe,barack obama,245
+europe,bbc,281
+europe,brazil,167
+europe,britain,295
+europe,california,324
+europe,canada,379
+europe,china,416
+europe,congress,199
+europe,earth,151
+europe,england,306
+europe,eu,190
+europe,european union,299
+europe,france,409
+europe,george w. bush,302
+europe,germany,368
+europe,india,300
+europe,indonesia,186
+europe,iran,314
+europe,iraq,404
+europe,israel,330
+europe,italy,235
+europe,japan,341
+europe,london,353
+europe,mexico,174
+europe,middle east,195
+europe,new york,345
+europe,new york city,166
+europe,new zealand,226
+europe,pakistan,262
+europe,reuters,248
+europe,russia,382
+europe,south africa,189
+europe,south korea,171
+europe,spain,230
+europe,sydney,157
+europe,taiwan,134
+europe,thailand,156
+europe,turkey,176
+europe,uk,407
+europe,united kingdom,436
+europe,united nations,335
+europe,washington,352
+europe,white house,324
+european union,afghanistan,269
+european union,africa,185
+european union,america,241
+european union,associated press,180
+european union,australia,320
+european union,baghdad,151
+european union,barack obama,168
+european union,bbc,217
+european union,brazil,138
+european union,britain,232
+european union,california,262
+european union,canada,272
+european union,china,315
+european union,congress,171
+european union,earth,138
+european union,england,249
+european union,eu,176
+european union,europe,299
+european union,france,305
+european union,george w. bush,238
+european union,germany,287
+european union,india,233
+european union,indonesia,158
+european union,iran,232
+european union,iraq,291
+european union,israel,267
+european union,italy,184
+european union,japan,245
+european union,london,284
+european union,mexico,149
+european union,middle east,161
+european union,new york,262
+european union,new york city,135
+european union,new zealand,180
+european union,pakistan,223
+european union,reuters,197
+european union,russia,283
+european union,south africa,158
+european union,south korea,139
+european union,spain,195
+european union,sydney,125
+european union,taiwan,104
+european union,thailand,137
+european union,turkey,145
+european union,uk,304
+european union,united kingdom,325
+european union,united nations,286
+european union,washington,287
+european union,white house,255
+france,afghanistan,362
+france,africa,213
+france,america,322
+france,associated press,242
+france,australia,508
+france,baghdad,188
+france,barack obama,258
+france,bbc,304
+france,brazil,200
+france,britain,323
+france,california,339
+france,canada,425
+france,china,457
+france,congress,201
+france,earth,163
+france,england,358
+france,eu,199
+france,europe,409
+france,european union,305
+france,george w. bush,300
+france,germany,426
+france,india,329
+france,indonesia,176
+france,iran,348
+france,iraq,438
+france,israel,358
+france,italy,266
+france,japan,373
+france,london,409
+france,mexico,199
+france,middle east,209
+france,new york,381
+france,new york city,171
+france,new zealand,263
+france,pakistan,279
+france,reuters,270
+france,russia,421
+france,south africa,203
+france,south korea,181
+france,spain,269
+france,sydney,177
+france,taiwan,145
+france,thailand,155
+france,turkey,191
+france,uk,454
+france,united kingdom,478
+france,united nations,370
+france,washington,360
+france,white house,326
+george w. bush,afghanistan,242
+george w. bush,africa,156
+george w. bush,america,268
+george w. bush,associated press,178
+george w. bush,australia,338
+george w. bush,baghdad,159
+george w. bush,barack obama,132
+george w. bush,bbc,201
+george w. bush,brazil,131
+george w. bush,britain,228
+george w. bush,california,250
+george w. bush,canada,299
+george w. bush,china,333
+george w. bush,congress,162
+george w. bush,earth,130
+george w. bush,england,227
+george w. bush,eu,163
+george w. bush,europe,302
+george w. bush,european union,238
+george w. bush,france,300
+george w. bush,germany,283
+george w. bush,india,230
+george w. bush,indonesia,159
+george w. bush,iran,248
+george w. bush,iraq,329
+george w. bush,israel,261
+george w. bush,italy,186
+george w. bush,japan,262
+george w. bush,london,273
+george w. bush,mexico,128
+george w. bush,middle east,177
+george w. bush,new york,278
+george w. bush,new york city,135
+george w. bush,new zealand,190
+george w. bush,pakistan,181
+george w. bush,reuters,210
+george w. bush,russia,281
+george w. bush,south africa,159
+george w. bush,south korea,141
+george w. bush,spain,167
+george w. bush,sydney,136
+george w. bush,taiwan,126
+george w. bush,thailand,141
+george w. bush,turkey,138
+george w. bush,uk,294
+george w. bush,united kingdom,313
+george w. bush,united nations,270
+george w. bush,washington,281
+george w. bush,white house,259
+germany,afghanistan,329
+germany,africa,192
+germany,america,314
+germany,associated press,218
+germany,australia,475
+germany,baghdad,168
+germany,barack obama,218
+germany,bbc,252
+germany,brazil,176
+germany,britain,287
+germany,california,318
+germany,canada,374
+germany,china,434
+germany,congress,190
+germany,earth,158
+germany,england,324
+germany,eu,184
+germany,europe,368
+germany,european union,287
+germany,france,426
+germany,george w. bush,283
+germany,india,301
+germany,indonesia,181
+germany,iran,308
+germany,iraq,383
+germany,israel,322
+germany,italy,245
+germany,japan,352
+germany,london,361
+germany,mexico,188
+germany,middle east,195
+germany,new york,346
+germany,new york city,165
+germany,new zealand,253
+germany,pakistan,262
+germany,reuters,243
+germany,russia,373
+germany,south africa,194
+germany,south korea,175
+germany,spain,245
+germany,sydney,181
+germany,taiwan,142
+germany,thailand,157
+germany,turkey,182
+germany,uk,387
+germany,united kingdom,403
+germany,united nations,329
+germany,washington,343
+germany,white house,298
+india,afghanistan,281
+india,africa,168
+india,america,254
+india,associated press,195
+india,australia,354
+india,baghdad,163
+india,barack obama,176
+india,bbc,235
+india,brazil,139
+india,britain,253
+india,california,264
+india,canada,316
+india,china,350
+india,congress,166
+india,earth,130
+india,england,256
+india,eu,159
+india,europe,300
+india,european union,233
+india,france,329
+india,george w. bush,230
+india,germany,301
+india,indonesia,164
+india,iran,256
+india,iraq,322
+india,israel,289
+india,italy,211
+india,japan,271
+india,london,297
+india,mexico,163
+india,middle east,177
+india,new york,292
+india,new york city,145
+india,new zealand,247
+india,pakistan,239
+india,reuters,220
+india,russia,310
+india,south africa,179
+india,south korea,156
+india,spain,203
+india,sydney,144
+india,taiwan,122
+india,thailand,145
+india,turkey,156
+india,uk,323
+india,united kingdom,330
+india,united nations,290
+india,washington,281
+india,white house,253
+indonesia,afghanistan,147
+indonesia,africa,104
+indonesia,america,167
+indonesia,associated press,119
+indonesia,australia,197
+indonesia,baghdad,106
+indonesia,barack obama,94
+indonesia,bbc,136
+indonesia,brazil,102
+indonesia,britain,148
+indonesia,california,158
+indonesia,canada,179
+indonesia,china,197
+indonesia,congress,110
+indonesia,earth,95
+indonesia,england,162
+indonesia,eu,113
+indonesia,europe,186
+indonesia,european union,158
+indonesia,france,176
+indonesia,george w. bush,159
+indonesia,germany,181
+indonesia,india,164
+indonesia,iran,152
+indonesia,iraq,181
+indonesia,israel,157
+indonesia,italy,140
+indonesia,japan,172
+indonesia,london,170
+indonesia,mexico,110
+indonesia,middle east,106
+indonesia,new york,164
+indonesia,new york city,94
+indonesia,new zealand,138
+indonesia,pakistan,136
+indonesia,reuters,129
+indonesia,russia,178
+indonesia,south africa,116
+indonesia,south korea,109
+indonesia,spain,113
+indonesia,sydney,93
+indonesia,taiwan,95
+indonesia,thailand,98
+indonesia,turkey,96
+indonesia,uk,182
+indonesia,united kingdom,192
+indonesia,united nations,178
+indonesia,washington,171
+indonesia,white house,165
+iran,afghanistan,288
+iran,africa,170
+iran,america,280
+iran,associated press,179
+iran,australia,385
+iran,baghdad,164
+iran,barack obama,159
+iran,bbc,209
+iran,brazil,151
+iran,britain,245
+iran,california,253
+iran,canada,339
+iran,china,352
+iran,congress,163
+iran,earth,134
+iran,england,260
+iran,eu,147
+iran,europe,314
+iran,european union,232
+iran,france,348
+iran,george w. bush,248
+iran,germany,308
+iran,india,256
+iran,indonesia,152
+iran,iraq,386
+iran,israel,297
+iran,italy,225
+iran,japan,267
+iran,london,284
+iran,mexico,165
+iran,middle east,195
+iran,new york,301
+iran,new york city,136
+iran,new zealand,240
+iran,pakistan,218
+iran,reuters,208
+iran,russia,314
+iran,south africa,170
+iran,south korea,145
+iran,spain,205
+iran,sydney,146
+iran,taiwan,113
+iran,thailand,136
+iran,turkey,172
+iran,uk,317
+iran,united kingdom,341
+iran,united nations,284
+iran,washington,294
+iran,white house,263
+iraq,afghanistan,363
+iraq,africa,198
+iraq,america,340
+iraq,associated press,222
+iraq,australia,570
+iraq,baghdad,199
+iraq,barack obama,183
+iraq,bbc,260
+iraq,brazil,175
+iraq,britain,303
+iraq,california,314
+iraq,canada,465
+iraq,china,492
+iraq,congress,185
+iraq,earth,155
+iraq,england,310
+iraq,eu,193
+iraq,europe,404
+iraq,european union,291
+iraq,france,438
+iraq,george w. bush,329
+iraq,germany,383
+iraq,india,322
+iraq,indonesia,181
+iraq,iran,386
+iraq,israel,345
+iraq,italy,253
+iraq,japan,337
+iraq,london,386
+iraq,mexico,178
+iraq,middle east,212
+iraq,new york,371
+iraq,new york city,155
+iraq,new zealand,291
+iraq,pakistan,256
+iraq,reuters,261
+iraq,russia,375
+iraq,south africa,190
+iraq,south korea,165
+iraq,spain,217
+iraq,sydney,176
+iraq,taiwan,153
+iraq,thailand,158
+iraq,turkey,175
+iraq,uk,423
+iraq,united kingdom,451
+iraq,united nations,360
+iraq,washington,382
+iraq,white house,332
+israel,afghanistan,302
+israel,africa,177
+israel,america,276
+israel,associated press,189
+israel,australia,384
+israel,baghdad,175
+israel,barack obama,192
+israel,bbc,230
+israel,brazil,155
+israel,britain,256
+israel,california,272
+israel,canada,327
+israel,china,373
+israel,congress,180
+israel,earth,145
+israel,england,269
+israel,eu,168
+israel,europe,330
+israel,european union,267
+israel,france,358
+israel,george w. bush,261
+israel,germany,322
+israel,india,289
+israel,indonesia,157
+israel,iran,297
+israel,iraq,345
+israel,italy,213
+israel,japan,274
+israel,london,313
+israel,mexico,162
+israel,middle east,209
+israel,new york,309
+israel,new york city,147
+israel,new zealand,229
+israel,pakistan,222
+israel,reuters,244
+israel,russia,323
+israel,south africa,182
+israel,south korea,150
+israel,spain,204
+israel,sydney,146
+israel,taiwan,118
+israel,thailand,141
+israel,turkey,169
+israel,uk,332
+israel,united kingdom,348
+israel,united nations,317
+israel,washington,303
+israel,white house,272
+italy,afghanistan,212
+italy,africa,132
+italy,america,210
+italy,associated press,164
+italy,australia,282
+italy,baghdad,144
+italy,barack obama,121
+italy,bbc,199
+italy,brazil,141
+italy,britain,209
+italy,california,208
+italy,canada,252
+italy,china,264
+italy,congress,140
+italy,earth,114
+italy,england,232
+italy,eu,138
+italy,europe,235
+italy,european union,184
+italy,france,266
+italy,george w. bush,186
+italy,germany,245
+italy,india,211
+italy,indonesia,140
+italy,iran,225
+italy,iraq,253
+italy,israel,213
+italy,japan,231
+italy,london,247
+italy,mexico,152
+italy,middle east,150
+italy,new york,233
+italy,new york city,121
+italy,new zealand,196
+italy,pakistan,168
+italy,reuters,183
+italy,russia,256
+italy,south africa,148
+italy,south korea,145
+italy,spain,181
+italy,sydney,126
+italy,taiwan,91
+italy,thailand,116
+italy,turkey,122
+italy,uk,262
+italy,united kingdom,256
+italy,united nations,219
+italy,washington,217
+italy,white house,209
+japan,afghanistan,280
+japan,africa,162
+japan,america,290
+japan,associated press,207
+japan,australia,411
+japan,baghdad,168
+japan,barack obama,203
+japan,bbc,250
+japan,brazil,171
+japan,britain,276
+japan,california,304
+japan,canada,342
+japan,china,387
+japan,congress,176
+japan,earth,146
+japan,england,292
+japan,eu,168
+japan,europe,341
+japan,european union,245
+japan,france,373
+japan,george w. bush,262
+japan,germany,352
+japan,india,271
+japan,indonesia,172
+japan,iran,267
+japan,iraq,337
+japan,israel,274
+japan,italy,231
+japan,london,329
+japan,mexico,187
+japan,middle east,169
+japan,new york,317
+japan,new york city,156
+japan,new zealand,223
+japan,pakistan,221
+japan,reuters,229
+japan,russia,341
+japan,south africa,174
+japan,south korea,171
+japan,spain,216
+japan,sydney,164
+japan,taiwan,149
+japan,thailand,147
+japan,turkey,167
+japan,uk,362
+japan,united kingdom,380
+japan,united nations,288
+japan,washington,299
+japan,white house,274
+london,afghanistan,317
+london,africa,185
+london,america,298
+london,associated press,227
+london,australia,489
+london,baghdad,174
+london,barack obama,230
+london,bbc,291
+london,brazil,176
+london,britain,306
+london,california,315
+london,canada,378
+london,china,416
+london,congress,180
+london,earth,152
+london,england,392
+london,eu,179
+london,europe,353
+london,european union,284
+london,france,409
+london,george w. bush,273
+london,germany,361
+london,india,297
+london,indonesia,170
+london,iran,284
+london,iraq,386
+london,israel,313
+london,italy,247
+london,japan,329
+london,mexico,181
+london,middle east,188
+london,new york,342
+london,new york city,161
+london,new zealand,243
+london,pakistan,241
+london,reuters,242
+london,russia,363
+london,south africa,180
+london,south korea,168
+london,spain,251
+london,sydney,185
+london,taiwan,129
+london,thailand,148
+london,turkey,167
+london,uk,425
+london,united kingdom,451
+london,united nations,329
+london,washington,327
+london,white house,294
+mexico,afghanistan,164
+mexico,africa,103
+mexico,america,159
+mexico,associated press,133
+mexico,australia,210
+mexico,baghdad,105
+mexico,barack obama,126
+mexico,bbc,154
+mexico,brazil,120
+mexico,britain,157
+mexico,california,169
+mexico,canada,171
+mexico,china,198
+mexico,congress,127
+mexico,earth,92
+mexico,england,180
+mexico,eu,105
+mexico,europe,174
+mexico,european union,149
+mexico,france,199
+mexico,george w. bush,128
+mexico,germany,188
+mexico,india,163
+mexico,indonesia,110
+mexico,iran,165
+mexico,iraq,178
+mexico,israel,162
+mexico,italy,152
+mexico,japan,187
+mexico,london,181
+mexico,middle east,112
+mexico,new york,181
+mexico,new york city,108
+mexico,new zealand,135
+mexico,pakistan,137
+mexico,reuters,125
+mexico,russia,181
+mexico,south africa,123
+mexico,south korea,124
+mexico,spain,146
+mexico,sydney,97
+mexico,taiwan,75
+mexico,thailand,98
+mexico,turkey,110
+mexico,uk,194
+mexico,united kingdom,194
+mexico,united nations,175
+mexico,washington,163
+mexico,white house,151
+middle east,afghanistan,183
+middle east,africa,125
+middle east,america,175
+middle east,associated press,121
+middle east,australia,221
+middle east,baghdad,123
+middle east,barack obama,100
+middle east,bbc,139
+middle east,brazil,97
+middle east,britain,168
+middle east,california,162
+middle east,canada,194
+middle east,china,213
+middle east,congress,125
+middle east,earth,106
+middle east,england,172
+middle east,eu,116
+middle east,europe,195
+middle east,european union,161
+middle east,france,209
+middle east,george w. bush,177
+middle east,germany,195
+middle east,india,177
+middle east,indonesia,106
+middle east,iran,195
+middle east,iraq,212
+middle east,israel,209
+middle east,italy,150
+middle east,japan,169
+middle east,london,188
+middle east,mexico,112
+middle east,new york,199
+middle east,new york city,114
+middle east,new zealand,150
+middle east,pakistan,142
+middle east,reuters,143
+middle east,russia,200
+middle east,south africa,128
+middle east,south korea,115
+middle east,spain,135
+middle east,sydney,98
+middle east,taiwan,82
+middle east,thailand,107
+middle east,turkey,115
+middle east,uk,201
+middle east,united kingdom,210
+middle east,united nations,205
+middle east,washington,188
+middle east,white house,181
+new york city,afghanistan,156
+new york city,africa,111
+new york city,america,145
+new york city,associated press,106
+new york city,australia,175
+new york city,baghdad,85
+new york city,barack obama,122
+new york city,bbc,141
+new york city,brazil,85
+new york city,britain,134
+new york city,california,157
+new york city,canada,156
+new york city,china,167
+new york city,congress,114
+new york city,earth,94
+new york city,england,148
+new york city,eu,105
+new york city,europe,166
+new york city,european union,135
+new york city,france,171
+new york city,george w. bush,135
+new york city,germany,165
+new york city,india,145
+new york city,indonesia,94
+new york city,iran,136
+new york city,iraq,155
+new york city,israel,147
+new york city,italy,121
+new york city,japan,156
+new york city,london,161
+new york city,mexico,108
+new york city,middle east,114
+new york city,new york,177
+new york city,new zealand,121
+new york city,pakistan,138
+new york city,reuters,124
+new york city,russia,166
+new york city,south africa,114
+new york city,south korea,99
+new york city,spain,131
+new york city,sydney,81
+new york city,taiwan,87
+new york city,thailand,87
+new york city,turkey,104
+new york city,uk,172
+new york city,united kingdom,177
+new york city,united nations,155
+new york city,washington,159
+new york city,white house,152
+new york,afghanistan,318
+new york,africa,179
+new york,america,319
+new york,associated press,214
+new york,australia,415
+new york,baghdad,176
+new york,barack obama,230
+new york,bbc,275
+new york,brazil,164
+new york,britain,273
+new york,california,311
+new york,canada,348
+new york,china,390
+new york,congress,187
+new york,earth,159
+new york,england,292
+new york,eu,175
+new york,europe,345
+new york,european union,262
+new york,france,381
+new york,george w. bush,278
+new york,germany,346
+new york,india,292
+new york,indonesia,164
+new york,iran,301
+new york,iraq,371
+new york,israel,309
+new york,italy,233
+new york,japan,317
+new york,london,342
+new york,mexico,181
+new york,middle east,199
+new york,new york city,177
+new york,new zealand,221
+new york,pakistan,262
+new york,reuters,228
+new york,russia,340
+new york,south africa,183
+new york,south korea,159
+new york,spain,235
+new york,sydney,155
+new york,taiwan,133
+new york,thailand,150
+new york,turkey,172
+new york,uk,374
+new york,united kingdom,393
+new york,united nations,328
+new york,washington,326
+new york,white house,297
+new zealand,afghanistan,216
+new zealand,africa,138
+new zealand,america,202
+new zealand,associated press,142
+new zealand,australia,314
+new zealand,baghdad,138
+new zealand,barack obama,107
+new zealand,bbc,171
+new zealand,brazil,120
+new zealand,britain,206
+new zealand,california,208
+new zealand,canada,306
+new zealand,china,266
+new zealand,congress,138
+new zealand,earth,121
+new zealand,england,203
+new zealand,eu,118
+new zealand,europe,226
+new zealand,european union,180
+new zealand,france,263
+new zealand,george w. bush,190
+new zealand,germany,253
+new zealand,india,247
+new zealand,indonesia,138
+new zealand,iran,240
+new zealand,iraq,291
+new zealand,israel,229
+new zealand,italy,196
+new zealand,japan,223
+new zealand,london,243
+new zealand,mexico,135
+new zealand,middle east,150
+new zealand,new york,221
+new zealand,new york city,121
+new zealand,pakistan,177
+new zealand,reuters,179
+new zealand,russia,258
+new zealand,south africa,162
+new zealand,south korea,134
+new zealand,spain,163
+new zealand,sydney,149
+new zealand,taiwan,98
+new zealand,thailand,118
+new zealand,turkey,145
+new zealand,uk,238
+new zealand,united kingdom,243
+new zealand,united nations,211
+new zealand,washington,227
+new zealand,white house,202
+pakistan,afghanistan,276
+pakistan,africa,146
+pakistan,america,223
+pakistan,associated press,161
+pakistan,australia,293
+pakistan,baghdad,125
+pakistan,barack obama,174
+pakistan,bbc,206
+pakistan,brazil,115
+pakistan,britain,211
+pakistan,california,229
+pakistan,canada,251
+pakistan,china,277
+pakistan,congress,152
+pakistan,earth,121
+pakistan,england,220
+pakistan,eu,146
+pakistan,europe,262
+pakistan,european union,223
+pakistan,france,279
+pakistan,george w. bush,181
+pakistan,germany,262
+pakistan,india,239
+pakistan,indonesia,136
+pakistan,iran,218
+pakistan,iraq,256
+pakistan,israel,222
+pakistan,italy,168
+pakistan,japan,221
+pakistan,london,241
+pakistan,mexico,137
+pakistan,middle east,142
+pakistan,new york,262
+pakistan,new york city,138
+pakistan,new zealand,177
+pakistan,reuters,186
+pakistan,russia,245
+pakistan,south africa,156
+pakistan,south korea,121
+pakistan,spain,177
+pakistan,sydney,118
+pakistan,taiwan,99
+pakistan,thailand,125
+pakistan,turkey,142
+pakistan,uk,270
+pakistan,united kingdom,297
+pakistan,united nations,252
+pakistan,washington,244
+pakistan,white house,224
+reuters,afghanistan,222
+reuters,africa,147
+reuters,america,210
+reuters,associated press,171
+reuters,australia,283
+reuters,baghdad,150
+reuters,barack obama,138
+reuters,bbc,210
+reuters,brazil,127
+reuters,britain,210
+reuters,california,222
+reuters,canada,251
+reuters,china,271
+reuters,congress,131
+reuters,earth,115
+reuters,england,203
+reuters,eu,137
+reuters,europe,248
+reuters,european union,197
+reuters,france,270
+reuters,george w. bush,210
+reuters,germany,243
+reuters,india,220
+reuters,indonesia,129
+reuters,iran,208
+reuters,iraq,261
+reuters,israel,244
+reuters,italy,183
+reuters,japan,229
+reuters,london,242
+reuters,mexico,125
+reuters,middle east,143
+reuters,new york,228
+reuters,new york city,124
+reuters,new zealand,179
+reuters,pakistan,186
+reuters,russia,257
+reuters,south africa,144
+reuters,south korea,132
+reuters,spain,166
+reuters,sydney,119
+reuters,taiwan,104
+reuters,thailand,125
+reuters,turkey,122
+reuters,uk,272
+reuters,united kingdom,277
+reuters,united nations,241
+reuters,washington,237
+reuters,white house,220
+russia,afghanistan,323
+russia,africa,185
+russia,america,308
+russia,associated press,229
+russia,australia,444
+russia,baghdad,181
+russia,barack obama,232
+russia,bbc,274
+russia,brazil,173
+russia,britain,280
+russia,california,321
+russia,canada,389
+russia,china,428
+russia,congress,183
+russia,earth,161
+russia,england,309
+russia,eu,178
+russia,europe,382
+russia,european union,283
+russia,france,421
+russia,george w. bush,281
+russia,germany,373
+russia,india,310
+russia,indonesia,178
+russia,iran,314
+russia,iraq,375
+russia,israel,323
+russia,italy,256
+russia,japan,341
+russia,london,363
+russia,mexico,181
+russia,middle east,200
+russia,new york,340
+russia,new york city,166
+russia,new zealand,258
+russia,pakistan,245
+russia,reuters,257
+russia,south africa,199
+russia,south korea,181
+russia,spain,250
+russia,sydney,175
+russia,taiwan,135
+russia,thailand,157
+russia,turkey,186
+russia,uk,397
+russia,united kingdom,426
+russia,united nations,338
+russia,washington,348
+russia,white house,314
+south africa,afghanistan,181
+south africa,africa,137
+south africa,america,174
+south africa,associated press,119
+south africa,australia,208
+south africa,baghdad,111
+south africa,barack obama,116
+south africa,bbc,140
+south africa,brazil,107
+south africa,britain,172
+south africa,california,183
+south africa,canada,191
+south africa,china,206
+south africa,congress,122
+south africa,earth,93
+south africa,england,174
+south africa,eu,118
+south africa,europe,189
+south africa,european union,158
+south africa,france,203
+south africa,george w. bush,159
+south africa,germany,194
+south africa,india,179
+south africa,indonesia,116
+south africa,iran,170
+south africa,iraq,190
+south africa,israel,182
+south africa,italy,148
+south africa,japan,174
+south africa,london,180
+south africa,mexico,123
+south africa,middle east,128
+south africa,new york,183
+south africa,new york city,114
+south africa,new zealand,162
+south africa,pakistan,156
+south africa,reuters,144
+south africa,russia,199
+south africa,south korea,120
+south africa,spain,145
+south africa,sydney,105
+south africa,taiwan,88
+south africa,thailand,104
+south africa,turkey,122
+south africa,uk,191
+south africa,united kingdom,202
+south africa,united nations,184
+south africa,washington,182
+south africa,white house,178
+south korea,afghanistan,145
+south korea,africa,110
+south korea,america,156
+south korea,associated press,124
+south korea,australia,185
+south korea,baghdad,102
+south korea,barack obama,97
+south korea,bbc,138
+south korea,brazil,106
+south korea,britain,141
+south korea,california,155
+south korea,canada,173
+south korea,china,185
+south korea,congress,111
+south korea,earth,88
+south korea,england,151
+south korea,eu,100
+south korea,europe,171
+south korea,european union,139
+south korea,france,181
+south korea,george w. bush,141
+south korea,germany,175
+south korea,india,156
+south korea,indonesia,109
+south korea,iran,145
+south korea,iraq,165
+south korea,israel,150
+south korea,italy,145
+south korea,japan,171
+south korea,london,168
+south korea,mexico,124
+south korea,middle east,115
+south korea,new york,159
+south korea,new york city,99
+south korea,new zealand,134
+south korea,pakistan,121
+south korea,reuters,132
+south korea,russia,181
+south korea,south africa,120
+south korea,spain,140
+south korea,sydney,93
+south korea,taiwan,68
+south korea,thailand,106
+south korea,turkey,106
+south korea,uk,172
+south korea,united kingdom,176
+south korea,united nations,161
+south korea,washington,165
+south korea,white house,154
+spain,afghanistan,203
+spain,africa,140
+spain,america,193
+spain,associated press,155
+spain,australia,277
+spain,baghdad,127
+spain,barack obama,162
+spain,bbc,192
+spain,brazil,139
+spain,britain,197
+spain,california,218
+spain,canada,226
+spain,china,252
+spain,congress,143
+spain,earth,121
+spain,england,223
+spain,eu,126
+spain,europe,230
+spain,european union,195
+spain,france,269
+spain,george w. bush,167
+spain,germany,245
+spain,india,203
+spain,indonesia,113
+spain,iran,205
+spain,iraq,217
+spain,israel,204
+spain,italy,181
+spain,japan,216
+spain,london,251
+spain,mexico,146
+spain,middle east,135
+spain,new york,235
+spain,new york city,131
+spain,new zealand,163
+spain,pakistan,177
+spain,reuters,166
+spain,russia,250
+spain,south africa,145
+spain,south korea,140
+spain,sydney,117
+spain,taiwan,100
+spain,thailand,113
+spain,turkey,133
+spain,uk,261
+spain,united kingdom,266
+spain,united nations,210
+spain,washington,211
+spain,white house,192
+sydney,afghanistan,130
+sydney,africa,85
+sydney,america,140
+sydney,associated press,105
+sydney,australia,225
+sydney,baghdad,97
+sydney,barack obama,81
+sydney,bbc,121
+sydney,brazil,86
+sydney,britain,143
+sydney,california,146
+sydney,canada,166
+sydney,china,189
+sydney,congress,101
+sydney,earth,84
+sydney,england,150
+sydney,eu,85
+sydney,europe,157
+sydney,european union,125
+sydney,france,177
+sydney,george w. bush,136
+sydney,germany,181
+sydney,india,144
+sydney,indonesia,93
+sydney,iran,146
+sydney,iraq,176
+sydney,israel,146
+sydney,italy,126
+sydney,japan,164
+sydney,london,185
+sydney,mexico,97
+sydney,middle east,98
+sydney,new york,155
+sydney,new york city,81
+sydney,new zealand,149
+sydney,pakistan,118
+sydney,reuters,119
+sydney,russia,175
+sydney,south africa,105
+sydney,south korea,93
+sydney,spain,117
+sydney,taiwan,68
+sydney,thailand,94
+sydney,turkey,106
+sydney,uk,171
+sydney,united kingdom,167
+sydney,united nations,149
+sydney,washington,159
+sydney,white house,128
+taiwan,afghanistan,117
+taiwan,africa,80
+taiwan,america,127
+taiwan,associated press,84
+taiwan,australia,163
+taiwan,baghdad,78
+taiwan,barack obama,82
+taiwan,bbc,92
+taiwan,brazil,61
+taiwan,britain,112
+taiwan,california,114
+taiwan,canada,154
+taiwan,china,169
+taiwan,congress,83
+taiwan,earth,67
+taiwan,england,113
+taiwan,eu,82
+taiwan,europe,134
+taiwan,european union,104
+taiwan,france,145
+taiwan,george w. bush,126
+taiwan,germany,142
+taiwan,india,122
+taiwan,indonesia,95
+taiwan,iran,113
+taiwan,iraq,153
+taiwan,israel,118
+taiwan,italy,91
+taiwan,japan,149
+taiwan,london,129
+taiwan,mexico,75
+taiwan,middle east,82
+taiwan,new york,133
+taiwan,new york city,87
+taiwan,new zealand,98
+taiwan,pakistan,99
+taiwan,reuters,104
+taiwan,russia,135
+taiwan,south africa,88
+taiwan,south korea,68
+taiwan,spain,100
+taiwan,sydney,68
+taiwan,thailand,67
+taiwan,turkey,78
+taiwan,uk,130
+taiwan,united kingdom,147
+taiwan,united nations,115
+taiwan,washington,128
+taiwan,white house,129
+thailand,afghanistan,146
+thailand,africa,96
+thailand,america,142
+thailand,associated press,123
+thailand,australia,171
+thailand,baghdad,94
+thailand,barack obama,79
+thailand,bbc,119
+thailand,brazil,72
+thailand,britain,132
+thailand,california,149
+thailand,canada,161
+thailand,china,170
+thailand,congress,101
+thailand,earth,80
+thailand,england,125
+thailand,eu,86
+thailand,europe,156
+thailand,european union,137
+thailand,france,155
+thailand,george w. bush,141
+thailand,germany,157
+thailand,india,145
+thailand,indonesia,98
+thailand,iran,136
+thailand,iraq,158
+thailand,israel,141
+thailand,italy,116
+thailand,japan,147
+thailand,london,148
+thailand,mexico,98
+thailand,middle east,107
+thailand,new york,150
+thailand,new york city,87
+thailand,new zealand,118
+thailand,pakistan,125
+thailand,reuters,125
+thailand,russia,157
+thailand,south africa,104
+thailand,south korea,106
+thailand,spain,113
+thailand,sydney,94
+thailand,taiwan,67
+thailand,turkey,89
+thailand,uk,163
+thailand,united kingdom,168
+thailand,united nations,157
+thailand,washington,156
+thailand,white house,135
+turkey,afghanistan,169
+turkey,africa,108
+turkey,america,151
+turkey,associated press,111
+turkey,australia,202
+turkey,baghdad,106
+turkey,barack obama,95
+turkey,bbc,142
+turkey,brazil,96
+turkey,britain,146
+turkey,california,157
+turkey,canada,187
+turkey,china,187
+turkey,congress,120
+turkey,earth,101
+turkey,england,157
+turkey,eu,100
+turkey,europe,176
+turkey,european union,145
+turkey,france,191
+turkey,george w. bush,138
+turkey,germany,182
+turkey,india,156
+turkey,indonesia,96
+turkey,iran,172
+turkey,iraq,175
+turkey,israel,169
+turkey,italy,122
+turkey,japan,167
+turkey,london,167
+turkey,mexico,110
+turkey,middle east,115
+turkey,new york,172
+turkey,new york city,104
+turkey,new zealand,145
+turkey,pakistan,142
+turkey,reuters,122
+turkey,russia,186
+turkey,south africa,122
+turkey,south korea,106
+turkey,spain,133
+turkey,sydney,106
+turkey,taiwan,78
+turkey,thailand,89
+turkey,uk,174
+turkey,united kingdom,184
+turkey,united nations,156
+turkey,washington,164
+turkey,white house,155
+uk,afghanistan,373
+uk,africa,209
+uk,america,311
+uk,associated press,235
+uk,australia,489
+uk,baghdad,186
+uk,barack obama,269
+uk,bbc,309
+uk,brazil,173
+uk,britain,309
+uk,california,352
+uk,canada,384
+uk,china,442
+uk,congress,201
+uk,earth,166
+uk,england,361
+uk,eu,198
+uk,europe,407
+uk,european union,304
+uk,france,454
+uk,george w. bush,294
+uk,germany,387
+uk,india,323
+uk,indonesia,182
+uk,iran,317
+uk,iraq,423
+uk,israel,332
+uk,italy,262
+uk,japan,362
+uk,london,425
+uk,mexico,194
+uk,middle east,201
+uk,new york,374
+uk,new york city,172
+uk,new zealand,238
+uk,pakistan,270
+uk,reuters,272
+uk,russia,397
+uk,south africa,191
+uk,south korea,172
+uk,spain,261
+uk,sydney,171
+uk,taiwan,130
+uk,thailand,163
+uk,turkey,174
+uk,united kingdom,538
+uk,united nations,386
+uk,washington,358
+uk,white house,324
+united kingdom,afghanistan,399
+united kingdom,africa,207
+united kingdom,america,352
+united kingdom,associated press,245
+united kingdom,australia,551
+united kingdom,baghdad,185
+united kingdom,barack obama,322
+united kingdom,bbc,318
+united kingdom,brazil,189
+united kingdom,britain,318
+united kingdom,california,384
+united kingdom,canada,429
+united kingdom,china,486
+united kingdom,congress,196
+united kingdom,earth,171
+united kingdom,england,376
+united kingdom,eu,197
+united kingdom,europe,436
+united kingdom,european union,325
+united kingdom,france,478
+united kingdom,george w. bush,313
+united kingdom,germany,403
+united kingdom,india,330
+united kingdom,indonesia,192
+united kingdom,iran,341
+united kingdom,iraq,451
+united kingdom,israel,348
+united kingdom,italy,256
+united kingdom,japan,380
+united kingdom,london,451
+united kingdom,mexico,194
+united kingdom,middle east,210
+united kingdom,new york,393
+united kingdom,new york city,177
+united kingdom,new zealand,243
+united kingdom,pakistan,297
+united kingdom,reuters,277
+united kingdom,russia,426
+united kingdom,south africa,202
+united kingdom,south korea,176
+united kingdom,spain,266
+united kingdom,sydney,167
+united kingdom,taiwan,147
+united kingdom,thailand,168
+united kingdom,turkey,184
+united kingdom,uk,538
+united kingdom,united nations,414
+united kingdom,washington,393
+united kingdom,white house,335
+united nations,afghanistan,337
+united nations,africa,192
+united nations,america,288
+united nations,associated press,208
+united nations,australia,390
+united nations,baghdad,162
+united nations,barack obama,237
+united nations,bbc,260
+united nations,brazil,146
+united nations,britain,262
+united nations,california,305
+united nations,canada,314
+united nations,china,399
+united nations,congress,176
+united nations,earth,153
+united nations,england,279
+united nations,eu,175
+united nations,europe,335
+united nations,european union,286
+united nations,france,370
+united nations,george w. bush,270
+united nations,germany,329
+united nations,india,290
+united nations,indonesia,178
+united nations,iran,284
+united nations,iraq,360
+united nations,israel,317
+united nations,italy,219
+united nations,japan,288
+united nations,london,329
+united nations,mexico,175
+united nations,middle east,205
+united nations,new york,328
+united nations,new york city,155
+united nations,new zealand,211
+united nations,pakistan,252
+united nations,reuters,241
+united nations,russia,338
+united nations,south africa,184
+united nations,south korea,161
+united nations,spain,210
+united nations,sydney,149
+united nations,taiwan,115
+united nations,thailand,157
+united nations,turkey,156
+united nations,uk,386
+united nations,united kingdom,414
+united nations,washington,329
+united nations,white house,284
+washington,afghanistan,317
+washington,africa,191
+washington,america,317
+washington,associated press,204
+washington,australia,409
+washington,baghdad,169
+washington,barack obama,221
+washington,bbc,245
+washington,brazil,146
+washington,britain,254
+washington,california,317
+washington,canada,330
+washington,china,392
+washington,congress,184
+washington,earth,151
+washington,england,279
+washington,eu,178
+washington,europe,352
+washington,european union,287
+washington,france,360
+washington,george w. bush,281
+washington,germany,343
+washington,india,281
+washington,indonesia,171
+washington,iran,294
+washington,iraq,382
+washington,israel,303
+washington,italy,217
+washington,japan,299
+washington,london,327
+washington,mexico,163
+washington,middle east,188
+washington,new york,326
+washington,new york city,159
+washington,new zealand,227
+washington,pakistan,244
+washington,reuters,237
+washington,russia,348
+washington,south africa,182
+washington,south korea,165
+washington,spain,211
+washington,sydney,159
+washington,taiwan,128
+washington,thailand,156
+washington,turkey,164
+washington,uk,358
+washington,united kingdom,393
+washington,united nations,329
+washington,white house,309
+white house,afghanistan,289
+white house,africa,181
+white house,america,285
+white house,associated press,188
+white house,australia,349
+white house,baghdad,180
+white house,barack obama,182
+white house,bbc,227
+white house,brazil,137
+white house,britain,249
+white house,california,273
+white house,canada,297
+white house,china,342
+white house,congress,178
+white house,earth,143
+white house,england,250
+white house,eu,177
+white house,europe,324
+white house,european union,255
+white house,france,326
+white house,george w. bush,259
+white house,germany,298
+white house,india,253
+white house,indonesia,165
+white house,iran,263
+white house,iraq,332
+white house,israel,272
+white house,italy,209
+white house,japan,274
+white house,london,294
+white house,mexico,151
+white house,middle east,181
+white house,new york,297
+white house,new york city,152
+white house,new zealand,202
+white house,pakistan,224
+white house,reuters,220
+white house,russia,314
+white house,south africa,178
+white house,south korea,154
+white house,spain,192
+white house,sydney,128
+white house,taiwan,129
+white house,thailand,135
+white house,turkey,155
+white house,uk,324
+white house,united kingdom,335
+white house,united nations,284
+white house,washington,309
