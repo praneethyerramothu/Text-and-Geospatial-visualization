@@ -1,0 +1,2451 @@
+Term1,Term2,Frequency
+afghanistan,barack obama,7919
+afghanistan,bill clinton,3850
+afghanistan,british,2753
+afghanistan,california,6461
+afghanistan,canada,2097
+afghanistan,chicago,3060
+afghanistan,china,5211
+afghanistan,cnn,2176
+afghanistan,democratic party,3426
+afghanistan,europe,4048
+afghanistan,european,2478
+afghanistan,florida,4330
+afghanistan,fox news,2687
+afghanistan,france,2159
+afghanistan,george bush,2363
+afghanistan,george w. bush,6072
+afghanistan,germany,2415
+afghanistan,gop,5930
+afghanistan,hillary clinton,3565
+afghanistan,illinois,2225
+afghanistan,india,2178
+afghanistan,iowa,2219
+afghanistan,iran,5285
+afghanistan,iraq,8084
+afghanistan,israel,4578
+afghanistan,israeli,2350
+afghanistan,john mccain,3861
+afghanistan,martin luther king,2163
+afghanistan,massachusetts,2917
+afghanistan,mexico,2280
+afghanistan,middle east,4484
+afghanistan,mitt romney,2831
+afghanistan,new york,6939
+afghanistan,new york city,2930
+afghanistan,newt gingrich,1738
+afghanistan,ohio,3050
+afghanistan,pakistan,3291
+afghanistan,pennsylvania,2475
+afghanistan,republican party,4727
+afghanistan,ronald reagan,3077
+afghanistan,russia,3188
+afghanistan,sarah palin,2975
+afghanistan,supreme court,5398
+afghanistan,syria,2229
+afghanistan,texas,4610
+afghanistan,vietnam,3181
+afghanistan,virginia,2781
+afghanistan,wall street,5748
+afghanistan,world war ii,2449
+barack obama,afghanistan,7919
+barack obama,bill clinton,4104
+barack obama,british,2750
+barack obama,california,6765
+barack obama,canada,2097
+barack obama,chicago,3060
+barack obama,china,5273
+barack obama,cnn,2176
+barack obama,democratic party,3547
+barack obama,europe,4045
+barack obama,european,2478
+barack obama,florida,4681
+barack obama,fox news,2687
+barack obama,france,2159
+barack obama,george bush,2359
+barack obama,george w. bush,6328
+barack obama,germany,2411
+barack obama,gop,6433
+barack obama,hillary clinton,4700
+barack obama,illinois,2236
+barack obama,india,2178
+barack obama,iowa,2512
+barack obama,iran,5578
+barack obama,iraq,11004
+barack obama,israel,4629
+barack obama,israeli,2359
+barack obama,john mccain,6133
+barack obama,martin luther king,2175
+barack obama,massachusetts,2989
+barack obama,mexico,2276
+barack obama,middle east,4478
+barack obama,mitt romney,3774
+barack obama,new york,7427
+barack obama,new york city,2933
+barack obama,newt gingrich,1871
+barack obama,ohio,3212
+barack obama,pakistan,3291
+barack obama,pennsylvania,2614
+barack obama,republican party,4945
+barack obama,ronald reagan,3077
+barack obama,russia,3206
+barack obama,sarah palin,3741
+barack obama,supreme court,5749
+barack obama,syria,2215
+barack obama,texas,4905
+barack obama,vietnam,3178
+barack obama,virginia,2775
+barack obama,wall street,6045
+barack obama,world war ii,2449
+bill clinton,afghanistan,3850
+bill clinton,barack obama,4104
+bill clinton,british,2502
+bill clinton,california,3745
+bill clinton,canada,2063
+bill clinton,chicago,2889
+bill clinton,china,3613
+bill clinton,cnn,2152
+bill clinton,democratic party,3277
+bill clinton,europe,3053
+bill clinton,european,2233
+bill clinton,florida,3560
+bill clinton,fox news,2571
+bill clinton,france,2026
+bill clinton,george bush,2082
+bill clinton,george w. bush,3940
+bill clinton,germany,2242
+bill clinton,gop,3628
+bill clinton,hillary clinton,3333
+bill clinton,illinois,2186
+bill clinton,india,2092
+bill clinton,iowa,2142
+bill clinton,iran,3720
+bill clinton,iraq,4104
+bill clinton,israel,3455
+bill clinton,israeli,2150
+bill clinton,john mccain,3442
+bill clinton,martin luther king,2021
+bill clinton,massachusetts,2538
+bill clinton,mexico,2072
+bill clinton,middle east,3365
+bill clinton,mitt romney,2232
+bill clinton,new york,3915
+bill clinton,new york city,2509
+bill clinton,newt gingrich,1476
+bill clinton,ohio,2784
+bill clinton,pakistan,2877
+bill clinton,pennsylvania,2453
+bill clinton,republican party,3441
+bill clinton,ronald reagan,2842
+bill clinton,russia,2503
+bill clinton,sarah palin,2154
+bill clinton,supreme court,3412
+bill clinton,syria,1660
+bill clinton,texas,3444
+bill clinton,vietnam,2815
+bill clinton,virginia,2539
+bill clinton,wall street,3196
+bill clinton,world war ii,2321
+british,afghanistan,2753
+british,barack obama,2750
+british,bill clinton,2502
+british,california,2753
+british,canada,1958
+british,chicago,2301
+british,china,2738
+british,cnn,1910
+british,democratic party,2375
+british,europe,2680
+british,european,2203
+british,florida,2590
+british,fox news,2267
+british,france,2026
+british,george bush,1579
+british,george w. bush,2733
+british,germany,2196
+british,gop,2723
+british,hillary clinton,2381
+british,illinois,1858
+british,india,2026
+british,iowa,1772
+british,iran,2724
+british,iraq,2753
+british,israel,2686
+british,israeli,2038
+british,john mccain,2418
+british,martin luther king,1797
+british,massachusetts,2100
+british,mexico,1937
+british,middle east,2651
+british,mitt romney,1647
+british,new york,2753
+british,new york city,2339
+british,newt gingrich,1352
+british,ohio,2115
+british,pakistan,2408
+british,pennsylvania,1923
+british,republican party,2637
+british,ronald reagan,2380
+british,russia,2312
+british,sarah palin,1684
+british,supreme court,2725
+british,syria,1701
+british,texas,2693
+british,vietnam,2504
+british,virginia,2178
+british,wall street,2463
+british,world war ii,2224
+california,afghanistan,6461
+california,barack obama,6765
+california,bill clinton,3745
+california,british,2753
+california,canada,2097
+california,chicago,3049
+california,china,5036
+california,cnn,2168
+california,democratic party,3381
+california,europe,3970
+california,european,2472
+california,florida,4303
+california,fox news,2687
+california,france,2159
+california,george bush,2227
+california,george w. bush,5633
+california,germany,2415
+california,gop,5576
+california,hillary clinton,3402
+california,illinois,2236
+california,india,2178
+california,iowa,2166
+california,iran,4929
+california,iraq,6761
+california,israel,4441
+california,israeli,2359
+california,john mccain,3677
+california,martin luther king,2162
+california,massachusetts,2867
+california,mexico,2277
+california,middle east,4222
+california,mitt romney,2710
+california,new york,6498
+california,new york city,2933
+california,newt gingrich,1755
+california,ohio,2988
+california,pakistan,3162
+california,pennsylvania,2446
+california,republican party,4605
+california,ronald reagan,3066
+california,russia,2997
+california,sarah palin,2884
+california,supreme court,5472
+california,syria,2148
+california,texas,4643
+california,vietnam,3177
+california,virginia,2773
+california,wall street,5180
+california,world war ii,2449
+canada,afghanistan,2097
+canada,barack obama,2097
+canada,bill clinton,2063
+canada,british,1958
+canada,california,2097
+canada,chicago,1974
+canada,china,2084
+canada,cnn,1652
+canada,democratic party,1963
+canada,europe,2058
+canada,european,1871
+canada,florida,2070
+canada,fox news,1930
+canada,france,1753
+canada,george bush,1323
+canada,george w. bush,2097
+canada,germany,1875
+canada,gop,2097
+canada,hillary clinton,1919
+canada,illinois,1628
+canada,india,1774
+canada,iowa,1609
+canada,iran,2055
+canada,iraq,2097
+canada,israel,2060
+canada,israeli,1717
+canada,john mccain,1930
+canada,martin luther king,1656
+canada,massachusetts,1912
+canada,mexico,1757
+canada,middle east,2041
+canada,mitt romney,1555
+canada,new york,2097
+canada,new york city,1974
+canada,newt gingrich,1257
+canada,ohio,1809
+canada,pakistan,1966
+canada,pennsylvania,1700
+canada,republican party,2091
+canada,ronald reagan,2006
+canada,russia,1901
+canada,sarah palin,1419
+canada,supreme court,2082
+canada,syria,1417
+canada,texas,2082
+canada,vietnam,2009
+canada,virginia,1848
+canada,wall street,2019
+canada,world war ii,1925
+chicago,afghanistan,3060
+chicago,barack obama,3060
+chicago,bill clinton,2889
+chicago,british,2301
+chicago,california,3049
+chicago,canada,1974
+chicago,china,2924
+chicago,cnn,2018
+chicago,democratic party,2652
+chicago,europe,2719
+chicago,european,2076
+chicago,florida,2863
+chicago,fox news,2367
+chicago,france,1905
+chicago,george bush,1835
+chicago,george w. bush,3051
+chicago,germany,2110
+chicago,gop,2916
+chicago,hillary clinton,2619
+chicago,illinois,2110
+chicago,india,1975
+chicago,iowa,1859
+chicago,iran,2952
+chicago,iraq,3060
+chicago,israel,2882
+chicago,israeli,2011
+chicago,john mccain,2735
+chicago,martin luther king,1932
+chicago,massachusetts,2226
+chicago,mexico,1949
+chicago,middle east,2814
+chicago,mitt romney,1808
+chicago,new york,3055
+chicago,new york city,2325
+chicago,newt gingrich,1369
+chicago,ohio,2469
+chicago,pakistan,2586
+chicago,pennsylvania,2214
+chicago,republican party,2852
+chicago,ronald reagan,2557
+chicago,russia,2251
+chicago,sarah palin,1929
+chicago,supreme court,2865
+chicago,syria,1515
+chicago,texas,2852
+chicago,vietnam,2546
+chicago,virginia,2379
+chicago,wall street,2729
+chicago,world war ii,2190
+china,afghanistan,5211
+china,barack obama,5273
+china,bill clinton,3613
+china,british,2738
+china,california,5036
+china,canada,2084
+china,chicago,2924
+china,cnn,2144
+china,democratic party,3242
+china,europe,3927
+china,european,2478
+china,florida,3935
+china,fox news,2645
+china,france,2158
+china,george bush,2087
+china,george w. bush,4753
+china,germany,2415
+china,gop,4874
+china,hillary clinton,3171
+china,illinois,2137
+china,india,2176
+china,iowa,2153
+china,iran,4614
+china,iraq,5293
+china,israel,4269
+china,israeli,2320
+china,john mccain,3378
+china,martin luther king,2077
+china,massachusetts,2764
+china,mexico,2178
+china,middle east,4082
+china,mitt romney,2593
+china,new york,5228
+china,new york city,2863
+china,newt gingrich,1706
+china,ohio,2853
+china,pakistan,3129
+china,pennsylvania,2405
+china,republican party,4205
+china,ronald reagan,3043
+china,russia,2985
+china,sarah palin,2414
+china,supreme court,4669
+china,syria,2092
+china,texas,4373
+china,vietnam,3108
+china,virginia,2697
+china,wall street,4354
+china,world war ii,2449
+cnn,afghanistan,2176
+cnn,barack obama,2176
+cnn,bill clinton,2152
+cnn,british,1910
+cnn,california,2168
+cnn,canada,1652
+cnn,chicago,2018
+cnn,china,2144
+cnn,democratic party,2106
+cnn,europe,2032
+cnn,european,1704
+cnn,florida,2131
+cnn,fox news,1931
+cnn,france,1602
+cnn,george bush,1668
+cnn,george w. bush,2176
+cnn,germany,1710
+cnn,gop,2163
+cnn,hillary clinton,2101
+cnn,illinois,1787
+cnn,india,1701
+cnn,iowa,1750
+cnn,iran,2167
+cnn,iraq,2176
+cnn,israel,2140
+cnn,israeli,1684
+cnn,john mccain,2128
+cnn,martin luther king,1659
+cnn,massachusetts,1717
+cnn,mexico,1631
+cnn,middle east,2142
+cnn,mitt romney,1410
+cnn,new york,2176
+cnn,new york city,1807
+cnn,newt gingrich,1239
+cnn,ohio,1902
+cnn,pakistan,2086
+cnn,pennsylvania,1774
+cnn,republican party,2101
+cnn,ronald reagan,1991
+cnn,russia,1852
+cnn,sarah palin,1497
+cnn,supreme court,2124
+cnn,syria,1274
+cnn,texas,2136
+cnn,vietnam,2073
+cnn,virginia,1843
+cnn,wall street,1874
+cnn,world war ii,1775
+democratic party,afghanistan,3426
+democratic party,barack obama,3547
+democratic party,bill clinton,3277
+democratic party,british,2375
+democratic party,california,3381
+democratic party,canada,1963
+democratic party,chicago,2652
+democratic party,china,3242
+democratic party,cnn,2106
+democratic party,europe,2771
+democratic party,european,2102
+democratic party,florida,3136
+democratic party,fox news,2497
+democratic party,france,1936
+democratic party,george bush,1992
+democratic party,george w. bush,3511
+democratic party,germany,2128
+democratic party,gop,3223
+democratic party,hillary clinton,3008
+democratic party,illinois,2073
+democratic party,india,2013
+democratic party,iowa,1996
+democratic party,iran,3336
+democratic party,iraq,3555
+democratic party,israel,3107
+democratic party,israeli,2040
+democratic party,john mccain,3179
+democratic party,martin luther king,1916
+democratic party,massachusetts,2322
+democratic party,mexico,1982
+democratic party,middle east,3026
+democratic party,mitt romney,1868
+democratic party,new york,3477
+democratic party,new york city,2350
+democratic party,newt gingrich,1407
+democratic party,ohio,2603
+democratic party,pakistan,2675
+democratic party,pennsylvania,2343
+democratic party,republican party,3079
+democratic party,ronald reagan,2635
+democratic party,russia,2332
+democratic party,sarah palin,2045
+democratic party,supreme court,3142
+democratic party,syria,1557
+democratic party,texas,3155
+democratic party,vietnam,2693
+democratic party,virginia,2404
+democratic party,wall street,2786
+democratic party,world war ii,2220
+europe,afghanistan,4048
+europe,barack obama,4045
+europe,bill clinton,3053
+europe,british,2680
+europe,california,3970
+europe,canada,2058
+europe,chicago,2719
+europe,china,3927
+europe,cnn,2032
+europe,democratic party,2771
+europe,european,2471
+europe,florida,3380
+europe,fox news,2525
+europe,france,2142
+europe,george bush,1717
+europe,george w. bush,3769
+europe,germany,2408
+europe,gop,3804
+europe,hillary clinton,2744
+europe,illinois,2006
+europe,india,2142
+europe,iowa,1959
+europe,iran,3815
+europe,iraq,4070
+europe,israel,3669
+europe,israeli,2301
+europe,john mccain,2953
+europe,martin luther king,1984
+europe,massachusetts,2535
+europe,mexico,2148
+europe,middle east,3490
+europe,mitt romney,2248
+europe,new york,4028
+europe,new york city,2809
+europe,newt gingrich,1571
+europe,ohio,2534
+europe,pakistan,2815
+europe,pennsylvania,2223
+europe,republican party,3532
+europe,ronald reagan,2893
+europe,russia,2858
+europe,sarah palin,2025
+europe,supreme court,3892
+europe,syria,2062
+europe,texas,3715
+europe,vietnam,2830
+europe,virginia,2532
+europe,wall street,3451
+europe,world war ii,2425
+european,afghanistan,2478
+european,barack obama,2478
+european,bill clinton,2233
+european,british,2203
+european,california,2472
+european,canada,1871
+european,chicago,2076
+european,china,2478
+european,cnn,1704
+european,democratic party,2102
+european,europe,2471
+european,florida,2335
+european,fox news,2005
+european,france,1996
+european,george bush,1364
+european,george w. bush,2401
+european,germany,2167
+european,gop,2403
+european,hillary clinton,2142
+european,illinois,1718
+european,india,1950
+european,iowa,1691
+european,iran,2454
+european,iraq,2478
+european,israel,2441
+european,israeli,1992
+european,john mccain,2098
+european,martin luther king,1710
+european,massachusetts,2013
+european,mexico,1862
+european,middle east,2401
+european,mitt romney,1647
+european,new york,2471
+european,new york city,2194
+european,newt gingrich,1336
+european,ohio,2011
+european,pakistan,2170
+european,pennsylvania,1823
+european,republican party,2309
+european,ronald reagan,2175
+european,russia,2289
+european,sarah palin,1459
+european,supreme court,2463
+european,syria,1732
+european,texas,2422
+european,vietnam,2243
+european,virginia,2049
+european,wall street,2222
+european,world war ii,2088
+florida,afghanistan,4330
+florida,barack obama,4681
+florida,bill clinton,3560
+florida,british,2590
+florida,california,4303
+florida,canada,2070
+florida,chicago,2863
+florida,china,3935
+florida,cnn,2131
+florida,democratic party,3136
+florida,europe,3380
+florida,european,2335
+florida,fox news,2578
+florida,france,2098
+florida,george bush,1977
+florida,george w. bush,4341
+florida,germany,2318
+florida,gop,4380
+florida,hillary clinton,3031
+florida,illinois,2109
+florida,india,2110
+florida,iowa,2134
+florida,iran,3959
+florida,iraq,4550
+florida,israel,3715
+florida,israeli,2201
+florida,john mccain,3392
+florida,martin luther king,2008
+florida,massachusetts,2747
+florida,mexico,2118
+florida,middle east,3516
+florida,mitt romney,2736
+florida,new york,4442
+florida,new york city,2703
+florida,newt gingrich,1719
+florida,ohio,3092
+florida,pakistan,2827
+florida,pennsylvania,2473
+florida,republican party,4065
+florida,ronald reagan,2934
+florida,russia,2612
+florida,sarah palin,2284
+florida,supreme court,4083
+florida,syria,1793
+florida,texas,3901
+florida,vietnam,2856
+florida,virginia,2653
+florida,wall street,3841
+florida,world war ii,2412
+fox news,afghanistan,2687
+fox news,barack obama,2687
+fox news,bill clinton,2571
+fox news,british,2267
+fox news,california,2687
+fox news,canada,1930
+fox news,chicago,2367
+fox news,china,2645
+fox news,cnn,1931
+fox news,democratic party,2497
+fox news,europe,2525
+fox news,european,2005
+fox news,florida,2578
+fox news,france,1867
+fox news,george bush,1533
+fox news,george w. bush,2686
+fox news,germany,2027
+fox news,gop,2677
+fox news,hillary clinton,2305
+fox news,illinois,1878
+fox news,india,1958
+fox news,iowa,1809
+fox news,iran,2609
+fox news,iraq,2687
+fox news,israel,2592
+fox news,israeli,1914
+fox news,john mccain,2438
+fox news,martin luther king,1782
+fox news,massachusetts,2138
+fox news,mexico,1950
+fox news,middle east,2484
+fox news,mitt romney,1661
+fox news,new york,2687
+fox news,new york city,2254
+fox news,newt gingrich,1426
+fox news,ohio,2181
+fox news,pakistan,2380
+fox news,pennsylvania,2050
+fox news,republican party,2660
+fox news,ronald reagan,2444
+fox news,russia,2118
+fox news,sarah palin,1860
+fox news,supreme court,2650
+fox news,syria,1499
+fox news,texas,2632
+fox news,vietnam,2377
+fox news,virginia,2216
+fox news,wall street,2504
+fox news,world war ii,2124
+france,afghanistan,2159
+france,barack obama,2159
+france,bill clinton,2026
+france,british,2026
+france,california,2159
+france,canada,1753
+france,chicago,1905
+france,china,2158
+france,cnn,1602
+france,democratic party,1936
+france,europe,2142
+france,european,1996
+france,florida,2098
+france,fox news,1867
+france,george bush,1294
+france,george w. bush,2152
+france,germany,2003
+france,gop,2143
+france,hillary clinton,1955
+france,illinois,1605
+france,india,1810
+france,iowa,1608
+france,iran,2147
+france,iraq,2159
+france,israel,2144
+france,israeli,1820
+france,john mccain,1886
+france,martin luther king,1591
+france,massachusetts,1911
+france,mexico,1729
+france,middle east,2133
+france,mitt romney,1576
+france,new york,2159
+france,new york city,2022
+france,newt gingrich,1262
+france,ohio,1835
+france,pakistan,1981
+france,pennsylvania,1709
+france,republican party,2100
+france,ronald reagan,1987
+france,russia,1985
+france,sarah palin,1325
+france,supreme court,2159
+france,syria,1568
+france,texas,2146
+france,vietnam,2030
+france,virginia,1880
+france,wall street,2020
+france,world war ii,1951
+george bush,afghanistan,2363
+george bush,barack obama,2359
+george bush,bill clinton,2082
+george bush,british,1579
+george bush,california,2227
+george bush,canada,1323
+george bush,chicago,1835
+george bush,china,2087
+george bush,cnn,1668
+george bush,democratic party,1992
+george bush,europe,1717
+george bush,european,1364
+george bush,florida,1977
+george bush,fox news,1533
+george bush,france,1294
+george bush,george w. bush,2393
+george bush,germany,1367
+george bush,gop,2104
+george bush,hillary clinton,2329
+george bush,illinois,1661
+george bush,india,1399
+george bush,iowa,1590
+george bush,iran,2374
+george bush,iraq,2414
+george bush,israel,2118
+george bush,israeli,1427
+george bush,john mccain,2195
+george bush,martin luther king,1359
+george bush,massachusetts,1336
+george bush,mexico,1207
+george bush,middle east,2232
+george bush,mitt romney,1127
+george bush,new york,2370
+george bush,new york city,1423
+george bush,newt gingrich,971
+george bush,ohio,1728
+george bush,pakistan,1842
+george bush,pennsylvania,1583
+george bush,republican party,1885
+george bush,ronald reagan,1625
+george bush,russia,1673
+george bush,sarah palin,1383
+george bush,supreme court,1967
+george bush,syria,1004
+george bush,texas,1891
+george bush,vietnam,1894
+george bush,virginia,1563
+george bush,wall street,1629
+george bush,world war ii,1383
+george w. bush,afghanistan,6072
+george w. bush,barack obama,6328
+george w. bush,bill clinton,3940
+george w. bush,british,2733
+george w. bush,california,5633
+george w. bush,canada,2097
+george w. bush,chicago,3051
+george w. bush,china,4753
+george w. bush,cnn,2176
+george w. bush,democratic party,3511
+george w. bush,europe,3769
+george w. bush,european,2401
+george w. bush,florida,4341
+george w. bush,fox news,2686
+george w. bush,france,2152
+george w. bush,george bush,2393
+george w. bush,germany,2382
+george w. bush,gop,5331
+george w. bush,hillary clinton,3696
+george w. bush,illinois,2236
+george w. bush,india,2171
+george w. bush,iowa,2214
+george w. bush,iran,4902
+george w. bush,iraq,6429
+george w. bush,israel,4313
+george w. bush,israeli,2318
+george w. bush,john mccain,3983
+george w. bush,martin luther king,2114
+george w. bush,massachusetts,2852
+george w. bush,mexico,2191
+george w. bush,middle east,4154
+george w. bush,mitt romney,2689
+george w. bush,new york,5925
+george w. bush,new york city,2858
+george w. bush,newt gingrich,1677
+george w. bush,ohio,3074
+george w. bush,pakistan,3250
+george w. bush,pennsylvania,2496
+george w. bush,republican party,4632
+george w. bush,ronald reagan,3052
+george w. bush,russia,2921
+george w. bush,sarah palin,2852
+george w. bush,supreme court,4812
+george w. bush,syria,1926
+george w. bush,texas,4363
+george w. bush,vietnam,3181
+george w. bush,virginia,2755
+george w. bush,wall street,4865
+george w. bush,world war ii,2442
+germany,afghanistan,2415
+germany,barack obama,2411
+germany,bill clinton,2242
+germany,british,2196
+germany,california,2415
+germany,canada,1875
+germany,chicago,2110
+germany,china,2415
+germany,cnn,1710
+germany,democratic party,2128
+germany,europe,2408
+germany,european,2167
+germany,florida,2318
+germany,fox news,2027
+germany,france,2003
+germany,george bush,1367
+germany,george w. bush,2382
+germany,gop,2391
+germany,hillary clinton,2115
+germany,illinois,1698
+germany,india,1937
+germany,iowa,1633
+germany,iran,2402
+germany,iraq,2415
+germany,israel,2402
+germany,israeli,2005
+germany,john mccain,2095
+germany,martin luther king,1690
+germany,massachusetts,2026
+germany,mexico,1869
+germany,middle east,2371
+germany,mitt romney,1595
+germany,new york,2415
+germany,new york city,2185
+germany,newt gingrich,1275
+germany,ohio,1953
+germany,pakistan,2169
+germany,pennsylvania,1801
+germany,republican party,2305
+germany,ronald reagan,2164
+germany,russia,2195
+germany,sarah palin,1488
+germany,supreme court,2407
+germany,syria,1662
+germany,texas,2389
+germany,vietnam,2253
+germany,virginia,2050
+germany,wall street,2214
+germany,world war ii,2121
+gop,afghanistan,5930
+gop,barack obama,6433
+gop,bill clinton,3628
+gop,british,2723
+gop,california,5576
+gop,canada,2097
+gop,chicago,2916
+gop,china,4874
+gop,cnn,2163
+gop,democratic party,3223
+gop,europe,3804
+gop,european,2403
+gop,florida,4380
+gop,fox news,2677
+gop,france,2143
+gop,george bush,2104
+gop,george w. bush,5331
+gop,germany,2391
+gop,hillary clinton,3104
+gop,illinois,2129
+gop,india,2159
+gop,iowa,2185
+gop,iran,4540
+gop,iraq,6166
+gop,israel,4183
+gop,israeli,2298
+gop,john mccain,3485
+gop,martin luther king,2114
+gop,massachusetts,2841
+gop,mexico,2219
+gop,middle east,3972
+gop,mitt romney,3284
+gop,new york,5891
+gop,new york city,2901
+gop,newt gingrich,1909
+gop,ohio,2987
+gop,pakistan,3149
+gop,pennsylvania,2384
+gop,republican party,4891
+gop,ronald reagan,3077
+gop,russia,2927
+gop,sarah palin,2751
+gop,supreme court,5043
+gop,syria,1970
+gop,texas,4510
+gop,vietnam,3084
+gop,virginia,2726
+gop,wall street,5245
+gop,world war ii,2449
+hillary clinton,afghanistan,3565
+hillary clinton,barack obama,4700
+hillary clinton,bill clinton,3333
+hillary clinton,british,2381
+hillary clinton,california,3402
+hillary clinton,canada,1919
+hillary clinton,chicago,2619
+hillary clinton,china,3171
+hillary clinton,cnn,2101
+hillary clinton,democratic party,3008
+hillary clinton,europe,2744
+hillary clinton,european,2142
+hillary clinton,florida,3031
+hillary clinton,fox news,2305
+hillary clinton,france,1955
+hillary clinton,george bush,2329
+hillary clinton,george w. bush,3696
+hillary clinton,germany,2115
+hillary clinton,gop,3104
+hillary clinton,illinois,2163
+hillary clinton,india,2057
+hillary clinton,iowa,2324
+hillary clinton,iran,3811
+hillary clinton,iraq,4771
+hillary clinton,israel,3201
+hillary clinton,israeli,2098
+hillary clinton,john mccain,3877
+hillary clinton,martin luther king,1882
+hillary clinton,massachusetts,2109
+hillary clinton,mexico,1893
+hillary clinton,middle east,3283
+hillary clinton,mitt romney,1812
+hillary clinton,new york,3720
+hillary clinton,new york city,2286
+hillary clinton,newt gingrich,1335
+hillary clinton,ohio,2551
+hillary clinton,pakistan,2760
+hillary clinton,pennsylvania,2371
+hillary clinton,republican party,2876
+hillary clinton,ronald reagan,2522
+hillary clinton,russia,2476
+hillary clinton,sarah palin,1893
+hillary clinton,supreme court,2999
+hillary clinton,syria,1669
+hillary clinton,texas,3049
+hillary clinton,vietnam,2805
+hillary clinton,virginia,2341
+hillary clinton,wall street,2644
+hillary clinton,world war ii,2189
+illinois,afghanistan,2225
+illinois,barack obama,2236
+illinois,bill clinton,2186
+illinois,british,1858
+illinois,california,2236
+illinois,canada,1628
+illinois,chicago,2110
+illinois,china,2137
+illinois,cnn,1787
+illinois,democratic party,2073
+illinois,europe,2006
+illinois,european,1718
+illinois,florida,2109
+illinois,fox news,1878
+illinois,france,1605
+illinois,george bush,1661
+illinois,george w. bush,2236
+illinois,germany,1698
+illinois,gop,2129
+illinois,hillary clinton,2163
+illinois,india,1709
+illinois,iowa,1705
+illinois,iran,2188
+illinois,iraq,2236
+illinois,israel,2137
+illinois,israeli,1705
+illinois,john mccain,2127
+illinois,martin luther king,1658
+illinois,massachusetts,1737
+illinois,mexico,1572
+illinois,middle east,2137
+illinois,mitt romney,1376
+illinois,new york,2236
+illinois,new york city,1770
+illinois,newt gingrich,1153
+illinois,ohio,1948
+illinois,pakistan,2055
+illinois,pennsylvania,1813
+illinois,republican party,2051
+illinois,ronald reagan,1975
+illinois,russia,1861
+illinois,sarah palin,1488
+illinois,supreme court,2094
+illinois,syria,1264
+illinois,texas,2087
+illinois,vietnam,2029
+illinois,virginia,1872
+illinois,wall street,1951
+illinois,world war ii,1773
+india,afghanistan,2178
+india,barack obama,2178
+india,bill clinton,2092
+india,british,2026
+india,california,2178
+india,canada,1774
+india,chicago,1975
+india,china,2176
+india,cnn,1701
+india,democratic party,2013
+india,europe,2142
+india,european,1950
+india,florida,2110
+india,fox news,1958
+india,france,1810
+india,george bush,1399
+india,george w. bush,2171
+india,germany,1937
+india,gop,2159
+india,hillary clinton,2057
+india,illinois,1709
+india,iowa,1654
+india,iran,2164
+india,iraq,2178
+india,israel,2162
+india,israeli,1822
+india,john mccain,2012
+india,martin luther king,1669
+india,massachusetts,1851
+india,mexico,1726
+india,middle east,2158
+india,mitt romney,1505
+india,new york,2178
+india,new york city,2049
+india,newt gingrich,1250
+india,ohio,1847
+india,pakistan,2098
+india,pennsylvania,1724
+india,republican party,2126
+india,ronald reagan,2048
+india,russia,2030
+india,sarah palin,1450
+india,supreme court,2170
+india,syria,1515
+india,texas,2142
+india,vietnam,2080
+india,virginia,1916
+india,wall street,2065
+india,world war ii,1926
+iowa,afghanistan,2219
+iowa,barack obama,2512
+iowa,bill clinton,2142
+iowa,british,1772
+iowa,california,2166
+iowa,canada,1609
+iowa,chicago,1859
+iowa,china,2153
+iowa,cnn,1750
+iowa,democratic party,1996
+iowa,europe,1959
+iowa,european,1691
+iowa,florida,2134
+iowa,fox news,1809
+iowa,france,1608
+iowa,george bush,1590
+iowa,george w. bush,2214
+iowa,germany,1633
+iowa,gop,2185
+iowa,hillary clinton,2324
+iowa,illinois,1705
+iowa,india,1654
+iowa,iran,2317
+iowa,iraq,2530
+iowa,israel,2093
+iowa,israeli,1605
+iowa,john mccain,2068
+iowa,martin luther king,1590
+iowa,massachusetts,1792
+iowa,mexico,1558
+iowa,middle east,2112
+iowa,mitt romney,1728
+iowa,new york,2270
+iowa,new york city,1761
+iowa,newt gingrich,1394
+iowa,ohio,1847
+iowa,pakistan,1978
+iowa,pennsylvania,1721
+iowa,republican party,2054
+iowa,ronald reagan,1886
+iowa,russia,1689
+iowa,sarah palin,1300
+iowa,supreme court,2111
+iowa,syria,1296
+iowa,texas,2090
+iowa,vietnam,1916
+iowa,virginia,1738
+iowa,wall street,1830
+iowa,world war ii,1686
+iran,afghanistan,5285
+iran,barack obama,5578
+iran,bill clinton,3720
+iran,british,2724
+iran,california,4929
+iran,canada,2055
+iran,chicago,2952
+iran,china,4614
+iran,cnn,2167
+iran,democratic party,3336
+iran,europe,3815
+iran,european,2454
+iran,florida,3959
+iran,fox news,2609
+iran,france,2147
+iran,george bush,2374
+iran,george w. bush,4902
+iran,germany,2402
+iran,gop,4540
+iran,hillary clinton,3811
+iran,illinois,2188
+iran,india,2164
+iran,iowa,2317
+iran,iraq,5946
+iran,israel,4389
+iran,israeli,2337
+iran,john mccain,3764
+iran,martin luther king,2078
+iran,massachusetts,2681
+iran,mexico,2158
+iran,middle east,4319
+iran,mitt romney,2502
+iran,new york,5321
+iran,new york city,2794
+iran,newt gingrich,1693
+iran,ohio,2892
+iran,pakistan,3123
+iran,pennsylvania,2499
+iran,republican party,3999
+iran,ronald reagan,2955
+iran,russia,3108
+iran,sarah palin,2275
+iran,supreme court,4492
+iran,syria,2199
+iran,texas,4108
+iran,vietnam,3151
+iran,virginia,2690
+iran,wall street,3944
+iran,world war ii,2418
+iraq,afghanistan,8084
+iraq,barack obama,11004
+iraq,bill clinton,4104
+iraq,british,2753
+iraq,california,6761
+iraq,canada,2097
+iraq,chicago,3060
+iraq,china,5293
+iraq,cnn,2176
+iraq,democratic party,3555
+iraq,europe,4070
+iraq,european,2478
+iraq,florida,4550
+iraq,fox news,2687
+iraq,france,2159
+iraq,george bush,2414
+iraq,george w. bush,6429
+iraq,germany,2415
+iraq,gop,6166
+iraq,hillary clinton,4771
+iraq,illinois,2236
+iraq,india,2178
+iraq,iowa,2530
+iraq,iran,5946
+iraq,israel,4747
+iraq,israeli,2420
+iraq,john mccain,5711
+iraq,martin luther king,2178
+iraq,massachusetts,2926
+iraq,mexico,2281
+iraq,middle east,4702
+iraq,mitt romney,3036
+iraq,new york,7490
+iraq,new york city,2933
+iraq,newt gingrich,1794
+iraq,ohio,3163
+iraq,pakistan,3291
+iraq,pennsylvania,2614
+iraq,republican party,4831
+iraq,ronald reagan,3077
+iraq,russia,3239
+iraq,sarah palin,3524
+iraq,supreme court,5675
+iraq,syria,2483
+iraq,texas,4821
+iraq,vietnam,3202
+iraq,virginia,2781
+iraq,wall street,5931
+iraq,world war ii,2449
+israel,afghanistan,4578
+israel,barack obama,4629
+israel,bill clinton,3455
+israel,british,2686
+israel,california,4441
+israel,canada,2060
+israel,chicago,2882
+israel,china,4269
+israel,cnn,2140
+israel,democratic party,3107
+israel,europe,3669
+israel,european,2441
+israel,florida,3715
+israel,fox news,2592
+israel,france,2144
+israel,george bush,2118
+israel,george w. bush,4313
+israel,germany,2402
+israel,gop,4183
+israel,hillary clinton,3201
+israel,illinois,2137
+israel,india,2162
+israel,iowa,2093
+israel,iran,4389
+israel,iraq,4747
+israel,israeli,2420
+israel,john mccain,3308
+israel,martin luther king,2054
+israel,massachusetts,2569
+israel,mexico,2171
+israel,middle east,4128
+israel,mitt romney,2342
+israel,new york,4564
+israel,new york city,2812
+israel,newt gingrich,1632
+israel,ohio,2784
+israel,pakistan,3024
+israel,pennsylvania,2403
+israel,republican party,3755
+israel,ronald reagan,2940
+israel,russia,2867
+israel,sarah palin,2125
+israel,supreme court,4169
+israel,syria,2090
+israel,texas,3887
+israel,vietnam,3040
+israel,virginia,2622
+israel,wall street,3689
+israel,world war ii,2426
+israeli,afghanistan,2350
+israeli,barack obama,2359
+israeli,bill clinton,2150
+israeli,british,2038
+israeli,california,2359
+israeli,canada,1717
+israeli,chicago,2011
+israeli,china,2320
+israeli,cnn,1684
+israeli,democratic party,2040
+israeli,europe,2301
+israeli,european,1992
+israeli,florida,2201
+israeli,fox news,1914
+israeli,france,1820
+israeli,george bush,1427
+israeli,george w. bush,2318
+israeli,germany,2005
+israeli,gop,2298
+israeli,hillary clinton,2098
+israeli,illinois,1705
+israeli,india,1822
+israeli,iowa,1605
+israeli,iran,2337
+israeli,iraq,2420
+israeli,israel,2420
+israeli,john mccain,2034
+israeli,martin luther king,1617
+israeli,massachusetts,1865
+israeli,mexico,1769
+israeli,middle east,2382
+israeli,mitt romney,1533
+israeli,new york,2373
+israeli,new york city,2007
+israeli,newt gingrich,1248
+israeli,ohio,1935
+israeli,pakistan,2083
+israeli,pennsylvania,1772
+israeli,republican party,2203
+israeli,ronald reagan,2032
+israeli,russia,2062
+israeli,sarah palin,1402
+israeli,supreme court,2353
+israeli,syria,1655
+israeli,texas,2289
+israeli,vietnam,2121
+israeli,virginia,1916
+israeli,wall street,2091
+israeli,world war ii,1930
+john mccain,afghanistan,3861
+john mccain,barack obama,6133
+john mccain,bill clinton,3442
+john mccain,british,2418
+john mccain,california,3677
+john mccain,canada,1930
+john mccain,chicago,2735
+john mccain,china,3378
+john mccain,cnn,2128
+john mccain,democratic party,3179
+john mccain,europe,2953
+john mccain,european,2098
+john mccain,florida,3392
+john mccain,fox news,2438
+john mccain,france,1886
+john mccain,george bush,2195
+john mccain,george w. bush,3983
+john mccain,germany,2095
+john mccain,gop,3485
+john mccain,hillary clinton,3877
+john mccain,illinois,2127
+john mccain,india,2012
+john mccain,iowa,2068
+john mccain,iran,3764
+john mccain,iraq,5711
+john mccain,israel,3308
+john mccain,israeli,2034
+john mccain,martin luther king,1886
+john mccain,massachusetts,2335
+john mccain,mexico,1970
+john mccain,middle east,3181
+john mccain,mitt romney,1929
+john mccain,new york,3768
+john mccain,new york city,2336
+john mccain,newt gingrich,1470
+john mccain,ohio,2746
+john mccain,pakistan,2797
+john mccain,pennsylvania,2502
+john mccain,republican party,3267
+john mccain,ronald reagan,2699
+john mccain,russia,2502
+john mccain,sarah palin,3191
+john mccain,supreme court,3251
+john mccain,syria,1560
+john mccain,texas,3299
+john mccain,vietnam,2717
+john mccain,virginia,2498
+john mccain,wall street,3094
+john mccain,world war ii,2191
+martin luther king,afghanistan,2163
+martin luther king,barack obama,2175
+martin luther king,bill clinton,2021
+martin luther king,british,1797
+martin luther king,california,2162
+martin luther king,canada,1656
+martin luther king,chicago,1932
+martin luther king,china,2077
+martin luther king,cnn,1659
+martin luther king,democratic party,1916
+martin luther king,europe,1984
+martin luther king,european,1710
+martin luther king,florida,2008
+martin luther king,fox news,1782
+martin luther king,france,1591
+martin luther king,george bush,1359
+martin luther king,george w. bush,2114
+martin luther king,germany,1690
+martin luther king,gop,2114
+martin luther king,hillary clinton,1882
+martin luther king,illinois,1658
+martin luther king,india,1669
+martin luther king,iowa,1590
+martin luther king,iran,2078
+martin luther king,iraq,2178
+martin luther king,israel,2054
+martin luther king,israeli,1617
+martin luther king,john mccain,1886
+martin luther king,massachusetts,1740
+martin luther king,mexico,1616
+martin luther king,middle east,2047
+martin luther king,mitt romney,1479
+martin luther king,new york,2178
+martin luther king,new york city,1872
+martin luther king,newt gingrich,1194
+martin luther king,ohio,1770
+martin luther king,pakistan,1906
+martin luther king,pennsylvania,1640
+martin luther king,republican party,2034
+martin luther king,ronald reagan,1898
+martin luther king,russia,1796
+martin luther king,sarah palin,1388
+martin luther king,supreme court,2135
+martin luther king,syria,1342
+martin luther king,texas,2034
+martin luther king,vietnam,1946
+martin luther king,virginia,1788
+martin luther king,wall street,2008
+martin luther king,world war ii,1751
+massachusetts,afghanistan,2917
+massachusetts,barack obama,2989
+massachusetts,bill clinton,2538
+massachusetts,british,2100
+massachusetts,california,2867
+massachusetts,canada,1912
+massachusetts,chicago,2226
+massachusetts,china,2764
+massachusetts,cnn,1717
+massachusetts,democratic party,2322
+massachusetts,europe,2535
+massachusetts,european,2013
+massachusetts,florida,2747
+massachusetts,fox news,2138
+massachusetts,france,1911
+massachusetts,george bush,1336
+massachusetts,george w. bush,2852
+massachusetts,germany,2026
+massachusetts,gop,2841
+massachusetts,hillary clinton,2109
+massachusetts,illinois,1737
+massachusetts,india,1851
+massachusetts,iowa,1792
+massachusetts,iran,2681
+massachusetts,iraq,2926
+massachusetts,israel,2569
+massachusetts,israeli,1865
+massachusetts,john mccain,2335
+massachusetts,martin luther king,1740
+massachusetts,mexico,1856
+massachusetts,middle east,2446
+massachusetts,mitt romney,2135
+massachusetts,new york,2887
+massachusetts,new york city,2199
+massachusetts,newt gingrich,1485
+massachusetts,ohio,2277
+massachusetts,pakistan,2138
+massachusetts,pennsylvania,1960
+massachusetts,republican party,2806
+massachusetts,ronald reagan,2376
+massachusetts,russia,2033
+massachusetts,sarah palin,1637
+massachusetts,supreme court,2828
+massachusetts,syria,1522
+massachusetts,texas,2677
+massachusetts,vietnam,2148
+massachusetts,virginia,2213
+massachusetts,wall street,2843
+massachusetts,world war ii,2016
+mexico,afghanistan,2280
+mexico,barack obama,2276
+mexico,bill clinton,2072
+mexico,british,1937
+mexico,california,2277
+mexico,canada,1757
+mexico,chicago,1949
+mexico,china,2178
+mexico,cnn,1631
+mexico,democratic party,1982
+mexico,europe,2148
+mexico,european,1862
+mexico,florida,2118
+mexico,fox news,1950
+mexico,france,1729
+mexico,george bush,1207
+mexico,george w. bush,2191
+mexico,germany,1869
+mexico,gop,2219
+mexico,hillary clinton,1893
+mexico,illinois,1572
+mexico,india,1726
+mexico,iowa,1558
+mexico,iran,2158
+mexico,iraq,2281
+mexico,israel,2171
+mexico,israeli,1769
+mexico,john mccain,1970
+mexico,martin luther king,1616
+mexico,massachusetts,1856
+mexico,middle east,2078
+mexico,mitt romney,1528
+mexico,new york,2245
+mexico,new york city,1969
+mexico,newt gingrich,1334
+mexico,ohio,1847
+mexico,pakistan,2026
+mexico,pennsylvania,1747
+mexico,republican party,2142
+mexico,ronald reagan,2024
+mexico,russia,1890
+mexico,sarah palin,1551
+mexico,supreme court,2268
+mexico,syria,1430
+mexico,texas,2170
+mexico,vietnam,1987
+mexico,virginia,1883
+mexico,wall street,2203
+mexico,world war ii,1908
+middle east,afghanistan,4484
+middle east,barack obama,4478
+middle east,bill clinton,3365
+middle east,british,2651
+middle east,california,4222
+middle east,canada,2041
+middle east,chicago,2814
+middle east,china,4082
+middle east,cnn,2142
+middle east,democratic party,3026
+middle east,europe,3490
+middle east,european,2401
+middle east,florida,3516
+middle east,fox news,2484
+middle east,france,2133
+middle east,george bush,2232
+middle east,george w. bush,4154
+middle east,germany,2371
+middle east,gop,3972
+middle east,hillary clinton,3283
+middle east,illinois,2137
+middle east,india,2158
+middle east,iowa,2112
+middle east,iran,4319
+middle east,iraq,4702
+middle east,israel,4128
+middle east,israeli,2382
+middle east,john mccain,3181
+middle east,martin luther king,2047
+middle east,massachusetts,2446
+middle east,mexico,2078
+middle east,mitt romney,2209
+middle east,new york,4513
+middle east,new york city,2733
+middle east,newt gingrich,1568
+middle east,ohio,2746
+middle east,pakistan,2978
+middle east,pennsylvania,2341
+middle east,republican party,3501
+middle east,ronald reagan,2846
+middle east,russia,2853
+middle east,sarah palin,1978
+middle east,supreme court,3864
+middle east,syria,2239
+middle east,texas,3672
+middle east,vietnam,3002
+middle east,virginia,2544
+middle east,wall street,3408
+middle east,world war ii,2382
+mitt romney,afghanistan,2831
+mitt romney,barack obama,3774
+mitt romney,bill clinton,2232
+mitt romney,british,1647
+mitt romney,california,2710
+mitt romney,canada,1555
+mitt romney,chicago,1808
+mitt romney,china,2593
+mitt romney,cnn,1410
+mitt romney,democratic party,1868
+mitt romney,europe,2248
+mitt romney,european,1647
+mitt romney,florida,2736
+mitt romney,fox news,1661
+mitt romney,france,1576
+mitt romney,george bush,1127
+mitt romney,george w. bush,2689
+mitt romney,germany,1595
+mitt romney,gop,3284
+mitt romney,hillary clinton,1812
+mitt romney,illinois,1376
+mitt romney,india,1505
+mitt romney,iowa,1728
+mitt romney,iran,2502
+mitt romney,iraq,3036
+mitt romney,israel,2342
+mitt romney,israeli,1533
+mitt romney,john mccain,1929
+mitt romney,martin luther king,1479
+mitt romney,massachusetts,2135
+mitt romney,mexico,1528
+mitt romney,middle east,2209
+mitt romney,new york,2969
+mitt romney,new york city,1905
+mitt romney,newt gingrich,1577
+mitt romney,ohio,1980
+mitt romney,pakistan,1808
+mitt romney,pennsylvania,1582
+mitt romney,republican party,2694
+mitt romney,ronald reagan,1942
+mitt romney,russia,1594
+mitt romney,sarah palin,1083
+mitt romney,supreme court,2917
+mitt romney,syria,1436
+mitt romney,texas,2466
+mitt romney,vietnam,1767
+mitt romney,virginia,1762
+mitt romney,wall street,2645
+mitt romney,world war ii,1601
+new york city,afghanistan,2930
+new york city,barack obama,2933
+new york city,bill clinton,2509
+new york city,british,2339
+new york city,california,2933
+new york city,canada,1974
+new york city,chicago,2325
+new york city,china,2863
+new york city,cnn,1807
+new york city,democratic party,2350
+new york city,europe,2809
+new york city,european,2194
+new york city,florida,2703
+new york city,fox news,2254
+new york city,france,2022
+new york city,george bush,1423
+new york city,george w. bush,2858
+new york city,germany,2185
+new york city,gop,2901
+new york city,hillary clinton,2286
+new york city,illinois,1770
+new york city,india,2049
+new york city,iowa,1761
+new york city,iran,2794
+new york city,iraq,2933
+new york city,israel,2812
+new york city,israeli,2007
+new york city,john mccain,2336
+new york city,martin luther king,1872
+new york city,massachusetts,2199
+new york city,mexico,1969
+new york city,middle east,2733
+new york city,mitt romney,1905
+new york city,new york,2933
+new york city,newt gingrich,1435
+new york city,ohio,2153
+new york city,pakistan,2371
+new york city,pennsylvania,1942
+new york city,republican party,2806
+new york city,ronald reagan,2389
+new york city,russia,2363
+new york city,sarah palin,1649
+new york city,supreme court,2903
+new york city,syria,1777
+new york city,texas,2876
+new york city,vietnam,2452
+new york city,virginia,2243
+new york city,wall street,2777
+new york city,world war ii,2252
+new york,afghanistan,6939
+new york,barack obama,7427
+new york,bill clinton,3915
+new york,british,2753
+new york,california,6498
+new york,canada,2097
+new york,chicago,3055
+new york,china,5228
+new york,cnn,2176
+new york,democratic party,3477
+new york,europe,4028
+new york,european,2471
+new york,florida,4442
+new york,fox news,2687
+new york,france,2159
+new york,george bush,2370
+new york,george w. bush,5925
+new york,germany,2415
+new york,gop,5891
+new york,hillary clinton,3720
+new york,illinois,2236
+new york,india,2178
+new york,iowa,2270
+new york,iran,5321
+new york,iraq,7490
+new york,israel,4564
+new york,israeli,2373
+new york,john mccain,3768
+new york,martin luther king,2178
+new york,massachusetts,2887
+new york,mexico,2245
+new york,middle east,4513
+new york,mitt romney,2969
+new york,new york city,2933
+new york,newt gingrich,1758
+new york,ohio,3112
+new york,pakistan,3287
+new york,pennsylvania,2524
+new york,republican party,4728
+new york,ronald reagan,3077
+new york,russia,3136
+new york,sarah palin,2857
+new york,supreme court,5547
+new york,syria,2241
+new york,texas,4855
+new york,vietnam,3197
+new york,virginia,2781
+new york,wall street,5467
+new york,world war ii,2449
+newt gingrich,afghanistan,1738
+newt gingrich,barack obama,1871
+newt gingrich,bill clinton,1476
+newt gingrich,british,1352
+newt gingrich,california,1755
+newt gingrich,canada,1257
+newt gingrich,chicago,1369
+newt gingrich,china,1706
+newt gingrich,cnn,1239
+newt gingrich,democratic party,1407
+newt gingrich,europe,1571
+newt gingrich,european,1336
+newt gingrich,florida,1719
+newt gingrich,fox news,1426
+newt gingrich,france,1262
+newt gingrich,george bush,971
+newt gingrich,george w. bush,1677
+newt gingrich,germany,1275
+newt gingrich,gop,1909
+newt gingrich,hillary clinton,1335
+newt gingrich,illinois,1153
+newt gingrich,india,1250
+newt gingrich,iowa,1394
+newt gingrich,iran,1693
+newt gingrich,iraq,1794
+newt gingrich,israel,1632
+newt gingrich,israeli,1248
+newt gingrich,john mccain,1470
+newt gingrich,martin luther king,1194
+newt gingrich,massachusetts,1485
+newt gingrich,mexico,1334
+newt gingrich,middle east,1568
+newt gingrich,mitt romney,1577
+newt gingrich,new york,1758
+newt gingrich,new york city,1435
+newt gingrich,ohio,1402
+newt gingrich,pakistan,1460
+newt gingrich,pennsylvania,1328
+newt gingrich,republican party,1739
+newt gingrich,ronald reagan,1458
+newt gingrich,russia,1276
+newt gingrich,sarah palin,1280
+newt gingrich,supreme court,1751
+newt gingrich,syria,934
+newt gingrich,texas,1640
+newt gingrich,vietnam,1333
+newt gingrich,virginia,1324
+newt gingrich,wall street,1737
+newt gingrich,world war ii,1320
+ohio,afghanistan,3050
+ohio,barack obama,3212
+ohio,bill clinton,2784
+ohio,british,2115
+ohio,california,2988
+ohio,canada,1809
+ohio,chicago,2469
+ohio,china,2853
+ohio,cnn,1902
+ohio,democratic party,2603
+ohio,europe,2534
+ohio,european,2011
+ohio,florida,3092
+ohio,fox news,2181
+ohio,france,1835
+ohio,george bush,1728
+ohio,george w. bush,3074
+ohio,germany,1953
+ohio,gop,2987
+ohio,hillary clinton,2551
+ohio,illinois,1948
+ohio,india,1847
+ohio,iowa,1847
+ohio,iran,2892
+ohio,iraq,3163
+ohio,israel,2784
+ohio,israeli,1935
+ohio,john mccain,2746
+ohio,martin luther king,1770
+ohio,massachusetts,2277
+ohio,mexico,1847
+ohio,middle east,2746
+ohio,mitt romney,1980
+ohio,new york,3112
+ohio,new york city,2153
+ohio,newt gingrich,1402
+ohio,pakistan,2299
+ohio,pennsylvania,2333
+ohio,republican party,2879
+ohio,ronald reagan,2398
+ohio,russia,2161
+ohio,sarah palin,1810
+ohio,supreme court,2833
+ohio,syria,1472
+ohio,texas,2870
+ohio,vietnam,2289
+ohio,virginia,2333
+ohio,wall street,2720
+ohio,world war ii,2035
+pakistan,afghanistan,3291
+pakistan,barack obama,3291
+pakistan,bill clinton,2877
+pakistan,british,2408
+pakistan,california,3162
+pakistan,canada,1966
+pakistan,chicago,2586
+pakistan,china,3129
+pakistan,cnn,2086
+pakistan,democratic party,2675
+pakistan,europe,2815
+pakistan,european,2170
+pakistan,florida,2827
+pakistan,fox news,2380
+pakistan,france,1981
+pakistan,george bush,1842
+pakistan,george w. bush,3250
+pakistan,germany,2169
+pakistan,gop,3149
+pakistan,hillary clinton,2760
+pakistan,illinois,2055
+pakistan,india,2098
+pakistan,iowa,1978
+pakistan,iran,3123
+pakistan,iraq,3291
+pakistan,israel,3024
+pakistan,israeli,2083
+pakistan,john mccain,2797
+pakistan,martin luther king,1906
+pakistan,massachusetts,2138
+pakistan,mexico,2026
+pakistan,middle east,2978
+pakistan,mitt romney,1808
+pakistan,new york,3287
+pakistan,new york city,2371
+pakistan,newt gingrich,1460
+pakistan,ohio,2299
+pakistan,pennsylvania,2110
+pakistan,republican party,2981
+pakistan,ronald reagan,2586
+pakistan,russia,2376
+pakistan,sarah palin,2094
+pakistan,supreme court,3019
+pakistan,syria,1610
+pakistan,texas,2953
+pakistan,vietnam,2668
+pakistan,virginia,2296
+pakistan,wall street,2876
+pakistan,world war ii,2256
+pennsylvania,afghanistan,2475
+pennsylvania,barack obama,2614
+pennsylvania,bill clinton,2453
+pennsylvania,british,1923
+pennsylvania,california,2446
+pennsylvania,canada,1700
+pennsylvania,chicago,2214
+pennsylvania,china,2405
+pennsylvania,cnn,1774
+pennsylvania,democratic party,2343
+pennsylvania,europe,2223
+pennsylvania,european,1823
+pennsylvania,florida,2473
+pennsylvania,fox news,2050
+pennsylvania,france,1709
+pennsylvania,george bush,1583
+pennsylvania,george w. bush,2496
+pennsylvania,germany,1801
+pennsylvania,gop,2384
+pennsylvania,hillary clinton,2371
+pennsylvania,illinois,1813
+pennsylvania,india,1724
+pennsylvania,iowa,1721
+pennsylvania,iran,2499
+pennsylvania,iraq,2614
+pennsylvania,israel,2403
+pennsylvania,israeli,1772
+pennsylvania,john mccain,2502
+pennsylvania,martin luther king,1640
+pennsylvania,massachusetts,1960
+pennsylvania,mexico,1747
+pennsylvania,middle east,2341
+pennsylvania,mitt romney,1582
+pennsylvania,new york,2524
+pennsylvania,new york city,1942
+pennsylvania,newt gingrich,1328
+pennsylvania,ohio,2333
+pennsylvania,pakistan,2110
+pennsylvania,republican party,2360
+pennsylvania,ronald reagan,2124
+pennsylvania,russia,1973
+pennsylvania,sarah palin,1625
+pennsylvania,supreme court,2345
+pennsylvania,syria,1358
+pennsylvania,texas,2431
+pennsylvania,vietnam,2107
+pennsylvania,virginia,2157
+pennsylvania,wall street,2192
+pennsylvania,world war ii,1868
+republican party,afghanistan,4727
+republican party,barack obama,4945
+republican party,bill clinton,3441
+republican party,british,2637
+republican party,california,4605
+republican party,canada,2091
+republican party,chicago,2852
+republican party,china,4205
+republican party,cnn,2101
+republican party,democratic party,3079
+republican party,europe,3532
+republican party,european,2309
+republican party,florida,4065
+republican party,fox news,2660
+republican party,france,2100
+republican party,george bush,1885
+republican party,george w. bush,4632
+republican party,germany,2305
+republican party,gop,4891
+republican party,hillary clinton,2876
+republican party,illinois,2051
+republican party,india,2126
+republican party,iowa,2054
+republican party,iran,3999
+republican party,iraq,4831
+republican party,israel,3755
+republican party,israeli,2203
+republican party,john mccain,3267
+republican party,martin luther king,2034
+republican party,massachusetts,2806
+republican party,mexico,2142
+republican party,middle east,3501
+republican party,mitt romney,2694
+republican party,new york,4728
+republican party,new york city,2806
+republican party,newt gingrich,1739
+republican party,ohio,2879
+republican party,pakistan,2981
+republican party,pennsylvania,2360
+republican party,ronald reagan,3027
+republican party,russia,2709
+republican party,sarah palin,2569
+republican party,supreme court,4366
+republican party,syria,1821
+republican party,texas,3970
+republican party,vietnam,2950
+republican party,virginia,2720
+republican party,wall street,4395
+republican party,world war ii,2425
+ronald reagan,afghanistan,3077
+ronald reagan,barack obama,3077
+ronald reagan,bill clinton,2842
+ronald reagan,british,2380
+ronald reagan,california,3066
+ronald reagan,canada,2006
+ronald reagan,chicago,2557
+ronald reagan,china,3043
+ronald reagan,cnn,1991
+ronald reagan,democratic party,2635
+ronald reagan,europe,2893
+ronald reagan,european,2175
+ronald reagan,florida,2934
+ronald reagan,fox news,2444
+ronald reagan,france,1987
+ronald reagan,george bush,1625
+ronald reagan,george w. bush,3052
+ronald reagan,germany,2164
+ronald reagan,gop,3077
+ronald reagan,hillary clinton,2522
+ronald reagan,illinois,1975
+ronald reagan,india,2048
+ronald reagan,iowa,1886
+ronald reagan,iran,2955
+ronald reagan,iraq,3077
+ronald reagan,israel,2940
+ronald reagan,israeli,2032
+ronald reagan,john mccain,2699
+ronald reagan,martin luther king,1898
+ronald reagan,massachusetts,2376
+ronald reagan,mexico,2024
+ronald reagan,middle east,2846
+ronald reagan,mitt romney,1942
+ronald reagan,new york,3077
+ronald reagan,new york city,2389
+ronald reagan,newt gingrich,1458
+ronald reagan,ohio,2398
+ronald reagan,pakistan,2586
+ronald reagan,pennsylvania,2124
+ronald reagan,republican party,3027
+ronald reagan,russia,2349
+ronald reagan,sarah palin,1951
+ronald reagan,supreme court,3018
+ronald reagan,syria,1596
+ronald reagan,texas,2969
+ronald reagan,vietnam,2540
+ronald reagan,virginia,2417
+ronald reagan,wall street,2886
+ronald reagan,world war ii,2259
+russia,afghanistan,3188
+russia,barack obama,3206
+russia,bill clinton,2503
+russia,british,2312
+russia,california,2997
+russia,canada,1901
+russia,chicago,2251
+russia,china,2985
+russia,cnn,1852
+russia,democratic party,2332
+russia,europe,2858
+russia,european,2289
+russia,florida,2612
+russia,fox news,2118
+russia,france,1985
+russia,george bush,1673
+russia,george w. bush,2921
+russia,germany,2195
+russia,gop,2927
+russia,hillary clinton,2476
+russia,illinois,1861
+russia,india,2030
+russia,iowa,1689
+russia,iran,3108
+russia,iraq,3239
+russia,israel,2867
+russia,israeli,2062
+russia,john mccain,2502
+russia,martin luther king,1796
+russia,massachusetts,2033
+russia,mexico,1890
+russia,middle east,2853
+russia,mitt romney,1594
+russia,new york,3136
+russia,new york city,2363
+russia,newt gingrich,1276
+russia,ohio,2161
+russia,pakistan,2376
+russia,pennsylvania,1973
+russia,republican party,2709
+russia,ronald reagan,2349
+russia,sarah palin,1786
+russia,supreme court,2966
+russia,syria,2062
+russia,texas,2756
+russia,vietnam,2452
+russia,virginia,2250
+russia,wall street,2653
+russia,world war ii,2159
+sarah palin,afghanistan,2975
+sarah palin,barack obama,3741
+sarah palin,bill clinton,2154
+sarah palin,british,1684
+sarah palin,california,2884
+sarah palin,canada,1419
+sarah palin,chicago,1929
+sarah palin,china,2414
+sarah palin,cnn,1497
+sarah palin,democratic party,2045
+sarah palin,europe,2025
+sarah palin,european,1459
+sarah palin,florida,2284
+sarah palin,fox news,1860
+sarah palin,france,1325
+sarah palin,george bush,1383
+sarah palin,george w. bush,2852
+sarah palin,germany,1488
+sarah palin,gop,2751
+sarah palin,hillary clinton,1893
+sarah palin,illinois,1488
+sarah palin,india,1450
+sarah palin,iowa,1300
+sarah palin,iran,2275
+sarah palin,iraq,3524
+sarah palin,israel,2125
+sarah palin,israeli,1402
+sarah palin,john mccain,3191
+sarah palin,martin luther king,1388
+sarah palin,massachusetts,1637
+sarah palin,mexico,1551
+sarah palin,middle east,1978
+sarah palin,mitt romney,1083
+sarah palin,new york,2857
+sarah palin,new york city,1649
+sarah palin,newt gingrich,1280
+sarah palin,ohio,1810
+sarah palin,pakistan,2094
+sarah palin,pennsylvania,1625
+sarah palin,republican party,2569
+sarah palin,ronald reagan,1951
+sarah palin,russia,1786
+sarah palin,supreme court,2489
+sarah palin,syria,910
+sarah palin,texas,2179
+sarah palin,vietnam,1840
+sarah palin,virginia,1787
+sarah palin,wall street,2846
+sarah palin,world war ii,1602
+supreme court,afghanistan,5398
+supreme court,barack obama,5749
+supreme court,bill clinton,3412
+supreme court,british,2725
+supreme court,california,5472
+supreme court,canada,2082
+supreme court,chicago,2865
+supreme court,china,4669
+supreme court,cnn,2124
+supreme court,democratic party,3142
+supreme court,europe,3892
+supreme court,european,2463
+supreme court,florida,4083
+supreme court,fox news,2650
+supreme court,france,2159
+supreme court,george bush,1967
+supreme court,george w. bush,4812
+supreme court,germany,2407
+supreme court,gop,5043
+supreme court,hillary clinton,2999
+supreme court,illinois,2094
+supreme court,india,2170
+supreme court,iowa,2111
+supreme court,iran,4492
+supreme court,iraq,5675
+supreme court,israel,4169
+supreme court,israeli,2353
+supreme court,john mccain,3251
+supreme court,martin luther king,2135
+supreme court,massachusetts,2828
+supreme court,mexico,2268
+supreme court,middle east,3864
+supreme court,mitt romney,2917
+supreme court,new york,5547
+supreme court,new york city,2903
+supreme court,newt gingrich,1751
+supreme court,ohio,2833
+supreme court,pakistan,3019
+supreme court,pennsylvania,2345
+supreme court,republican party,4366
+supreme court,ronald reagan,3018
+supreme court,russia,2966
+supreme court,sarah palin,2489
+supreme court,syria,2111
+supreme court,texas,4359
+supreme court,vietnam,3025
+supreme court,virginia,2714
+supreme court,wall street,4533
+supreme court,world war ii,2439
+syria,afghanistan,2229
+syria,barack obama,2215
+syria,bill clinton,1660
+syria,british,1701
+syria,california,2148
+syria,canada,1417
+syria,chicago,1515
+syria,china,2092
+syria,cnn,1274
+syria,democratic party,1557
+syria,europe,2062
+syria,european,1732
+syria,florida,1793
+syria,fox news,1499
+syria,france,1568
+syria,george bush,1004
+syria,george w. bush,1926
+syria,germany,1662
+syria,gop,1970
+syria,hillary clinton,1669
+syria,illinois,1264
+syria,india,1515
+syria,iowa,1296
+syria,iran,2199
+syria,iraq,2483
+syria,israel,2090
+syria,israeli,1655
+syria,john mccain,1560
+syria,martin luther king,1342
+syria,massachusetts,1522
+syria,mexico,1430
+syria,middle east,2239
+syria,mitt romney,1436
+syria,new york,2241
+syria,new york city,1777
+syria,newt gingrich,934
+syria,ohio,1472
+syria,pakistan,1610
+syria,pennsylvania,1358
+syria,republican party,1821
+syria,ronald reagan,1596
+syria,russia,2062
+syria,sarah palin,910
+syria,supreme court,2111
+syria,texas,2003
+syria,vietnam,1747
+syria,virginia,1565
+syria,wall street,1759
+syria,world war ii,1598
+texas,afghanistan,4610
+texas,barack obama,4905
+texas,bill clinton,3444
+texas,british,2693
+texas,california,4643
+texas,canada,2082
+texas,chicago,2852
+texas,china,4373
+texas,cnn,2136
+texas,democratic party,3155
+texas,europe,3715
+texas,european,2422
+texas,florida,3901
+texas,fox news,2632
+texas,france,2146
+texas,george bush,1891
+texas,george w. bush,4363
+texas,germany,2389
+texas,gop,4510
+texas,hillary clinton,3049
+texas,illinois,2087
+texas,india,2142
+texas,iowa,2090
+texas,iran,4108
+texas,iraq,4821
+texas,israel,3887
+texas,israeli,2289
+texas,john mccain,3299
+texas,martin luther king,2034
+texas,massachusetts,2677
+texas,mexico,2170
+texas,middle east,3672
+texas,mitt romney,2466
+texas,new york,4855
+texas,new york city,2876
+texas,newt gingrich,1640
+texas,ohio,2870
+texas,pakistan,2953
+texas,pennsylvania,2431
+texas,republican party,3970
+texas,ronald reagan,2969
+texas,russia,2756
+texas,sarah palin,2179
+texas,supreme court,4359
+texas,syria,2003
+texas,vietnam,3038
+texas,virginia,2641
+texas,wall street,4028
+texas,world war ii,2434
+vietnam,afghanistan,3181
+vietnam,barack obama,3178
+vietnam,bill clinton,2815
+vietnam,british,2504
+vietnam,california,3177
+vietnam,canada,2009
+vietnam,chicago,2546
+vietnam,china,3108
+vietnam,cnn,2073
+vietnam,democratic party,2693
+vietnam,europe,2830
+vietnam,european,2243
+vietnam,florida,2856
+vietnam,fox news,2377
+vietnam,france,2030
+vietnam,george bush,1894
+vietnam,george w. bush,3181
+vietnam,germany,2253
+vietnam,gop,3084
+vietnam,hillary clinton,2805
+vietnam,illinois,2029
+vietnam,india,2080
+vietnam,iowa,1916
+vietnam,iran,3151
+vietnam,iraq,3202
+vietnam,israel,3040
+vietnam,israeli,2121
+vietnam,john mccain,2717
+vietnam,martin luther king,1946
+vietnam,massachusetts,2148
+vietnam,mexico,1987
+vietnam,middle east,3002
+vietnam,mitt romney,1767
+vietnam,new york,3197
+vietnam,new york city,2452
+vietnam,newt gingrich,1333
+vietnam,ohio,2289
+vietnam,pakistan,2668
+vietnam,pennsylvania,2107
+vietnam,republican party,2950
+vietnam,ronald reagan,2540
+vietnam,russia,2452
+vietnam,sarah palin,1840
+vietnam,supreme court,3025
+vietnam,syria,1747
+vietnam,texas,3038
+vietnam,virginia,2368
+vietnam,wall street,2670
+vietnam,world war ii,2314
+virginia,afghanistan,2781
+virginia,barack obama,2775
+virginia,bill clinton,2539
+virginia,british,2178
+virginia,california,2773
+virginia,canada,1848
+virginia,chicago,2379
+virginia,china,2697
+virginia,cnn,1843
+virginia,democratic party,2404
+virginia,europe,2532
+virginia,european,2049
+virginia,florida,2653
+virginia,fox news,2216
+virginia,france,1880
+virginia,george bush,1563
+virginia,george w. bush,2755
+virginia,germany,2050
+virginia,gop,2726
+virginia,hillary clinton,2341
+virginia,illinois,1872
+virginia,india,1916
+virginia,iowa,1738
+virginia,iran,2690
+virginia,iraq,2781
+virginia,israel,2622
+virginia,israeli,1916
+virginia,john mccain,2498
+virginia,martin luther king,1788
+virginia,massachusetts,2213
+virginia,mexico,1883
+virginia,middle east,2544
+virginia,mitt romney,1762
+virginia,new york,2781
+virginia,new york city,2243
+virginia,newt gingrich,1324
+virginia,ohio,2333
+virginia,pakistan,2296
+virginia,pennsylvania,2157
+virginia,republican party,2720
+virginia,ronald reagan,2417
+virginia,russia,2250
+virginia,sarah palin,1787
+virginia,supreme court,2714
+virginia,syria,1565
+virginia,texas,2641
+virginia,vietnam,2368
+virginia,wall street,2598
+virginia,world war ii,2100
+wall street,afghanistan,5748
+wall street,barack obama,6045
+wall street,bill clinton,3196
+wall street,british,2463
+wall street,california,5180
+wall street,canada,2019
+wall street,chicago,2729
+wall street,china,4354
+wall street,cnn,1874
+wall street,democratic party,2786
+wall street,europe,3451
+wall street,european,2222
+wall street,florida,3841
+wall street,fox news,2504
+wall street,france,2020
+wall street,george bush,1629
+wall street,george w. bush,4865
+wall street,germany,2214
+wall street,gop,5245
+wall street,hillary clinton,2644
+wall street,illinois,1951
+wall street,india,2065
+wall street,iowa,1830
+wall street,iran,3944
+wall street,iraq,5931
+wall street,israel,3689
+wall street,israeli,2091
+wall street,john mccain,3094
+wall street,martin luther king,2008
+wall street,massachusetts,2843
+wall street,mexico,2203
+wall street,middle east,3408
+wall street,mitt romney,2645
+wall street,new york,5467
+wall street,new york city,2777
+wall street,newt gingrich,1737
+wall street,ohio,2720
+wall street,pakistan,2876
+wall street,pennsylvania,2192
+wall street,republican party,4395
+wall street,ronald reagan,2886
+wall street,russia,2653
+wall street,sarah palin,2846
+wall street,supreme court,4533
+wall street,syria,1759
+wall street,texas,4028
+wall street,vietnam,2670
+wall street,virginia,2598
+wall street,world war ii,2327
+world war ii,afghanistan,2449
+world war ii,barack obama,2449
+world war ii,bill clinton,2321
+world war ii,british,2224
+world war ii,california,2449
+world war ii,canada,1925
+world war ii,chicago,2190
+world war ii,china,2449
+world war ii,cnn,1775
+world war ii,democratic party,2220
+world war ii,europe,2425
+world war ii,european,2088
+world war ii,florida,2412
+world war ii,fox news,2124
+world war ii,france,1951
+world war ii,george bush,1383
+world war ii,george w. bush,2442
+world war ii,germany,2121
+world war ii,gop,2449
+world war ii,hillary clinton,2189
+world war ii,illinois,1773
+world war ii,india,1926
+world war ii,iowa,1686
+world war ii,iran,2418
+world war ii,iraq,2449
+world war ii,israel,2426
+world war ii,israeli,1930
+world war ii,john mccain,2191
+world war ii,martin luther king,1751
+world war ii,massachusetts,2016
+world war ii,mexico,1908
+world war ii,middle east,2382
+world war ii,mitt romney,1601
+world war ii,new york,2449
+world war ii,new york city,2252
+world war ii,newt gingrich,1320
+world war ii,ohio,2035
+world war ii,pakistan,2256
+world war ii,pennsylvania,1868
+world war ii,republican party,2425
+world war ii,ronald reagan,2259
+world war ii,russia,2159
+world war ii,sarah palin,1602
+world war ii,supreme court,2439
+world war ii,syria,1598
+world war ii,texas,2434
+world war ii,vietnam,2314
+world war ii,virginia,2100
+world war ii,wall street,2327
