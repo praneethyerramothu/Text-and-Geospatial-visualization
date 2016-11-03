@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package javaapplication8;
 import java.io.BufferedReader;
 import java.io.File;
@@ -82,6 +78,8 @@ public class JavaApplication8 {
              }  
                 
                 */
+	    
+	    // Use when package is defined
          /*   String csvFile = "/Users/praneeththomas/Desktop/JavaApplication8/src/relationship.csv";
         FileWriter writer = new FileWriter(csvFile);
                 CSVUtils.writeLine(writer, Arrays.asList("", "b", "c", "d")); */
