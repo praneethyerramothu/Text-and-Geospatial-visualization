@@ -1,38 +1,29 @@
 <!doctype html>
+
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>visualization</title>
-
-
   <!--slider library-->
   <link href="slider/nouislider.min.css" rel="stylesheet">
-
-  <!-- load the d3.js library -->     
-  <script src="https://d3js.org/d3.v4.min.js"></script>
 
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- end CSS-->
-
+<!-- load the d3.js library -->     
+<script src="//d3js.org/d3.v4.min.js"></script>
 </head>
 
 
 <body>
-
-
-<!--! container1 Application Head Container-->
   <div id="container1" class="container">
     <header>
     <h1>Text Visualization Project</h1>
     </header>
-  </div>
-<!--! end container1 -->
-
-
-<!--! container3 : Selecting Blog-->
+  </div><!--! end of #container1 -->
   <div id="container3" class="container">
       <h2>Select Text Source:</h2>
       <select id="text-select">
@@ -40,23 +31,17 @@
         <option value="huffington">Huffington</option>
     </select>
   </div>
-  <!--! end container 3-->
 
-
-
- <!--! wraper includes two container: Bubble word container and TimeSeries which are placed side by side-->
   <section id="wrapper" class="container">
 
-
-  <!--! TimeSeriesContainer -->
+    <!--! Begin of #TimeSeriesContainer -->
   <div id="TimeSeriesContainer" class="container">
       <svg id="LineChart" width="800" height="400"></svg>
       <script src="TimeSeries.js"></script>
   </div>
-  <!--! End of TimeSeriesContainer -->
+  <!--! End of #TimeSeriesContainer -->
   
 
-<!--! container2: includes Bubble word Diagram -->
   <div id="container2" class="container">
     <div id="main" role="main">
       <div id="vis"></div>
@@ -70,29 +55,22 @@
   <script src="js/libs/d3.min.js"></script>
   <script type="text/coffeescript" src="vis_coffee.js"></script>
   <script type="text/javascript"></script>
-  </div> 
-<!--! end of #container2 -->
-
-
-</section>
-<!--! end of wrapper -->
-
-
+  </div> <!--! end of #container2 -->
 
   <!--! start Slider Container -->
   <div id="SliderContainer" class="container">
-  
-
+  <div id="barText">
+        Set Time Range<br><br><br>
+  </div>  
+      <!--Slider--> 
   <div id="barRange">
-        <div id="range" width="700"></div>
+        <div id="range" height="400"></div>
   </div>
-
-  <script src="axis/d3-axis.js"></script>
-  <script src="slider/nouislider.min.js"></script>
-  <script src="slider/mySlider.js"></script>
-
-   <!--! his Code is Executed when the Slider is updated -->
-  <script>
+    <!-- Slider -->
+    <script src="slider/nouislider.min.js"></script>
+    <script src="slider/mySlider.js"></script>
+    <script>
+    //slider
     var minDate="2007";
     var maxDate="2015";
     
@@ -101,19 +79,18 @@
     d3.selectAll("path.line").remove();
 
 
-
     if ( handle ) {
-          maxDate = d3.format("d")(values[handle]);
+        maxDate = values[handle];
        } else {
-           minDate = d3.format("d")(values[handle]);
+        minDate = values[handle];
        }
 
     console.log(maxDate);
     console.log(minDate);
 
     //update x axis
-    //x.domain(d3.extent([parseYear(+minDate),parseYear(+maxDate)]));
     x.domain(d3.extent([parseYear(+minDate),parseYear(+maxDate)]));
+    console.log(x);
     var xAxis = d3.svg.axis().scale(x).orient("bottom");
     d3.select("g.axis").call(xAxis);
 
@@ -154,7 +131,10 @@
 
     });
     </script>
-  </div>
-   <!--! end Slider Container --> 
+
+
+  </div>  
+</section>
+
 </body>
 </html>
