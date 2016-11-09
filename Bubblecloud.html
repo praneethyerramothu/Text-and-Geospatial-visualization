@@ -191,7 +191,9 @@ var blogs_data;
 d3.tsv("wikinews.tsv", function(error, data) {
   data.forEach(function(d) {
      var date=(d.time.slice(0,7)).replace('-', '');
+	  //console.log(date);
 	  d.time = date;
+	  //debugger;
     });
   blogs_data =  d3.keys(data[0]).slice(1).map(function(id) {
     return {
@@ -462,7 +464,7 @@ for(var i = 0 ; i < blogs_data[0].values.length;i++){
 			if( !isNaN(temp))
 			{
 				//console.log(""+key+" "+blog_person_terms[key][i]+" "+temp)
-				top50Per[0]=top50Per[0]+""+key+" "+blog_person_terms[key][i]+"*"+temp+"|";
+				top50Per[0]=top50Per[0]+""+key+" "+blog_person_terms[key][i]+"*"+temp+"|";
 			}	
 			
 		}
@@ -502,6 +504,7 @@ for(var i = 0 ; i < blogs_data[0].values.length;i++){
 	showNewWords(myWordCloud);
 });
  
+//var color="green";
 var width = 400,
 	height = 450;
 	var tooltip_val=0;
@@ -544,7 +547,7 @@ function wordCloud(selector) {
 						.attr("text-anchor", "middle")
 						.text(function(d) { return d.text; })
 						.attr("transform", function(d) {
-							return "translate(" + [d.x+300, d.y+250] + ")rblog_org_termsate(" + d.rblog_org_termsate + ")";
+							return "translate(" + [d.x+300, d.y+250] + ")rotate(" + d.rotate + ")";
 							})
         //Entering and existing words
         cloud
@@ -552,8 +555,8 @@ function wordCloud(selector) {
                 .duration(600)
                 .style("font-size", function(d) { return d.size + "px"; })
                 .attr("transform", function(d) {
-                    return "translate(" + [d.x+300, d.y+250] + ")rblog_org_termsate(" + d.rblog_org_termsate + ")";
-                    //return "translate(" + [d.x, d.y] + ")";//rblog_org_termsate(" + d.rblog_org_termsate + ")";
+                    return "translate(" + [d.x+300, d.y+250] + ")rotate(" + d.rotate + ")";
+                    //return "translate(" + [d.x, d.y] + ")";//rotate(" + d.rotate + ")";
                 })
                 .style("fill-opacity", 1);
         //Exiting words
@@ -576,7 +579,7 @@ function wordCloud(selector) {
             d3.layout.cloud().size([450, 350])
                 .words(words)
                 .padding(2)
-                .rblog_org_termsate(0)
+                .rotate(0)
                 .font("Impact")
 				.fontSize(function(d) {return d.size;})
                 //.style("font-size", function(d){ 	debugger;				return d.size; })
@@ -616,7 +619,7 @@ function getWords(i) {
 }
 //This method tells the word cloud to redraw with a new set of words.
 //In reality the new words would probably come from a server request,
-// user input or some blog_org_termsher source.
+// user input or some other source.
 function showNewWords(vis, i) {
     i = i || 0;
     //words[0]=top50Org[0];
