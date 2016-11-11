@@ -1,0 +1,335 @@
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Relationship</title>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="js/libs/coffee-script.js"></script>
+	<!--<script type="text/coffeescript" src="vis_coffee.js"></script> -->
+	<style>
+	
+	.node circle {
+	  stroke: #fff;
+	  stroke-width: 1.5px;
+	}
+	
+	.link {
+    stroke: #ccc;
+	stroke-width: 1.5px;
+    }
+	
+	 
+	.node text {
+    pointer-events: none;
+    font: 10px sans-serif;
+		}
+		
+	#tfheader{
+		background-color:#ecffa7;
+	}
+	#tfnewsearch{
+		float:left;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	
+	#container3 {
+	padding-top:20px; 
+	width: 1200px;
+	}
+	
+	
+	
+	h1 {
+    color: white ;
+    text-align: center;
+	}
+
+	
+	
+</style>
+
+</head>
+<body>
+
+
+<!--! container1 Application Head Container-->
+ <!-- <div id="container1" class="container">
+    <header>
+ 
+    </header>
+  </div> -->
+<!--! end container1 -->
+
+
+
+<div id="tfheader">
+   <h1>Text Visualization Project</h1>
+		<div id="tfnewsearch" >
+		        <input type="text" id="input" value="" sclass="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="find the relationships of the term" class="tfbutton" onclick="getValue()">
+		</div>
+		
+	<div class="tfclear"></div>
+	</div>
+
+<!--	
+<div id="container3" class="container">
+<h2>Select Text Source:</h2>
+      <select id="text-select">
+        <option value="wikinews">wikinews</option>
+		<option value="huffington">huffington</option>
+	  </select>
+</div>
+-->
+	  
+	  
+<script>
+var term = "obama";
+var data;
+var relationships = [];
+function getValue()
+{
+	var temp;
+	term = document.getElementById("input").value;
+	console.log(term);
+	calculateRelationships(term);
+    var links = generateLinks(term);
+	Compute_Realationship_Graph(links);
+	
+}
+document.getElementById("input").value = term;
+
+function sortRelations(obj) {
+    var arr = []; 
+    for(var key in obj)
+    	if (key != 'undefined')
+    		arr.push({ 'term': key, 'freq': obj[key] });
+    
+    return arr.sort(function(a,b){ return b.freq - a.freq });
+}
+
+//dataSet = document.getElementById("text-select").value;
+
+d3.tsv("wikinews.tsv", function(error, data_) {
+  if (error) throw error;
+	data = data_;
+	rs = new Object();
+	calculateRelationships(term);
+	var links = generateLinks(term);
+	Compute_Realationship_Graph(links);
+});
+function calculateRelationships(terms) {
+	data.forEach(function(d) {
+	    //d.date = new Date(d["time"]);
+	    var line = d["person"] + "|" + d["location"] + "|" + d["organization"] + "|" + d["miscellaneous"];
+	    var list = line.split("|");
+	    // Return if the line does not contain the given term
+	    if (!line.includes(terms)) return;
+	    
+	    for (var i=0; i<list.length;i++){
+	    	var term = list[i];
+	        //terms.forEach(function(t) {
+        	if (!relationships[terms]) relationships[terms] = [];
+	    	if (!relationships[terms][term])
+	    		relationships[terms][term] = 1;
+	    	else
+	    		relationships[terms][term]++;
+	    }
+			 
+	});
+}
+function generateLinks(term) {
+	var force = sortRelations(relationships[term]).slice(0,50);
+	
+	var links = [];
+	force.forEach(function(f) {
+		links.push({ source: term, target: f.term, value: f.freq });
+	});
+	return links;
+}
+
+function Compute_Realationship_Graph(links){
+
+d3.selectAll("body").selectAll("svg").remove();
+ 
+ //update(links);
+	 var width = 750,
+	    height = 500;
+	 
+	 var color = d3.scale.category20();
+	 
+	 
+	 //Append a SVG to the body of the html page
+	 
+		var svg = d3.select("body").append("svg")
+			.attr("width", width)
+			.attr("height", height);
+		
+	 
+	var nodes = {};
+	 
+	// Compute the distinct nodes from the links.
+	
+	links.forEach(function(link) {
+	    link.source = nodes[link.source] || 
+	        (nodes[link.source] = {name: link.source});
+	    link.target = nodes[link.target] || 
+	        (nodes[link.target] = {name: link.target});
+	    link.value = +link.value;
+	});
+	
+	//Set up the force layout	
+	var force = d3.layout.force()
+				.charge(-500)
+				.linkDistance(170)
+				.size([width, height]);
+				
+	
+	//Creates the graph data structure out of the json data
+   force.nodes(d3.values(nodes))
+    .links(links)
+    .start();
+	
+
+	// Set the range
+	var  v = d3.scale.linear().range([0, 100]);
+	
+	 
+	// Scale the range of the data
+	v.domain([0, d3.max(links, function(d) { return d.value; })]);
+	
+	 
+	//Create all the line svgs but without locations yet
+    var link = svg.selectAll(".link")
+			  .data(force.links())
+			  .enter().append("line")
+			  .attr("class", "link")
+			  .style("stroke-width", function (d) {
+							return Math.sqrt(d.value);
+			});
+	 
+ //Do the same with the circles for the nodes - no Changed
+	var node = svg.selectAll(".node")
+    .data(force.nodes())
+    .enter().append("g")
+    .attr("class", "node")
+	.on("click", click)
+	.on("dblclick", dblclick)
+    .call(force.drag);
+
+	node.append("circle")
+    .attr("r", 8)
+    .style("fill", function (d) {
+    return color(d.name);
+})
+	 
+	
+	 // add the text 
+	 node.append("text")
+      .attr("dx", 10)
+      .attr("dy", ".35em")
+      .text(function(d) { return d.name });
+	//End changed
+	
+	
+	force.on("tick", function () {
+    link.attr("x1", function (d) {
+        return d.source.x;
+    })
+        .attr("y1", function (d) {
+        return d.source.y;
+    })
+        .attr("x2", function (d) {
+        return d.target.x;
+    })
+        .attr("y2", function (d) {
+        return d.target.y;
+    });
+
+    
+    d3.selectAll("circle").attr("cx", function (d) {
+        return d.x;
+    })
+        .attr("cy", function (d) {
+        return d.y;
+    });
+
+    d3.selectAll("text").attr("x", function (d) {
+        return d.x;
+    })
+        .attr("y", function (d) {
+        return d.y;
+    });
+    
+	});
+	
+	
+
+	// action to take on mouse click
+	function click() {
+	    d3.select(this).select("text").transition()
+	        .duration(0)
+	        .attr("x", 70)
+	        .style("stroke", "red")
+	        .style("stroke-width", ".5px")
+	        .style("font", "20px sans-serif");
+	    d3.select(this).select("circle").transition()
+	        .duration(750)
+	        .attr("r", 36);
+	}
+	 
+	// action to take on mouse double click
+	function dblclick() {
+	    d3.select(this).select("circle").transition()
+	        .duration(750)
+	        .attr("r", 25);
+	    d3.select(this).select("text").transition()
+	        .duration(750)
+	        .attr("x", -12)
+	        .style("stroke", "none")
+	        .style("fill", "black")
+	        .style("stroke", "none")
+	        .style("font", "10px sans-serif");
+	}
+}
+
+</script>
+</body>
+</html>
