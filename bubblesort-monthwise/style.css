@@ -1,0 +1,191 @@
+.slider{
+  float: right;
+  margin-top:100px;
+  width:700px;
+  height:100px;
+}
+
+ul {
+			padding: 0;
+			margin: 0;
+			background: #fff;
+			float: left;
+		}
+	
+		li {
+			float: left;
+			display: inline;
+			position: relative;
+			width: 150px;
+			list-style: none;
+		}
+	
+		ul ul {
+			position: absolute;
+			left: 0;
+			top: 100%;
+			background: #ccc;
+			display: none;
+		}
+	
+		ul ul ul {
+			left: 100%;
+			top: 0;
+			background: #999;
+		}
+
+
+h1 {
+    color: white ;
+    text-align: center;
+}
+
+h2 {
+     
+     text-align: left;
+     padding-bottom: 5 px;
+     font: 12px sans-serif;
+}
+
+a, a:visited {
+  color:#333;
+}
+
+#container1 {
+  padding-top:20px;
+  width: 1200px;
+}
+
+#container3 {
+  padding-top:20px; 
+  width: 1200px;
+}
+
+
+#wrapper{
+    width: 1200px;
+    height: 400px;
+}
+
+#container2 {
+  width: 450px;
+  height: 400px;
+  float:left;
+}
+
+
+#TimeSeriesContainer{
+ width: 700px;
+ height: 400px;
+ float: right;
+ margin-right: 50px;
+}
+
+/*
+#SliderContainer{
+  width:700px;
+  height: 100px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+*/
+
+header {
+  padding: 10px;
+  background: #2B547E;
+
+}
+
+
+#text-select {
+  float:left;
+}
+
+#vis {
+  overflow: hidden;
+  position: relative;
+}
+
+#status {
+  padding:0 0 20px 20px;
+}
+
+#controls {
+  padding: 20px;
+  margin: 10px;
+  width: 350px;
+}
+
+#bubble-background {
+  fill: none;
+  pointer-events: all;
+}
+
+.bubble-node {
+  fill: #ACD8F4;
+}
+
+.bubble-hover {
+  fill: #D3D3D3;
+}
+
+.bubble-selected {
+  fill: #D3D3D3;
+  stroke: #808080;
+  stroke-width: 1.5px;
+}
+
+.active {
+  color: #3FB8AF
+}
+
+a.bubble-label {
+  font-family: georgia, "times new roman", times, serif;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1em;
+  position: absolute;
+}
+
+
+.bubble-label .bubble-label-value {
+  font: 8px sans-serif;
+  white-space: nowrap;
+}
+
+
+
+#LineChart {margin-left:auto; margin-right:auto; display:block;}
+
+
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+
+#barRange {
+    float: left;
+    font: 12px sans-serif;
+}
+
+
+.axis line {
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font: 12px sans-serif;
+}
+
+
+
+
+
