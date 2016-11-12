@@ -3,7 +3,7 @@
 <head>
 	<title>Relationship</title>
 	<script src="https://d3js.org/d3.v3.min.js"></script>
-	<!--<script src="js/libs/coffee-script.js"></script>
+	<script src="js/libs/coffee-script.js"></script>
 	<!--<script type="text/coffeescript" src="vis_coffee.js"></script> -->
 	<style>
 	
@@ -101,7 +101,7 @@
 
 
 <div id="tfheader">
-   <h1>Text Visualization Project</h1>
+   <h1>Text Visualization Project showing the Relationships between the terms</h1>
 		<div id="tfnewsearch" >
 		        <input type="text" id="input" value="" sclass="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="find the relationships of the term" class="tfbutton" onclick="getValue()">
 		</div>
@@ -190,7 +190,7 @@ function Compute_Realationship_Graph(links){
 d3.selectAll("body").selectAll("svg").remove();
  
  //update(links);
-	 var width = 750,
+	 var width = 1250,
 	    height = 500;
 	 
 	 var color = d3.scale.category20();
