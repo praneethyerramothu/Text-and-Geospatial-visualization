@@ -1,0 +1,351 @@
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Relationship</title>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<style>
+
+	.links line {
+	  stroke: #999;
+	  stroke-opacity: 0.6;
+	}
+
+	.nodes circle {
+	  stroke: #fff;
+	  stroke-width: 1.5px;
+	}
+
+	path.link {
+	  fill: none;
+	  stroke: #666;
+	  stroke-width: 1.5px;
+	}
+	 
+	path.link.twofive {
+	  opacity: 0.25;
+	}
+	 
+	path.link.fivezero {
+	  opacity: 0.50;
+	}
+	 
+	path.link.sevenfive {
+	  opacity: 0.75;
+	}
+	 
+	path.link.onezerozero {
+	  opacity: 1.0;
+	}
+	 
+	circle {
+	  fill: #ccc;
+	  stroke: #fff;
+	  stroke-width: 1.5px;
+	}
+	 
+	text {
+	  fill: #000;
+	  font: 10px sans-serif;
+	  pointer-events: none;
+	}
+
+
+	#tfheader{
+		background-color:#ecffa7;
+	}
+	#tfnewsearch{
+		float:left;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+	
+	
+	h1 {
+    color: white ;
+    text-align: center;
+	}
+	
+</style>
+
+</head>
+<body>
+<div id="tfheader">
+   <h1>Text Visualization Project showing the Relationships between the terms</h1>
+		<div id="tfnewsearch" >
+		        <input type="text" id="input" value="" sclass="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="find the relationships of the term" class="tfbutton" onclick="getValue()">
+		</div>
+		
+	<div class="tfclear"></div>
+	</div>
+<script>
+
+var term = "texas";
+var data;
+var relationships = [];
+
+function getValue()
+{
+	var temp;
+	term = document.getElementById("input").value;
+	console.log(term);
+
+	calculateRelationships(term);
+
+    var links = generateLinks(term);
+
+	force_directed(links);
+	//terms.push(temp);
+	
+}
+
+document.getElementById("input").value = term;
+
+//function 
+//console.log(terms);
+
+
+/*terms.forEach(function(t) {
+	console.log(t);
+	if (!relationships[t])
+		relationships[t] = [];
+});*/
+
+function sortRelations(obj) {
+    var arr = []; 
+    for(var key in obj)
+    	if (key != 'undefined')
+    		arr.push({ 'term': key, 'freq': obj[key] });
+    
+    return arr.sort(function(a,b){ return b.freq - a.freq });
+}
+
+d3.tsv("huffington.tsv", function(error, data_) {
+  if (error) throw error;
+	data = data_;
+	rs = new Object();
+
+	calculateRelationships(term);
+
+	var links = generateLinks(term);
+
+	force_directed(links);
+});
+
+function calculateRelationships(terms) {
+	data.forEach(function(d) {
+	    //d.date = new Date(d["time"]);
+
+	    var line = d["person"] + "|" + d["location"] + "|" + d["organization"] + "|" + d["miscellaneous"];
+	    var list = line.split("|");
+
+	    // Return if the line does not contain the given term
+	    if (!line.includes(terms)) return;
+	    
+	    for (var i=0; i<list.length;i++){
+	    	var term = list[i];
+	        //terms.forEach(function(t) {
+        	if (!relationships[terms]) relationships[terms] = [];
+
+	    	if (!relationships[terms][term])
+	    		relationships[terms][term] = 1;
+	    	else
+	    		relationships[terms][term]++;
+	    }
+			 
+	});
+}
+
+function generateLinks(term) {
+	var force = sortRelations(relationships[term]).slice(0,50);
+	//console.log(force);
+	
+	var links = [];
+	force.forEach(function(f) {
+		links.push({ source: term, target: f.term, value: f.freq });
+	});
+
+	return links;
+}
+
+function force_directed(links) {
+	d3.selectAll("body").selectAll("svg").remove();
+	//update(links);
+	 var width = 1250,
+	    height = 510,
+	    color = d3.scale.category20c();
+
+	    var svg = d3.select("body").append("svg")
+	    .attr("width", width)
+	    .attr("height", height);
+
+	    //console.log(svg);
+
+	var nodes = {};
+	 
+	// Compute the distinct nodes from the links.
+	links.forEach(function(link) {
+	    link.source = nodes[link.source] || 
+	        (nodes[link.source] = {name: link.source});
+	    link.target = nodes[link.target] || 
+	        (nodes[link.target] = {name: link.target});
+	    link.value = +link.value;
+	});
+	 
+	var force = d3.layout.force()
+	    .nodes(d3.values(nodes))
+	    .links(links)
+	    .size([width, height])
+	    .linkDistance(180)
+	    .charge(-435)
+	    .on("tick", tick)
+	    .start();
+	 
+	// Set the range
+	var  v = d3.scale.linear().range([100, 9000]);
+	 
+	// Scale the range of the data
+	v.domain([0, d3.max(links, function(d) { return d.value; })]);
+	 
+	// asign a type per value to encode opacity
+	links.forEach(function(link) {
+	  if (v(link.value) <= 25) {
+	    link.type = "twofive";
+	  } else if (v(link.value) <= 50 && v(link.value) > 25) {
+	    link.type = "fivezero";
+	  } else if (v(link.value) <= 75 && v(link.value) > 50) {
+	    link.type = "sevenfive";
+	  } else if (v(link.value) <= 100 && v(link.value) > 75) {
+	    link.type = "onezerozero";
+	  }
+	});
+	 
+	// build the arrow.
+	svg.append("svg:defs").selectAll("marker")
+	    .data(["end"])      // Different link/path types can be defined here
+	  .enter().append("svg:marker")    // This section adds in the arrows
+	    .attr("id", String)
+	    .attr("viewBox", "0 -5 10 10")
+	    .attr("refX", 50)
+	    .attr("refY", -0.5)
+	    .attr("markerWidth", 10)
+	    .attr("markerHeight", 5)
+	    .attr("orient", "auto")
+	  .append("svg:path")
+	    .attr("d", "M0,-5L10,0L0,5");
+	 
+	// add the links and the arrows
+	var path = svg.append("svg:g").selectAll("path")
+	    .data(force.links())
+	  .enter().append("svg:path")
+	    .attr("class", function(d) { return "link " + d.type; })
+	    .attr("marker-end", "url(#end)");
+	 
+	// define the nodes
+	var node = svg.selectAll(".node")
+	    .data(force.nodes())
+	  .enter().append("g")
+	    .attr("class", "node")
+	    .on("click", click)
+	    .on("dblclick", dblclick)
+	    .call(force.drag);
+	 
+	// add the nodes
+	node.append("circle")
+	    .attr("r",20)
+	    .style("fill", function(d) { return color(d.name); });
+
+	 
+	// add the text 
+	node.append("text")
+	    .attr("x", -10)
+	    .attr("dy", ".35em")
+	    .text(function(d) { return d.name; });
+	 
+	// add the curvy lines
+	function tick() {
+	    path.attr("d", function(d) {
+	        var dx = d.target.x - d.source.x,
+	            dy = d.target.y - d.source.y,
+	            dr = Math.sqrt(dx * dx + dy * dy);
+	        return "M" + 
+	            d.source.x + "," + 
+	            d.source.y + "A" + 
+	            dr + "," + dr + " 0 0,1 " + 
+	            d.target.x + "," + 
+	            d.target.y;
+	    });
+	 
+	    node
+	        .attr("transform", function(d) { 
+	        return "translate(" + d.x + "," + d.y + ")"; });
+	}
+	 
+	// action to take on mouse click
+	function click() {
+	    d3.select(this).select("text").transition()
+	        .duration(750)
+	        .attr("x", -18)
+	        .style("stroke", "red")
+	        .style("stroke-width", ".5px")
+	        .style("font", "20px sans-serif");
+	    d3.select(this).select("circle").transition()
+	        .duration(750)
+	        .attr("r", 36);
+	}
+	 
+	// action to take on mouse double click
+	function dblclick() {
+	    d3.select(this).select("circle").transition()
+	        .duration(750)
+	        .attr("r", 25);
+	    d3.select(this).select("text").transition()
+	        .duration(750)
+	        .attr("x", -12)
+	        .style("stroke", "none")
+	        .style("fill", "black")
+	        .style("stroke", "none")
+	        .style("font", "10px sans-serif");
+	}
+}
+
+</script>
+</body>
+</html>
