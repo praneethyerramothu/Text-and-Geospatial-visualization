@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<title> Visualization - Project2</title>
+<head>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="js/libs/coffee-script.js"></script>
+        <link rel="stylesheet" href="style1.css">
+      <link rel="stylesheet" href="css/style.css">
+
 <style>
+    
 
 .graticule {
   fill: none;
@@ -18,9 +26,151 @@
   stroke: #fff;
   stroke-width: .5px;
 }
-
+<title>Visualization - Project2</title>
+	<script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="js/libs/coffee-script.js"></script>
+     <link rel="stylesheet" href="style1.css">
+      <link rel="stylesheet" href="css/style.css">
+	
+	<style>
+	
+	.node circle {
+	  stroke: #fff;
+	  stroke-width: 1.5px;
+	}
+	
+	.link {
+    stroke: #ccc;
+	stroke-width: 1.5px;
+    }
+	
+	 
+	.node text {
+    pointer-events: none;
+    font: 10px sans-serif;
+		}
+		
+	#tfheader{
+		background-color:#ecffa7;
+	}
+        #menu{
+            position: absolute;
+            top:20px;
+        }
+	#tfnewsearch{
+		float:left;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+        h1 {
+    color: 8C8C8C ;
+    text-align: center;
+	}
+           #header{
+        position:relative;
+      font-size: 20px;
+       top: 0px;
+        left:300px;
+        right:15px;
+        bottom: auto;
+        
+    }
+	#container1
+    {
+    position: relative;
+        left: 10px;
+        right: 10px;
+        }
+	#container3 {
+	padding-top:20px; 
+	width: 1200px;
+	}
+	
+	
+	
+	h1 {
+    color: #8C8C8C ;
+    text-align: center;
+	}
+    div.tooltip {
+        position:absolute;
+        text-align:center;
+        padding:5px;
+        background:#777;
+        color:#eee;
+        border-radius:3px;
+        font-weight: bold;
+        
+    }
+	
+	
 </style>
-<body>
+<body style=" background: 	#D8D8D8">
+    <div id="container1" class="container">
+    <header id="header">
+    <h1 >Text and Geospatial Visualization </h1>
+    </header>
+  </div><!--end of #container1 -->
+    
+    <label for="show-menu" class="show-menu">Show Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+                <li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/Dynamic_Wordle/index.html" class="active" >Wordle</a></li>
+            
+		<li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/Trial2.html">Geospatial Map</a></li>
+		<li>
+			<a href="#">Relationship ￬</a>
+			<ul class="hidden">
+				<li><a href="relationship_huffington.html">Huffington</a></li>
+				<li><a href="relationship_wikinews.html">WikiNews</a></li>
+			</ul>
+		</li>
+        
+		
+		<li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/new-version 2/index.html">WordCloud</a></li>
+	</ul>
+<hr>
+
+	
+	
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
@@ -69,7 +219,7 @@ d3.json("World_Map.json", function(error, world) {
     
   var places = [
   {
-  //  name: "Newcastle, Australia",
+    name: "Germany",
     location: {
       latitude: 51.1657
 ,
@@ -78,7 +228,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Europe",
+    name: "Europe",
     location: {
       latitude: 54.5260
 ,
@@ -87,15 +237,16 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
       {
-         location: {
+          name:" Canada",
+         location:  {
       latitude: 56.1304
 ,
-      longitude: 106.3468
+      longitude: -106.3468
 
     }
   },
 {
-   // name: "China",
+   name: "China",
     location: {
       latitude: 35.8617
 ,
@@ -103,7 +254,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  // name: "Ukraine",
+   name: "Ukraine",
     location: {
       latitude: 48.3794
 ,
@@ -112,7 +263,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Russia",
+ name: "Russia",
     location: {
       latitude: 61.5240
 ,
@@ -120,7 +271,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Gaza",
+    name: "Gaza",
     location: {
       latitude: 31.3547
 ,
@@ -129,7 +280,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Iraq",
+    name: "Iraq",
     location: {
       latitude: 34.3088
 ,
@@ -138,7 +289,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-//    name: "India",
+   name: "India",
     location: {
       latitude: 20.5937
 ,
@@ -147,7 +298,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: " New York",
+    name: " New York",
     location: {
       latitude: 40.7128
 ,
@@ -155,7 +306,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Britain",
+   name: "Britain",
     location: {
       latitude: 55.3781
 ,
@@ -173,7 +324,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Vietnam",
+    name: "Vietnam",
     location: {
       latitude: 14.0583
 ,
@@ -182,7 +333,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Florida",
+    name: "Florida",
     location: {
       latitude: 27.6648
 ,
@@ -191,7 +342,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Pakistan",
+    name: "Pakistan",
     location: {
       latitude: 30.3753
 ,
@@ -200,7 +351,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Los Angeles",
+   name: "Los Angeles",
     location: {
       latitude: 34.0522
 ,
@@ -209,7 +360,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Colorado",
+    name: "Colorado",
     location: {
       latitude: 39.5501
 ,
@@ -218,7 +369,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Jerusalem",
+   name: "Jerusalem",
     location: {
       latitude: 31.7683
 ,
@@ -227,7 +378,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-//    name: "Latin America",
+   name: "Latin America",
     location: {
       latitude: 4.4420
 ,
@@ -236,7 +387,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Afghanistan",
+    name: "Afghanistan",
     location: {
       latitude: 33.9391
 ,
@@ -245,7 +396,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Japan",
+    name: "Japan",
     location: {
       latitude: 36.2048
 ,
@@ -254,7 +405,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Africa",
+    name: "Africa",
     location: {
       latitude: 8.7832
 ,
@@ -262,7 +413,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-//    name: "Mexico",
+    name: "Mexico",
     location: {
       latitude: 23.6345
 ,
@@ -271,7 +422,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-   // name: "Cuba",
+    name: "Cuba",
     location: {
       latitude: 21.5218
 ,
@@ -280,7 +431,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-   // name: "Crimea",
+    name: "Crimea",
     location: {
       latitude: 44.9521
 ,
@@ -289,7 +440,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Iran",
+    name: "Iran",
     location: {
       latitude: 32.4279
 ,
@@ -297,7 +448,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Chicago",
+    name: "Chicago",
     location: {
       latitude: 41.8781
 ,
@@ -306,7 +457,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-   // name: "El Salvador",
+    name: "El Salvador",
     location: {
       latitude: 13.7942
 ,
@@ -315,7 +466,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Massachusetts",
+    name: "Massachusetts",
     location: {
       latitude: 42.4072
 ,
@@ -324,7 +475,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "dc",
+   name: "dc",
     location: {
       latitude: 38.9072
 ,
@@ -333,7 +484,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Israel",
+   name: "Israel",
     location: {
       latitude: 31.0461
 ,
@@ -343,7 +494,7 @@ d3.json("World_Map.json", function(error, world) {
   },
 
 {
- //   name: "Middle East",
+   name: "Middle East",
     location: {
       latitude: 29.2985
 ,
@@ -352,7 +503,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-   // name: "California",
+    name: "California",
     location: {
       latitude: 36.7783
 ,
@@ -361,7 +512,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "France",
+   name: "France",
     location: {
       latitude: 46.2276
 ,
@@ -369,7 +520,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Arizona",
+   name: "Arizona",
     location: {
       latitude: 34.0489
 ,
@@ -378,7 +529,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Georgia",
+    name: "Georgia",
     location: {
       latitude: 32.1656
 ,
@@ -386,7 +537,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Saudi Arabia",
+    name: "Saudi Arabia",
     location: {
       latitude: 23.8859
 ,
@@ -395,7 +546,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-//    name: "Egypt",
+   name: "Egypt",
     location: {
       latitude: 26.8206
 ,
@@ -404,7 +555,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Virginia",
+   name: "Virginia",
     location: {
       latitude: 37.4316
 ,
@@ -412,7 +563,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Newcastle, Australia",
+    name: "Newcastle, Australia",
     location: {
       latitude: 31.9522
 ,
@@ -421,7 +572,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Kentucky",
+    name: "Kentucky",
     location: {
       latitude: 37.8393
 ,
@@ -430,7 +581,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "Brazil",
+   name: "Brazil",
     location: {
       latitude: -10.2350
 ,
@@ -439,7 +590,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Guatemala",
+    name: "Guatemala",
     location: {
       latitude: 14.6349
 ,
@@ -448,7 +599,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "West Bank",
+   name: "West Bank",
     location: {
       latitude: 31.9466
 ,
@@ -457,7 +608,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
-  //  name: "San Francisco",
+    name: "San Francisco",
     location: {
       latitude: 37.7749
 ,
@@ -466,7 +617,7 @@ d3.json("World_Map.json", function(error, world) {
     }
   },
 {
- //   name: "Palestine",
+    name: "Palestine",
     location: {
       latitude: 31.9522
 ,
@@ -501,12 +652,12 @@ d3.json("World_Map.json", function(error, world) {
     ;
         
   })
-    svg.selectAll(".pin")	                                      //tooltip
-        .data(places)			
-    .enter().append("circles",".pin")								
-        .attr("r", 5)		
-        .attr("cx", function(d) { return d.longitude; })		 
-        .attr("cy", function(d) { return d.latitude; })		
+//    svg.selectAll(".pin")	                                      //tooltip
+//        .data(places)			
+//    .enter().append("circles,".pin")								
+//        .attr("r", 5)		
+//        .attr("cx", function(d) { return d.longitude; })		 
+//        .attr("cy", function(d) { return d.latitude; })		
         .on("mouseover", function(d) {		
             div.transition()		
                 .duration(200)		
@@ -528,4 +679,5 @@ d3.json("World_Map.json", function(error, world) {
 
 d3.select(self.frameElement).style("height", height + "px");
 
-</script>
+    </script></body></head>
+
