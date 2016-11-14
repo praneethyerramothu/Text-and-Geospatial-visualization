@@ -1,20 +1,20 @@
 <html>
 <meta charset="utf-8">
 <head>
-	<title>Relationship</title>
+	<title>Visualization - Project2</title>
 	<script src="https://d3js.org/d3.v3.min.js"></script>
-	<style>
+    <link rel="stylesheet" href="style1.css">
+<!--      <link rel="stylesheet" href="css/style.css">-->
 
+	<style>
 	.links line {
 	  stroke: #999;
 	  stroke-opacity: 0.6;
 	}
-
 	.nodes circle {
 	  stroke: #fff;
 	  stroke-width: 1.5px;
 	}
-
 	path.link {
 	  fill: none;
 	  stroke: #666;
@@ -36,7 +36,9 @@
 	path.link.onezerozero {
 	  opacity: 1.0;
 	}
-	 
+        #input{
+            border-radius: 7px;    
+        } 
 	circle {
 	  fill: #ccc;
 	  stroke: #fff;
@@ -48,14 +50,13 @@
 	  font: 10px sans-serif;
 	  pointer-events: none;
 	}
-
-
 	#tfheader{
 		background-color:#ecffa7;
 	}
 	#tfnewsearch{
-		float:left;
+		position: absolute;
 		padding:20px;
+        top:150px;
 	}
 	.tftextinput{
 		margin: 0;
@@ -66,6 +67,7 @@
 		border-top-left-radius: 5px 5px;
 		border-bottom-left-radius: 5px 5px;
 	}
+        
 	.tfbutton {
 		margin: 0;
 		padding: 5px 15px;
@@ -82,7 +84,17 @@
 		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
 		border-top-right-radius: 5px 5px;
 		border-bottom-right-radius: 5px 5px;
+        border-radius: 25px;
 	}
+        hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+}
 	.tfbutton:hover {
 		text-decoration: none;
 		background: #007ead;
@@ -99,55 +111,93 @@
 	
 	
 	h1 {
-    color: white ;
+    color: #8C8C8C ;
     text-align: center;
 	}
-	
+	#container1
+    {
+    position: relative;
+        left: 10px;
+        right: 10px;
+    }
+         
+    #header{
+        position:relative;
+      font-size: 20px;
+       top: 0px;
+        left:300px;
+        right:15px;
+        bottom: auto;
+        
+    }
+        #menu{
+            position: absolute;
+            top:20px;
+        }
+        #container3 {
+top: 0px;
+	width: 1200px;
+	}
+
 </style>
 
 </head>
-<body>
-<div id="tfheader">
-   <h1>Text Visualization Project showing the Relationships between the terms</h1>
+<body style=" background: 	#D8D8D8">
+ 
+    <div id="container1" class="container">
+    <header id="header">
+    <h1 >Text and Geospatial Visualization </h1>
+    </header>
+  </div><!--end of #container1 -->
+	<label for="show-menu" class="show-menu">Show Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+             <li><a href=" https://praneethyerramothu.github.io/Text-and-Geospatial-visualization/Dynamic_Wordle/index.html" >Wordle</a></li>
+            <li><a href=" https://praneethyerramothu.github.io/Text-and-Geospatial-visualization/Trial2.html">Geospatial Map</a></li>
+		
+		<li>
+			<a href="#">Relationship ￬</a>
+			<ul class="hidden">
+				<li><a href=" https://praneethyerramothu.github.io/Text-and-Geospatial-visualization/relationship_huffington.html">Huffington</a></li>
+				<li><a href=" https://praneethyerramothu.github.io/Text-and-Geospatial-visualization/relationship_wikinews.html">WikiNews</a></li>
+			</ul>
+		</li>
+           
+		
+            <li><a href=" https://praneethyerramothu.github.io/Text-and-Geospatial-visualization/new-version 2/index.html">WordCloud</a></li>
+		
+	</ul>
+<hr>
+ 
 		<div id="tfnewsearch" >
-		        <input type="text" id="input" value="" sclass="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="find the relationships of the term" class="tfbutton" onclick="getValue()">
+		        <input type="text" id="input" value="" sclass="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="Search Related Terms" class="tfbutton" onclick="getValue()">
 		</div>
 		
 	<div class="tfclear"></div>
-	</div>
+	
 <script>
-
 var term = "texas";
 var data;
 var relationships = [];
-
 function getValue()
 {
 	var temp;
 	term = document.getElementById("input").value;
 	console.log(term);
-
 	calculateRelationships(term);
-
     var links = generateLinks(term);
-
 	force_directed(links);
 	//terms.push(temp);
 	
 }
-
 document.getElementById("input").value = term;
-
 //function 
 //console.log(terms);
-
-
 /*terms.forEach(function(t) {
 	console.log(t);
 	if (!relationships[t])
 		relationships[t] = [];
 });*/
-
 function sortRelations(obj) {
     var arr = []; 
     for(var key in obj)
@@ -156,26 +206,19 @@ function sortRelations(obj) {
     
     return arr.sort(function(a,b){ return b.freq - a.freq });
 }
-
 d3.tsv("huffington.tsv", function(error, data_) {
   if (error) throw error;
 	data = data_;
 	rs = new Object();
-
 	calculateRelationships(term);
-
 	var links = generateLinks(term);
-
 	force_directed(links);
 });
-
 function calculateRelationships(terms) {
 	data.forEach(function(d) {
 	    //d.date = new Date(d["time"]);
-
 	    var line = d["person"] + "|" + d["location"] + "|" + d["organization"] + "|" + d["miscellaneous"];
 	    var list = line.split("|");
-
 	    // Return if the line does not contain the given term
 	    if (!line.includes(terms)) return;
 	    
@@ -183,7 +226,6 @@ function calculateRelationships(terms) {
 	    	var term = list[i];
 	        //terms.forEach(function(t) {
         	if (!relationships[terms]) relationships[terms] = [];
-
 	    	if (!relationships[terms][term])
 	    		relationships[terms][term] = 1;
 	    	else
@@ -192,7 +234,6 @@ function calculateRelationships(terms) {
 			 
 	});
 }
-
 function generateLinks(term) {
 	var force = sortRelations(relationships[term]).slice(0,50);
 	//console.log(force);
@@ -201,23 +242,18 @@ function generateLinks(term) {
 	force.forEach(function(f) {
 		links.push({ source: term, target: f.term, value: f.freq });
 	});
-
 	return links;
 }
-
 function force_directed(links) {
 	d3.selectAll("body").selectAll("svg").remove();
 	//update(links);
 	 var width = 1250,
 	    height = 510,
 	    color = d3.scale.category20c();
-
 	    var svg = d3.select("body").append("svg")
 	    .attr("width", width)
 	    .attr("height", height);
-
 	    //console.log(svg);
-
 	var nodes = {};
 	 
 	// Compute the distinct nodes from the links.
@@ -291,7 +327,6 @@ function force_directed(links) {
 	node.append("circle")
 	    .attr("r",20)
 	    .style("fill", function(d) { return color(d.name); });
-
 	 
 	// add the text 
 	node.append("text")
@@ -345,7 +380,6 @@ function force_directed(links) {
 	        .style("font", "10px sans-serif");
 	}
 }
-
 </script>
 </body>
 </html>
