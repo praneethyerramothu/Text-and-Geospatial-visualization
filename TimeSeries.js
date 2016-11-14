@@ -18,10 +18,12 @@ var line = d3.line()
     .x(function(d) { return x(d.date); })
     .y(function(d) { return y(d.frequency); });
 
+var minDate=2007;
+var maxDate=2015;
 var word;
 
 // load data
-d3.csv("HuffingtonTS.csv", type, function(error, data) {
+d3.csv(""text-select".csv", type, function(error, data) {
   if (error) throw error;
 
   //load words
@@ -34,7 +36,7 @@ d3.csv("HuffingtonTS.csv", type, function(error, data) {
     };
   });
 
-  x.domain(d3.extent(data, function(d) { return d.date; }));
+  x.domain(d3.extent([parseYear(+minDate),parseYear(+maxDate)]));
 
   y.domain([
     d3.min(words, function(c) { return d3.min(c.values, function(d) { return d.frequency; }); }),

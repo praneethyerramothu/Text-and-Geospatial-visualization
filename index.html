@@ -1,47 +1,157 @@
 <!doctype html>
-
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>visualization</title>
+
+
   <!--slider library-->
   <link href="slider/nouislider.min.css" rel="stylesheet">
+
+  <!-- load the d3.js library -->     
+  <script src="https://d3js.org/d3.v4.min.js"></script>
 
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- end CSS-->
-<!-- load the d3.js library -->     
-<script src="//d3js.org/d3.v4.min.js"></script>
+
 </head>
 
 
-<body>
+<body style="background: 	#D8D8D8">
+
+
+<!--! container1 Application Head Container-->
   <div id="container1" class="container">
     <header>
     <h1>Text Visualization Project</h1>
     </header>
-  </div><!--! end of #container1 -->
+  </div>
+<!--! end container1 -->
+
+
+<!--! container3 : Selecting Blog-->
   <div id="container3" class="container">
       <h2>Select Text Source:</h2>
       <select id="text-select">
         <option value="wikinews">Wikinews</option>
-        <option value="huffington">Huffington</option>
+		<option value="Huffington">Huffington</option>
+		<option value="200701">200701</option>
+		<option value="200702">200702</option>
+		<option value="200703">200703</option>
+		<option value="200704">200704</option>
+		<option value="200705">200705</option>
+		<option value="200706">200706</option>
+		<option value="200707">200707</option>
+		<option value="200708">200708</option>
+		<option value="200709">200709</option>
+		<option value="200710">200710</option>
+        <option value="200711">200711</option>
+		<option value="200712">200712</option>
+		<option value="200801">200801</option>
+		<option value="200802">200802</option>
+		<option value="200803">200803</option>
+		<option value="200804">200804</option>
+		<option value="200805">200805</option>
+		<option value="200806">200806</option>
+		<option value="200807">200807</option>
+		<option value="200808">200808</option>
+		<option value="200809">200809</option>
+		<option value="200810">200810</option>
+		<option value="200811">200811</option>
+		<option value="200812">200812</option>
+		<option value="200901">200901</option>
+		<option value="200902">200902</option>
+		<option value="200903">200903</option>
+		<option value="200904">200904</option>
+		<option value="200905">200905</option>
+		<option value="200906">200906</option>
+		<option value="200907">200907</option>
+		<option value="200908">200908</option>
+		<option value="200909">200909</option>
+		<option value="200910">200910</option>
+		<option value="200911">200911</option>
+		<option value="200912">200912</option>
+		<option value="201001">201001</option>
+		<option value="201002">201002</option>
+		<option value="201003">201003</option>
+		<option value="201004">201004</option>
+		<option value="201005">201005</option>
+		<option value="201006">201006</option>
+		<option value="201007">201007</option>
+		<option value="201008">201008</option>
+		<option value="201009">201009</option>
+		<option value="201010">201010</option>
+		<option value="201011">201011</option>
+		<option value="201012">201012</option>
+		<option value="201101">201101</option>
+		<option value="201102">201102</option>
+		<option value="201103">201103</option>
+		<option value="201104">201104</option>
+		<option value="201105">201105</option>
+		<option value="201106">201106</option>
+		<option value="201107">201107</option>
+		<option value="201108">201108</option>
+		<option value="201109">201109</option>
+		<option value="201110">201110</option>
+		<option value="201111">201111</option>
+		<option value="201112">201112</option>
+		<option value="201201">201201</option>
+		<option value="201202">201202</option>
+		<option value="201203">201203</option>
+		<option value="201204">201204</option>
+		<option value="201205">201205</option>
+		<option value="201206">201206</option>
+		<option value="201207">201207</option>
+		<option value="201208">201208</option>
+		<option value="201209">201209</option>
+		<option value="201210">201210</option>
+		<option value="201211">201211</option>
+		<option value="201212">201212</option>
+		<option value="201301">201301</option>
+		<option value="201302">201302</option>
+		<option value="201303">201303</option>
+		<option value="201304">201304</option>
+		<option value="201305">201305</option>
+		<option value="201306">201306</option>
+		<option value="201307">201307</option>
+		<option value="201308">201308</option>
+		<option value="201309">201309</option>
+		<option value="201310">201310</option>
+		<option value="201311">201311</option>
+		<option value="201312">201312</option>
+		<option value="201401">201401</option>
+		<option value="201402">201402</option>
+		<option value="201403">201403</option>
+		<option value="201404">201404</option>
+		<option value="201405">201405</option>
+		<option value="201406">201406</option>
+		<option value="201407">201407</option>
+		<option value="201408">201408</option>
+		<option value="201409">201409</option>
+		<option value="201410">201410</option>
+		
     </select>
   </div>
+  <!--! end container 3-->
 
+
+
+ <!--! wraper includes two container: Bubble word container and TimeSeries which are placed side by side-->
   <section id="wrapper" class="container">
 
-    <!--! Begin of #TimeSeriesContainer -->
+
+  <!--! TimeSeriesContainer -->
   <div id="TimeSeriesContainer" class="container">
       <svg id="LineChart" width="800" height="400"></svg>
       <script src="TimeSeries.js"></script>
   </div>
-  <!--! End of #TimeSeriesContainer -->
+  <!--! End of TimeSeriesContainer -->
   
 
+<!--! container2: includes Bubble word Diagram -->
   <div id="container2" class="container">
     <div id="main" role="main">
       <div id="vis"></div>
@@ -55,22 +165,32 @@
   <script src="js/libs/d3.min.js"></script>
   <script type="text/coffeescript" src="vis_coffee.js"></script>
   <script type="text/javascript"></script>
-  </div> <!--! end of #container2 -->
+  </div> 
+<!--! end of #container2 -->
+
+
+</section>
+<!--! end of wrapper -->
+
+
 
   <!--! start Slider Container -->
+  <!--  
   <div id="SliderContainer" class="container">
-  <div id="barText">
-        Set Time Range<br><br><br>
-  </div>  
-      <!--Slider--> 
+  
+
   <div id="barRange">
-        <div id="range" height="400"></div>
+        <div id="range" width="700"></div>
   </div>
-    <!-- Slider -->
-    <script src="slider/nouislider.min.js"></script>
-    <script src="slider/mySlider.js"></script>
-    <script>
-    //slider
+
+  <script src="axis/d3-axis.js"></script>
+  <script src="slider/nouislider.min.js"></script>
+  <script src="slider/mySlider.js"></script>
+  -->
+
+   <!--! his Code is Executed when the Slider is updated -->
+   <!--
+  <script>
     var minDate="2007";
     var maxDate="2015";
     
@@ -79,18 +199,19 @@
     d3.selectAll("path.line").remove();
 
 
+
     if ( handle ) {
-        maxDate = values[handle];
+          maxDate = d3.format("d")(values[handle]);
        } else {
-        minDate = values[handle];
+           minDate = d3.format("d")(values[handle]);
        }
 
     console.log(maxDate);
     console.log(minDate);
 
     //update x axis
+    //x.domain(d3.extent([parseYear(+minDate),parseYear(+maxDate)]));
     x.domain(d3.extent([parseYear(+minDate),parseYear(+maxDate)]));
-    console.log(x);
     var xAxis = d3.svg.axis().scale(x).orient("bottom");
     d3.select("g.axis").call(xAxis);
 
@@ -131,10 +252,10 @@
 
     });
     </script>
+  </div>
+  	-->
 
-
-  </div>  
-</section>
-
+   <!--! end Slider Container --> 
+   
 </body>
 </html>

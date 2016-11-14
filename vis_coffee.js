@@ -19,19 +19,19 @@ Bubbles = () ->
   # I've abstracted the data value used to size each
   # into its own function. This should make it easy
   # to switch out the underlying dataset
-  rValue = (d) -> parseInt(d.count)
+  rValue = (d) -> parseInt(d.frequency)
 
   # function to define the 'id' of a data element
   #  - used to bind the data uniquely to the force nodes
   #   and for url creation
   #  - should make it easier to switch out dataset
   #   for your own
-  idValue = (d) -> d.name
+  idValue = (d) -> d.word
 
   # function to define what to display in each bubble
   #  again, abstracted to ease migration to 
   #  a different dataset if desired
-  textValue = (d) -> d.name
+  textValue = (d) -> d.word
 
   # constants to control how
   # collision look and act
@@ -49,13 +49,13 @@ Bubbles = () ->
   # tweaks our dataset to get it into the
   # format we want
   # - for this dataset, we just need to
-  #  ensure the count is a number
+  #  ensure the frequency is a number
   # - for your own dataset, you might want
   #  to tweak a bit more
   # ---
   transformData = (rawData) ->
     rawData.forEach (d) ->
-      d.count = parseInt(d.count)
+      d.frequency = parseInt(d.frequency)
       rawData.sort(() -> 0.5 - Math.random())
     rawData
 
@@ -209,7 +209,7 @@ Bubbles = () ->
       .call(connectEvents)
 
     labelEnter.append("div")
-      .attr("class", "bubble-label-name")
+      .attr("class", "bubble-label-word")
       .text((d) -> textValue(d))
 
     labelEnter.append("div")
@@ -267,7 +267,7 @@ Bubbles = () ->
       .call(connectEvents)
 
     labelEnter.append("div")
-      .attr("class", "bubble-label-name")
+      .attr("class", "bubble-label-word")
       .text((d) -> textValue(d))
 
     labelEnter.append("div")
@@ -421,7 +421,7 @@ Bubbles = () ->
     console.log(d);
     node.classed("bubble-hover", (p) -> p == d)
     console.log(d);
-    d3.select("#status").html("<h3>The frequency of <span class=\"active\">#{d.name}</span> is <span class=\"active\">#{d.count}</span></h3>")
+    d3.select("#status").html("<h3>The frequency of <span class=\"active\">#{d.word}</span> is <span class=\"active\">#{d.frequency}</span></h3>")
 
 
   # ---
@@ -483,8 +483,102 @@ root.plotData = (selector, data, plot) ->
     .call(plot)
 
 texts = [
-  {key:"wikinews",file:"wikinewsfreq.csv",name:"Wikinews"}
-  {key:"huffington",file:"huffingtonfreq.csv",name:"Huffington"}
+  {key:"wikinews",file:"wikinewsfreq.csv",word:"Wikinews"}
+  {key:"Huffington",file:"huffingtonfreq.csv",word:"Huffington"}
+  {key:"200701",file:"200701.csv",word:"200701"}
+  {key:"200702",file:"200702.csv",word:"200702"}
+  {key:"200703",file:"200703.csv",word:"200703"}
+  {key:"200704",file:"200704.csv",word:"200704"}
+  {key:"200705",file:"200705.csv",word:"200705"}
+  {key:"200706",file:"200706.csv",word:"200706"}
+  {key:"200707",file:"200707.csv",word:"200707"}
+  {key:"200708",file:"200708.csv",word:"200708"}
+  {key:"200709",file:"200709.csv",word:"200709"}
+  {key:"200710",file:"200710.csv",word:"200710"}
+  {key:"200711",file:"200711.csv",word:"200711"}
+  {key:"200712",file:"200712.csv",word:"200712"}
+  {key:"200801",file:"200801.csv",word:"200801"}
+  {key:"200802",file:"200802.csv",word:"200802"}
+  {key:"200803",file:"200803.csv",word:"200803"}
+  {key:"200804",file:"200804.csv",word:"200804"}
+  {key:"200805",file:"200805.csv",word:"200805"}
+  {key:"200806",file:"200806.csv",word:"200806"}
+  {key:"200807",file:"200807.csv",word:"200807"}
+  {key:"200808",file:"200808.csv",word:"200808"}
+  {key:"200809",file:"200809.csv",word:"200809"}
+  {key:"200810",file:"200810.csv",word:"200810"}
+  {key:"200811",file:"200811.csv",word:"200811"}
+  {key:"200812",file:"200812.csv",word:"200812"}
+  {key:"200901",file:"200901.csv",word:"200901"}
+  {key:"200902",file:"200902.csv",word:"200902"}
+  {key:"200903",file:"200903.csv",word:"200903"}
+  {key:"200904",file:"200904.csv",word:"200904"}
+  {key:"200905",file:"200905.csv",word:"200905"}
+  {key:"200906",file:"200906.csv",word:"200906"}
+  {key:"200907",file:"200907.csv",word:"200907"}
+  {key:"200908",file:"200908.csv",word:"200908"}
+  {key:"200909",file:"200909.csv",word:"200909"}
+  {key:"200910",file:"200910.csv",word:"200910"}
+  {key:"200911",file:"200911.csv",word:"200911"}
+  {key:"200912",file:"200912.csv",word:"200912"}
+  {key:"201001",file:"201001.csv",word:"201001"}
+  {key:"201002",file:"201002.csv",word:"201002"}
+  {key:"201003",file:"201003.csv",word:"201003"}
+  {key:"201004",file:"201001.csv",word:"201001"}
+  {key:"201005",file:"201005.csv",word:"201005"}
+  {key:"201006",file:"201006.csv",word:"201006"}
+  {key:"201007",file:"201007.csv",word:"201007"}
+  {key:"201008",file:"201008.csv",word:"201008"}
+  {key:"201009",file:"201009.csv",word:"201009"}
+  {key:"201010",file:"201010.csv",word:"201010"}
+  {key:"201011",file:"201011.csv",word:"201011"}
+  {key:"201012",file:"201012.csv",word:"201012"}
+  {key:"201101",file:"201101.csv",word:"201101"}
+  {key:"201102",file:"201102.csv",word:"201102"}
+  {key:"201103",file:"201103.csv",word:"201103"}
+  {key:"201104",file:"201104.csv",word:"201104"}
+  {key:"201105",file:"201105.csv",word:"201105"}
+  {key:"201106",file:"201106.csv",word:"201106"}
+  {key:"201107",file:"201107.csv",word:"201107"}
+  {key:"201108",file:"201108.csv",word:"201108"}
+  {key:"201109",file:"201109.csv",word:"201109"}
+  {key:"201110",file:"201110.csv",word:"201110"}
+  {key:"201111",file:"201111.csv",word:"201111"}
+  {key:"201112",file:"201112.csv",word:"201112"}
+  {key:"201201",file:"201201.csv",word:"201201"}
+  {key:"201202",file:"201202.csv",word:"201202"}
+  {key:"201203",file:"201203.csv",word:"201203"}
+  {key:"201204",file:"201204.csv",word:"201204"}
+  {key:"201205",file:"201205.csv",word:"201205"}
+  {key:"201206",file:"201206.csv",word:"201206"}
+  {key:"201207",file:"201207.csv",word:"201207"}
+  {key:"201208",file:"201208.csv",word:"201208"}
+  {key:"201209",file:"201209.csv",word:"201209"}
+  {key:"201210",file:"201210.csv",word:"201210"}
+  {key:"201211",file:"201211.csv",word:"201211"}
+  {key:"201212",file:"201212.csv",word:"201212"}
+  {key:"201301",file:"201301.csv",word:"201301"}
+  {key:"201302",file:"201302.csv",word:"201302"}
+  {key:"201303",file:"201303.csv",word:"201303"}
+  {key:"201304",file:"201304.csv",word:"201304"}
+  {key:"201305",file:"201305.csv",word:"201305"}
+  {key:"201306",file:"201306.csv",word:"201306"}
+  {key:"201307",file:"201307.csv",word:"201307"}
+  {key:"201308",file:"201308.csv",word:"201308"}
+  {key:"201309",file:"201309.csv",word:"201309"}
+  {key:"201310",file:"201310.csv",word:"201310"}
+  {key:"201311",file:"201311.csv",word:"201311"}
+  {key:"201312",file:"201312.csv",word:"201312"}
+  {key:"201401",file:"201401.csv",word:"201401"}
+  {key:"201402",file:"201402.csv",word:"201402"}
+  {key:"201403",file:"201403.csv",word:"201403"}
+  {key:"201404",file:"201404.csv",word:"201404"}
+  {key:"201405",file:"201405.csv",word:"201405"}
+  {key:"201406",file:"201406.csv",word:"201406"}
+  {key:"201407",file:"201407.csv",word:"201407"}
+  {key:"201408",file:"201408.csv",word:"201408"}
+  {key:"201409",file:"201409.csv",word:"201409"}
+  {key:"201410",file:"201410.csv",word:"201410"}
 ]
 
 # ---
@@ -527,8 +621,8 @@ $ ->
       location.replace("#")
       location.search = encodeURIComponent(key)
 
-  # set the book title from the text name
-  d3.select("#book-title").html(text.name)
+  # set the book title from the text word
+  d3.select("#book-title").html(text.word)
 
   # load our data
   d3.csv("data/#{text.file}", display)
