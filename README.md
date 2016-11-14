@@ -5,25 +5,26 @@ Text and Geospatial visualization is representation of data that enables us to e
 
 ## Word cloud:
 
-![ScreenShot](https://github.com/praneethyerramothu/Visualizing-Time-Series/blob/master/IMG%20SRC/Screen%20Shot%202016-11-14%20at%2013.10.28.png)
+![ScreenShot](https://github.com/praneethyerramothu/Text-and-Geospatial-visualization/blob/master/IMG%20SRC/Screen%20Shot%202016-11-14%20at%2013.10.28.png)
 
 A word cloud is a visualized data representation of words used in a particular text. The size of each word indicates its frequency or importance. This word cloud is associated with drop down buttons, ‘Month’ and ‘Year’, of which, the user has the choice to choose from. As the user hits the ‘Word cloud Generate’ button and selects a time/ time interval, a word cloud is visualized on the screen. This visualization contains of the text visualization that has top 50 words frequently occurred during the period of time selected by the user. Moreover, this word cloud is associated with a graph that presents the data with line charts that depict frequency vs time. When the mouse is hovered upon the text visualization, the frequency of the current terms is displayed with a label.
 
 ## Relationship between terms:
 
-![ScreenShot](https://github.com/praneethyerramothu/Visualizing-Time-Series/blob/master/IMG%20SRC/Screen%20Shot%202016-11-14%20at%2013.10.59.png)
+![ScreenShot](https://github.com/praneethyerramothu/Text-and-Geospatial-visualization/blob/master/IMG%20SRC/Screen%20Shot%202016-11-14%20at%2013.10.59.png)
 
 During a particular period of time, there are a set of top 50 words for a particular post. Each word in a particular time must have coincided with one of the other 49 terms during that time. The representation of that data of terms that involve correlation with each other is shown by the use of directed-edged graphs, basic arc diagrams or force graph. These diagrams and graphs are the ones that are used to relate the terms/words show relationship between any two or multiple terms.
-![ScreenShot](https://github.com/praneethyerramothu/Visualizing-Time-Series/blob/master/IMG%20SRC/SScreen%20Shot%202016-11-14%20at%2013.11.46.png)
+
+![ScreenShot](https://github.com/praneethyerramothu/Text-and-Geospatial-visualization/blob/master/IMG%20SRC/SScreen%20Shot%202016-11-14%20at%2013.11.46.png)
 
 ## Geospatial Visualization:
 
-![ScreenShot](https://github.com/praneethyerramothu/Visualizing-Time-Series/blob/master/IMG%20SRC/Screen%20Shot%202016-11-14%20at%2013.11.32.png)
+![ScreenShot](https://github.com/praneethyerramothu/Text-and-Geospatial-visualization/blob/master/IMG%20SRC/Screen%20Shot%202016-11-14%20at%2013.11.32.png)
 One of the categories in the data that we have visualized in ‘Location’. Every location has a particular point/ place in a geographical map. Geospatial visualization is the physical representation of such geological location on the map.
 
 ## BubbleCloud:
 
-![ScreenShot](https://github.com/praneethyerramothu/Visualizing-Time-Series/blob/master/IMG%20SRC/Screen%20Shot%202016-11-14%20at%2013.12.07.png)
+![ScreenShot](https://github.com/praneethyerramothu/Text-and-Geospatial-visualization/blob/master/IMG%20SRC/Screen%20Shot%202016-11-14%20at%2013.12.07.png)
 Bubble cloud visualizations actually combine SVG and Html element. The bubble elements themselves are circle’s inside of a SVG element, but the text on top of them is actually maintained in regular DIV’s. Both sets of visual elements are backed by the data, so there is very little code duplication or overhead using this structure. The use of SVG and plain html components in the same visualization, saving the state of the visualization using links, creating a custom gravity effect, creating a custom collision detection mechanism are few of the features that are shown in the bubblecloud.
 
 ## Contribution of each team member:
@@ -42,7 +43,7 @@ Following are the softwares required to run this file,
 
 ## How to run the program:
 Following are the steps to run the program,
-1.Open any web browser and type in the url-" https://praneethyerramothu.github.io/Text-and-Geospatial-visualization/Bubblecloud.html" .
+1.Open any web browser and type in the url- " https://praneethyerramothu.github.io/Text-and-Geospatial-visualization/Bubblecloud.html" .
          {OR}
 1.Open any web browser and log into your github account.
 2.Find the repository called "Text-and-Geospatial-Visualization" .
