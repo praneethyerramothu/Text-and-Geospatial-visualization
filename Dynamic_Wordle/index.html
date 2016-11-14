@@ -8,16 +8,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    
+    
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="js/libs/coffee-script.js"></script>
+     <link rel="stylesheet" href="style1.css">
+      <link rel="stylesheet" href="css/style.css">  
 
-    <title>Wordle</title>
+    <title>Visualization - Project2</title>
 
     	
 		<link href="bootstrap.min.css" rel="stylesheet">
     	<link href="style_sheet.css" rel="stylesheet">
-		<link href="style_sheet_outline.css" rel="stylesheet">
+<!--		<link href="style_sheet_outline.css" rel="stylesheet">-->
 
+    </head>
+    <style>
+    .node circle {
+	  stroke: #fff;
+	  stroke-width: 1.5px;
+	}
+	
+	.link {
+    stroke: #ccc;
+	stroke-width: 1.5px;
+    }
+	
+	 
+	.node text {
+    pointer-events: none;
+    font: 10px sans-serif;
+		}
+		
+	#tfheader{
+		background-color:#ecffa7;
+	}
+        #menu{
+            position: absolute;
+            top:20px;
+        }
+	#tfnewsearch{
+		float:left;
+		padding:20px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:1px solid #0076a3; border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0095cd;
+		background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+		background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+		border-top-right-radius: 5px 5px;
+		border-bottom-right-radius: 5px 5px;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #007ead;
+		background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+		background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+          h1 {
+    color: 8C8C8C ;
+    text-align: center;
+	}
+           #header{
+        position:relative;
+      font-size: 20px;
+       top: 0px;
+        left:300px;
+        right:15px;
+        bottom: auto;
+        
+    }
+    hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:auto;
+    margin-right: auto;
+    border-style: ;
+    border-width: 3px;
+}
+	#container1
+    {
+    position: relative;
+        left: 10px;
+        right: 10px;
+        }
+	#container3 {
+	padding-top:20px; 
+	width: 1200px;
+	}
+	
+	  #menu{
+            position: absolute;
+            top:20px;
+        }
+	
+	h1 {
+    color: #8C8C8C ;
+    text-align: center;
+	}
+
+    
+    
+    </style>
+<!--
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+-->
 
     <script>
         var isRelationshipActive = false;
@@ -39,10 +161,11 @@
         }
     </script>
 
-</head>
 
-<body id="page-top" class="index">
+   
+<body id="page-top" class="index" style=" background: 	#D8D8D8">
 
+<!--
     
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
@@ -55,10 +178,37 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
             </div>
-            <!-- /.navbar-collapse -->
+             /.navbar-collapse 
         </div>
-        <!-- /.container-fluid -->
+         /.container-fluid 
     </nav>
+-->
+    <div id="container1" class="container">
+    <header id="header">
+    <h1 >Text and Geospatial Visualization </h1>
+    </header>
+  </div><!--end of #container1 -->
+    
+    <label for="show-menu" class="show-menu">Show Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+              <li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/Dynamic_Wordle/index.html" >Wordle</a></li>
+           <li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/Trial2.html">Geospatial Map</a></li>
+		
+		<li>
+			<a href="#">Relationship ￬</a>
+			<ul class="hidden">
+				<li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/relationship_huffington.html">Huffington</a></li>
+				<li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/relationship_wikinews.html">WikiNews</a></li>
+			</ul>
+		</li>
+          
+		
+		 <li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/new-version 2/index.html">WordCloud</a></li>
+	</ul>
+<hr>
+
+		
 
     <section class="graph">
         <div class="container">
@@ -206,6 +356,6 @@
 
     </script>
 
-</body>
+    </body>
 
 </html>
