@@ -1,10 +1,12 @@
 <html>
 <meta charset="utf-8">
 <head>
-	<title>Relationship</title>
+	<title>Visualization - Project2</title>
 	<script src="https://d3js.org/d3.v3.min.js"></script>
 	<script src="js/libs/coffee-script.js"></script>
-	<!--<script type="text/coffeescript" src="vis_coffee.js"></script> -->
+     <link rel="stylesheet" href="style1.css">
+      <link rel="stylesheet" href="css/style.css">
+	
 	<style>
 	
 	.node circle {
@@ -26,6 +28,10 @@
 	#tfheader{
 		background-color:#ecffa7;
 	}
+        #menu{
+            position: absolute;
+            top:20px;
+        }
 	#tfnewsearch{
 		float:left;
 		padding:20px;
@@ -69,7 +75,25 @@
 	.tfclear{
 		clear:both;
 	}
-	
+        h1 {
+    color: 8C8C8C ;
+    text-align: center;
+	}
+           #header{
+        position:relative;
+      font-size: 20px;
+       top: 0px;
+        left:300px;
+        right:15px;
+        bottom: auto;
+        
+    }
+	#container1
+    {
+    position: relative;
+        left: 10px;
+        right: 10px;
+        }
 	#container3 {
 	padding-top:20px; 
 	width: 1200px;
@@ -78,7 +102,7 @@
 	
 	
 	h1 {
-    color: white ;
+    color: #8C8C8C ;
     text-align: center;
 	}
 
@@ -87,24 +111,36 @@
 </style>
 
 </head>
-<body>
-
-
-<!--! container1 Application Head Container-->
- <!-- <div id="container1" class="container">
-    <header>
- 
+<body style=" background: 	#D8D8D8">
+    
+    <div id="container1" class="container">
+    <header id="header">
+    <h1 >Text and Geospatial Visualization </h1>
     </header>
-  </div> -->
-<!--! end container1 -->
+  </div><!--end of #container1 -->
+    
+    <label for="show-menu" class="show-menu">Show Menu</label>
+	<input type="checkbox" id="show-menu" role="button">
+		<ul id="menu">
+               <li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/Dynamic_Wordle/index.html" >Wordle</a></li>
+           
+		<li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/Trial2.html">Geospatial Map</a></li>
+		<li>
+			<a href="#">Relationship ￬</a>
+			<ul class="hidden">
+				<li><a href="relationship_huffington.html">Huffington</a></li>
+				<li><a href="relationship_wikinews.html">WikiNews</a></li>
+			</ul>
+		</li>
+         
+		
+             <li><a href="/Users/praneeththomas/Downloads/Text-and-Geospatial-visualization-master 5/new-version 2/index.html">WordCloud</a></li>
+		
+	</ul>
+<hr>
 
-
-
-<div id="tfheader">
-   <h1>Text Visualization Project showing the Relationships between the terms</h1>
 		<div id="tfnewsearch" >
-		        <input type="text" id="input" value="" sclass="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="find the relationships of the term" class="tfbutton" onclick="getValue()">
-		</div>
+		        <input type="text" id="input" value="" sclass="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="Search Related Terms" class="tfbutton" onclick="getValue()">
 		
 	<div class="tfclear"></div>
 	</div>
@@ -200,7 +236,7 @@ d3.selectAll("body").selectAll("svg").remove();
 	 
 		var svg = d3.select("body").append("svg")
 			.attr("width", width)
-			.attr("height", height);
+			.attr("height", height+100);
 		
 	 
 	var nodes = {};
@@ -333,3 +369,4 @@ d3.selectAll("body").selectAll("svg").remove();
 </script>
 </body>
 </html>
+
